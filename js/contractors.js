@@ -19,8 +19,26 @@ window.onload = function() {
     // Display text prefixed with "###" in smaller headers
     markdownText = markdownText.replace(/###([^#\n]+)/g, '<h3>$1</h3>');
 
-    // Replace ordered list items (e.g., "1. Item, 2. Another_Item") with <li> tags
-    markdownText = markdownText.replace(/^(\d+\.)\s+(.+)/gm, '<li>$2</li>');
+    //decided to not do this and rather just define it in the text
+    // // Replace ordered list items (e.g., "1. Item, 2. Another_Item") with <ol> tags
+    // let orderedListCounter = 0;
+    // markdownText = markdownText.replace(/^(\d+\.)\s+(.+)/gm, (strline, numberPortion, lineData) => {
+    //     if (numberPortion === '1.') {
+    //         // Start a new ordered list
+    //         orderedListCounter += 1;
+    //         return `</ol><ol><li>${lineData}</li>`;
+    //     } else {
+    //         // Continue the existing ordered list
+    //         return `<li>${lineData}</li>`;
+    //     }
+    // });
+    
+    // // Close the last ordered list (if any)
+    // if(orderedListCounter > 0)
+    // {
+    //     markdownText += `</ol>`;
+    // }
+
 
     // Add line breaks for <br>
     markdownText = markdownText.replace(/<br>/g, '<br />');

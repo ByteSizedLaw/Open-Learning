@@ -3,8 +3,10 @@ A Contractor is an IT professional who works on a contractual (non-permanent) ba
 
 ## Conflicts of Interest:
 Most contractors will stretch projects out over a longer term or timeline because of 1 simple and crucial factor: 
-1. Personal interest
-<br>
+<ol>
+<li> 1. Personal interest. </li>
+</ol>
+
 Their personal interest (as a contractual worker) will always be to maximise their own financial gain. They accomplish this by extending the duration it takes them to complete work, by hours, days, weeks or even months.
 <br>
 This creates a "*Conflict of Interest*", because as contractors/workers, their interest should be to "Finish projects ASAP, with the best quality possible", but as humans (who work for financial gain, and get paid by-the-hour), their interests are to "Take as long as possible, to get paid more over a longer time period".
@@ -31,28 +33,34 @@ I have met fully-qualified "Software Engineers" that don't know what *scripting*
 In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases
 
 ## Issues that come from outsourcing:
-1. *Limited customization* -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.
-2. *Costs* -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.
-3. *Quality* -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?
-4. *Upgrade-paths* -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.
-5. *Vendor/Industry niche* -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.
-6. *Security concerns* -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.
-7. *Tech "religious wars"* -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.
+<ol>
+<li> 1. *Limited customization* -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.</li>
+<li> 2. *Costs* -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.</li>
+<li> 3. *Quality* -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?</li>
+<li> 4. *Upgrade-paths* -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.</li>
+<li> 5. *Vendor/Industry niche* -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.</li>
+<li> 6. *Security concerns* -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.</li>
+<li> 7. *Tech "religious wars"* -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.</li>
+</ol>
+
 
 ## Inhouse Devs vs Contractors:
-1. *<b>Cost</b>*: inhouse wins.
-2. *Skill and niche skill*: inhouse wins, but you may find contractors that specialize in a specific area.
-3. *Performance*: inhouse wins.
-4. *Innovation and customization*: inhouse wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'
-5. *Security*: inhouse wins.
-
+<ol>
+<li> 1. *<b>Cost</b>*: inhouse wins. </li> 
+<li> 2. *Skill and niche skill*: inhouse wins, but you may find contractors that specialize in a specific area.</li>
+<li> 3. *Performance*: inhouse wins.</li>
+<li> 4. *Innovation and customization*: inhouse wins. Contractors will become inhouse-devs if they're allowed to, or if you get 'taken off the upgrade path'</li>
+<li> 5. *Security*: inhouse wins.</li>
+</ol>
 
 ## How do we know if we should hire a contractor then?
 Of course, it comes down to business-needs/requirements, but when looking for "*the right one*", look for contractors that have the following characteristics:
-1. Is highly involved with Project Managers (PMs) and Speaks regularly (Communication is always king in Project completion)
-2. Explains any issue (complex and simple) in simple, accurate and concise English (This is *super* important for middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them)
-3. Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money, doing a job they weren't hired for)
-4. Finishes projects as fast as possible (This is *super important*, and contrasts the conflict-of-interest we discussed previously)
+<ol>
+<li> 1. Is highly involved with Project Managers (PMs) and Speaks regularly (Communication is always king in Project completion)</li>
+<li> 2. Explains any issue (complex and simple) in simple, accurate and concise English (This is *super* important for middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them)</li>
+<li> 3. Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money, doing a job they weren't hired for) </li>
+<li> 4. Finishes projects as fast as possible (This is *super important*, and contrasts the conflict-of-interest we discussed previously) </li> 
+</ol>
 
 ## The Smart Contractor:
 To explain fully, I'll revise the Conflict of Interest that contractors have:
@@ -70,7 +78,7 @@ The smart contractor:
 <br>
 Over time, Sally (the greedy contractor) will have a bad reputation of taking extra long, and will lose work or opportunities to do work because of her pace, thereby making less money and having less job-security in the long-run.
 <br>
-Jamie (the smart contractor) will have a good reputation of being the fastest, which every company will want to hire because she wont miss deadlines and will communicate clearly. She'll never run out of work!
+For example Jamie (the smart contractor) will have a good reputation of being the fastest, which every company will want to hire because she wont miss deadlines and will communicate clearly. She'll never run out of work!
 <br>
 In this scenario, Jamie is more competitive than Sally, because she has something that will make companies favour her above Sally, resulting in more work, despite the fact that she's getting paid less because of the speedy completions.
 <br>
