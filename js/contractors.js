@@ -50,7 +50,7 @@ window.onload = function() {
     // Handle nested unordered list items (asterisk at the start with optional spaces)
     markdownText = markdownText.replace(/^\s*\*\s+(.+)/gm, '<ul><li>$1</li></ul>');
 
-    // Handle asterisks for bold text
+    // Handle double-asterisks for bold text
     markdownText = markdownText.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
     return markdownText;
