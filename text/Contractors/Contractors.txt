@@ -28,7 +28,7 @@ This is wholly untrue, and many contractors (or employees, in even the most "com
 <br>
 I have met fully-qualified "Software Engineers" that don't know what *scripting* or *Data Structures* are [The equivalent of this is an *Electrical Engineer* that doesn't know what a *volt* is]
 <br>
-In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases.
+In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases
 
 ## Issues that come from outsourcing:
 1. limited customization -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.
