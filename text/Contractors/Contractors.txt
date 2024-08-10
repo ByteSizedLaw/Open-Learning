@@ -40,11 +40,11 @@ In reality, these beliefs stem from a lack of understanding of technologists and
 7. Tech "religious wars" -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.
 
 ## Inhouse Devs vs Contractors:
-1. Cost: inhouse wins.
-2. Skill and niche skill: inhouse wins, but you may find contractors that specialize in a specific area.
-3. Performance: inhouse wins.
-4. Innovation and customization: inhouse wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'
-5. Security: inhouse wins.
+1. **Cost**: inhouse wins.
+2. **Skill and niche skill**: inhouse wins, but you may find contractors that specialize in a specific area.
+3. **Performance**: inhouse wins.
+4. **Innovation and customization**: inhouse wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'
+5. **Security**: inhouse wins.
 
 
 ## How do we know if we should hire a contractor then?
