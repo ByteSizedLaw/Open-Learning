@@ -19,19 +19,21 @@ This will continue indefinitely (And may go completely unnoticed for months!), b
 ## If all contractors do that, why hire them in the first place??:
 Not all contractors are bad, but there’s a misconception that they are <b>always</b> faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
 <br>
-I've worked with a few contractors, and one of them was absolutely outstanding in every project - he's gotten to the point now where our organization will just assign entire projects to him to complete on his own, because of the trust he's built and reputation he has from the hard work over the years.
+I've worked with a few contractors, and one of them was absolutely outstanding in every project - he's gotten to the point now where the organization will just assign entire projects to him to complete on his own, because of the trust and reputation he's built from his hard work over the years.
 <br>
-There are many phenomenal contractors out there, but it's important to know which characteristics to look for, and which misconceptions there are, before hiring a contractor.
+As someone that's been a contractor myself, and who has worked with some really great people over the years, I can safely say that there are many phenomenal contractors out there, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
 
 
 ## Misconceptions about Contractors:
-"Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments".
+"<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments</I>".
 <br>
-This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA) are shielded by "Hidden Incompetence" or because of the formal educations they hold.
+This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by "Hidden Incompetence" from the organization's reputation or the formal educations they hold.
 <br>
-I have met fully-qualified "Software Engineers" that don't know what <b>scripting</b> or <b>Data Structures</b> are [The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is]
+<i>
+Note: I have met fully-qualified "Software Engineers" that don't know what <b>scripting</b> or <b>Data Structures</b> are [The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is], so I don't place too much focus on Formal Education. It's great to have, and to have studied at a renowned institution like Harvard (for example), but it doesn't guarantee expertise or knowledge, especially with the rise in cheating from modern AI advancements.
+</i>
 <br>
-In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases
+In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or overemphasis on "where someone studied", etc.).
 
 ## Issues that come from outsourcing:
 <ol>
@@ -44,13 +46,13 @@ In reality, these beliefs stem from a lack of understanding of technologists and
 <li> <b>Tech "religious wars"</b> -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.</li>
 </ol>
 
-## Inhouse Devs vs Contractors:
+## In-house Devs vs Contractors:
 For Long-term development or large-scale projects:
 <ol>
 <li> <b>Cost</b>: in-house wins.</li>
 <li> <b>Skill and niche skill</b>: in-house  wins, but you may find contractors that specialize in a specific area or have niche skills.</li>
 <li> <b>Performance</b>: in-house wins.</li>
-<li> <b>Innovation and customization</b>: in-house wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'.</li>
+<li> <b>Innovation and customization</b>: in-house wins. Contractors will become in-house devs if they're allowed to, or if you get 'taken off the upgrade path'.</li>
 <li> <b>Security</b>: in-house wins.</li>
 </ol>
 
@@ -86,7 +88,7 @@ In this scenario, Jamie is more competitive than Sally, because she has somethin
 
 
 ## Conclusion:
-Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). EQ is arguably just as important as technical skill - in some cases (code-red cases) it's even more valuable.
+Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). EQ is arguably just as important as technical skill - in some cases (code-red cases, where sirens are blaring and everyone's in a panic) it's even more valuable.
 <br>
 Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" that refuse to collaborate - or, even worse, who shoot others down and create toxic working environments - to run amock. 
 <br>
