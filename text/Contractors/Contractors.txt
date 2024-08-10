@@ -83,3 +83,11 @@ Whereas Jamie (the smart contractor) who will develop a good reputation for bein
 <br>
 In this scenario, Jamie is more competitive than Sally, because she has something that will make employers favour her above Sally, resulting in more work and money for her in the long-run.
 <br>
+
+
+## Conclusion:
+Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). EQ is arguably just as important as technical skill - in some cases (code-red cases) it's even more valuable.
+<br>
+Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" that refuse to collaborate - or, even worse, who shoot others down and create toxic working environments - to run amock. 
+<br>
+There needs to be some level of balance, which only staff with high EQs can bring to the table.
