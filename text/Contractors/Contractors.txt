@@ -31,13 +31,13 @@ I have met fully-qualified "Software Engineers" that don't know what *scripting*
 In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases
 
 ## Issues that come from outsourcing:
-1. limited customization -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.
-2. Costs -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.
-3. Quality -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?
-4. Upgrade-paths -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.
-5. Vendor/Industry niche -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.
-6. Security concerns -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.
-7. Tech "religious wars" -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.
+1. **Limited customization** -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.
+2. **Costs** -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.
+3. **Quality** -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?
+4. **Upgrade-paths** -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.
+5. **Vendor/Industry niche** -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.
+6. **Security concerns** -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.
+7. **Tech "religious wars"** -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.
 
 ## Inhouse Devs vs Contractors:
 1. **Cost**: inhouse wins.
