@@ -52,7 +52,7 @@ For Long-term development or large-scale projects:
 <li> <b>Cost</b>: in-house wins.</li>
 <li> <b>Skill and niche skill</b>: in-house  wins, but you may find contractors that specialize in a specific area or have niche skills.</li>
 <li> <b>Performance</b>: in-house wins.</li>
-<li> <b>Innovation and customization</b>: in-house wins. Contractors will become in-house devs if they're allowed to, or if you get 'taken off the upgrade path'.</li>
+<li> <b>Innovation and customization</b>: in-house wins. Contractors will become in-house devs if they're allowed to, or if you get 'taken off the upgrade path' from too many customizations.</li>
 <li> <b>Security</b>: in-house wins.</li>
 </ol>
 
