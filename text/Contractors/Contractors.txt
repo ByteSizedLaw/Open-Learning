@@ -1,50 +1,75 @@
-Contractors:
+# Contractors:
 A Contractor is an IT professional who works on a contractual (non-permanent) basis, rather than as a permanent employee, and is typically hired only for specific projects with specific start/end dates to their contracts.
 
-Conflicts of Interest:
-A contractor will always try to stretch projects out over a longer term or timeline because of 1 simple and crucial factor: Personal interest
+## Conflicts of Interest:
+Most contractors will stretch projects out over a longer term or timeline because of 1 simple and crucial factor: 
+1. Personal interest
+<br>
 Their personal interest (as a contractual worker) will always be to maximise their own financial gain. They accomplish this by extending the duration it takes them to complete work, by hours, days, weeks or even months.
-This creates a "conflict of interest", because as contractors, their interest should be to "Finish projects ASAP, with the best quality possible", but as humans (who work for financial gain, and get paid by-the-hour), their interests are to "Take as long as possible to get paid more for the duration of the project".
+<br>
+This creates a "*Conflict of Interest*", because as contractors/workers, their interest should be to "Finish projects ASAP, with the best quality possible", but as humans (who work for financial gain, and get paid by-the-hour), their interests are to "Take as long as possible, to get paid more over a longer time period".
 
-That being said, most contractors will start out strong - completing work at an impressive and diligent rate - but then, the "It's out of my hands"-phase sets in.
-Conversations will initially start out as "I completed {this} today, working on {that} next" for the first few weeks, and slowly turn into "I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain}" or "I spoke to {so and so} but they couldn't help me, so now I need to speak to {so and so} and possibly chat to {so and so} and that's gonna take 3 days". 
-This will continue for weeks (And may go completely unnoticed for months!), being the only feedback given, until management intervene by joining the conversations, demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! (Until the next cycle begins and management needs to intervene again -> note that relations with the contractor will sour over time if management intervenes regularly)
+## How to spot when Contractors are "conflicted":
+Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the "It's out of my hands"-phase sets in.
+Conversations will initially start out as "I completed {this} today, working on {that} next, all looking good and on-track!" for the first few weeks or months, and slowly turn into "I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}" or "I spoke to {so and so} but they couldn't help me, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days, despite no work being done for the last week".
+<br>
+This will continue indefinitely (And may go completely unnoticed for months!), being the only feedback given, until management intervenes by joining the conversations with "so and so", demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again -> note that relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.
 
-Not all contractors are bad, but there’s a misconception that they are always faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers. In reality, this belief doesn’t hold unless in-house developers are significantly overpaid exorbitant salaries.
-This belief stems from a lack of understanding of technologists and their human-nature (specifically Greed), guaranteed issues that come from outsourced development (more on this below) and other biases - like the belief that they're The Best because "they have to be competitive to remain employed in a competitive contracting company" (Wholly untrue, and many contractors are shielded by "Hidden Incompetence" or because of the formal educations they hold (I have met fully-qualified "Software Engineers" that don't know what Data Structures are [The equivalent is an Electrical Engineer that doesn't know what a volt is])).
-
-Issues that come from outsourcing:
-1. limited customization -> vendors (and off-the-shelf tech) usually only allows for minor customization before you're taken off the upgrade-path
-2. Costs -> planning and analysis costs will skyrocket if not done before outsourcing.
-3. How do you hold contractors accountable for bad code, if you don't have anyone that will know if it's good or bad?
-4. Upgrade-paths -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less efficiency, no support, off-the-shelf tech becoming stale, etc.
-5. vendor/industry niche -> Some niche industries may not be supported, or you may get subpar service because of the niche - which would be hard to detect without inhouse developers.
-6. Security concerns -> when the system is meant to be secure and keep data confidential, but development is outsourced (and workers could easily build backdoors without anyone knowing).
-7. Tech "religious wars" -> The contractors will do either whatever is best for them, or what they are comfortable with, not what's best for your company. (conflicts of interest in Language and Tech selection).
-
-Inhouse Devs vs Contractors:
-	Cost: inhouse wins
-	Skill and niche skill: inhouse wins
-	performance: inhouse wins
-	innovation and customization: inhouse wins
-	Security: inhouse wins
+## If all contractors do that, why hire them in the first place??:
+Not all contractors are bad, but there’s a misconception that they are *always* faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
+<br>
+I've worked with a few contractors, and one of them was absolutely outstanding in every project - he's gotten to the point now where our organization will just assign entire projects to him to complete on his own, because of the trust he's built and reputation he has from the hard work over the years.
 
 
-How do we know if we should hire a contractor then?
-Of course, it comes down to business-needs/requirements, but when looking for "the right one", look for contractors that have the following characteristics:
-	1. Is highly involved with project managers and Speaks regularly (Communication is always king in projects)
-	2. Explains any issue (complex and simple) in simple, accurate and concise English (This is super important for middle/upper Business management and C-level execs, because they dont care about technical jargon, they want to understand the issue to make the important business decisions)
-	3. Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business unit's code, or drawing up project plans for another team, etc. - because they're wasting time and money, doing a job they weren't hired for)
-	4. Finishes projects as fast as possible (This is super important, and contrasts the conflict-of-interest we discussed previously -> more on this below)
+## Misconceptions about Contractors:
+"Contractors are *always* faster, smarter, and cheaper than in-house developers, and are more competitive/skillful because they come from super competitive environments".
+<br>
+This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA) are shielded by "Hidden Incompetence" or because of the formal educations they hold.
+<br>
+I have met fully-qualified "Software Engineers" that don't know what *scripting* or *Data Structures* are [The equivalent of this is an *Electrical Engineer* that doesn't know what a *volt* is]
+<br>
+In reality, these beliefs stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases.
 
-The Smart Contractor:
-To explain fully, I'll re-cover the conflict of interest that contractors have:
-The greedy contractor:
-	A contractor stretches their work out over a longer period of time to get paid more. Basically, Sally gets paid 10cr (Using the concept of Cr/Credits over currencies like $/£/R for simplicity) an hour. Her new project will take her 100 hrs to complete, so she'll get paid 1000cr (10cr x 100hrs) total, 
-	BUT if she stretches this project out to 120~140hrs, she'll make between 20~40% more money (1200~1400cr), and she may get pulled into another project at the company over this extended time, so she won't have to find other employment when her contract ends! 
-	If she's the only dev on the team, and there are no others to hold her accountable, she can stretch the project to 300~400 hrs and make 3~4x the amount of money, because there's nobody around to say "there's no way it takes that long to do, even with that error".
+## Issues that come from outsourcing:
+1. limited customization -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path.
+2. Costs -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.
+3. Quality -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?
+4. Upgrade-paths -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.
+5. Vendor/Industry niche -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.
+6. Security concerns -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.
+7. Tech "religious wars" -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.
+
+### Inhouse Devs vs Contractors:
+1. Cost: inhouse wins.
+2. Skill and niche skill: inhouse wins, but you may find contractors that specialize in a specific area.
+3. Performance: inhouse wins.
+4. Innovation and customization: inhouse wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'
+5. Security: inhouse wins.
+
+
+## How do we know if we should hire a contractor then?
+Of course, it comes down to business-needs/requirements, but when looking for "*the right one*", look for contractors that have the following characteristics:
+1. Is highly involved with Project Managers (PMs) and Speaks regularly (Communication is always king in Project completion)
+2. Explains any issue (complex and simple) in simple, accurate and concise English (This is *super* important for middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them)
+3. Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money, doing a job they weren't hired for)
+4. Finishes projects as fast as possible (This is *super important*, and contrasts the conflict-of-interest we discussed previously)
+
+## The Smart Contractor:
+To explain fully, I'll revise the Conflict of Interest that contractors have:
+<br>
+The greedy contractor: (Using the concept of Cr/Credits instead of currencies like $/£/R for simplicity)
+* A contractor stretches their work out over a longer period of time to get paid more. 
+* For example, Sally gets paid 10cr an hour. Her new project will take her 100 hrs to complete, so she'll get paid 1000cr (10cr x 100hrs) total, 
+   * BUT if she stretches this project out to 120~140hrs, she'll make between 20~40% more money (1200~1400cr), and she may get pulled into another project at the company over this extended time, so she won't have to find other employment when her contract ends! 
+   * If she's the only dev on the team, and there are no others to hold her accountable, she can stretch the project to 300~400 hrs and make 3~4x the amount of money, because there's nobody around to say "there's no way it takes that long to do, even with that error".
+<br>
 The smart contractor:
-	Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. Jamie makes 10cr an hour. Her new project will take 100 hours to complete, she finishes it in 80, thereby only making 800cr - surely this is to her detriment because she made less money? Not at all! The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, they'll also recommend her to other companies and give her a good recommendation at the contracting company she works for, giving her even more projects and possibly a higher salary.
-
-Over time, Sally (the greedy contractor) will have a bad reputation of taking long, and will lose work or opportunities to do work because of her pace, thereby making less money and having less job-security in the long-run.
+* Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. 
+* Jamie makes 10cr an hour. Her new project will take 100 hours to complete, she finishes it in 80, thereby only making 800cr - surely this is to her detriment because she made less money? Not at all! 
+   * The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, they'll also recommend her to other companies and give her a good recommendation at the contracting company she works for, giving her even more projects and possibly a higher salary.
+<br>
+Over time, Sally (the greedy contractor) will have a bad reputation of taking extra long, and will lose work or opportunities to do work because of her pace, thereby making less money and having less job-security in the long-run.
+<br>
 Jamie (the smart contractor) will have a good reputation of being the fastest, which every company will want to hire because she wont miss deadlines and will communicate clearly. She'll never run out of work!
+<br>
+In this scenario, Jamie is more competitive than Sally, because she has something that will make companies favour her above Sally, resulting in more work, despite the fact that she's getting paid less because of the speedy completions.
