@@ -19,7 +19,6 @@ window.onload = function() {
     // Display text prefixed with "###" in smaller headers
     markdownText = markdownText.replace(/###([^#\n]+)/g, '<h3>$1</h3>');
 
-    //decided to not do this and rather just define it in the text
     // // Replace ordered list items (e.g., "1. Item, 2. Another_Item") with <ol> tags
     // let orderedListCounter = 0;
     // markdownText = markdownText.replace(/^(\d+\.)\s+(.+)/gm, (strline, numberPortion, lineData) => {
