@@ -20,10 +20,12 @@ This will continue indefinitely (And may go completely unnoticed for months!), b
 Not all contractors are bad, but there’s a misconception that they are <b>always</b> faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
 <br>
 I've worked with a few contractors, and one of them was absolutely outstanding in every project - he's gotten to the point now where our organization will just assign entire projects to him to complete on his own, because of the trust he's built and reputation he has from the hard work over the years.
+<br>
+There are many phenomenal contractors out there, but it's important to know which characteristics to look for, and which misconceptions there are, before hiring a contractor.
 
 
 ## Misconceptions about Contractors:
-"Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skillful because they come from super competitive environments".
+"Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments".
 <br>
 This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA) are shielded by "Hidden Incompetence" or because of the formal educations they hold.
 <br>
@@ -38,17 +40,18 @@ In reality, these beliefs stem from a lack of understanding of technologists and
 <li> <b>Quality</b> -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?</li>
 <li> <b>Upgrade-paths</b> -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.</li>
 <li> <b>Vendor/Industry niche</b> -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.</li>
-<li> <b>Security concerns</b> -> when the system is meant to be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing.</li>
+<li> <b>Security concerns</b> -> When the system should be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing. Thereby making attacks like [this](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) possible.</li>
 <li> <b>Tech "religious wars"</b> -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.</li>
 </ol>
 
 ## Inhouse Devs vs Contractors:
+For Long-term development or large-scale projects:
 <ol>
-<li> <b>Cost</b>: inhouse wins.</li>
-<li> <b>Skill and niche skill</b>: inhouse wins, but you may find contractors that specialize in a specific area.</li>
-<li> <b>Performance</b>: inhouse wins.</li>
-<li> <b>Innovation and customization</b>: inhouse wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'.</li>
-<li> <b>Security</b>: inhouse wins.</li>
+<li> <b>Cost</b>: in-house wins.</li>
+<li> <b>Skill and niche skill</b>: in-house  wins, but you may find contractors that specialize in a specific area or have niche skills.</li>
+<li> <b>Performance</b>: in-house wins.</li>
+<li> <b>Innovation and customization</b>: in-house wins. Contractors will become inhouse devs if they're allowed to, or if you get 'taken off the upgrade path'.</li>
+<li> <b>Security</b>: in-house wins.</li>
 </ol>
 
 ## How do we know if we should hire a contractor then?
