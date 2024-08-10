@@ -1,0 +1,60 @@
+Contractors:
+A Contractor is an IT professional who works on a contractual (non-permanent) basis, rather than as a permanent employee, and is typically hired only for specific projects with specific start/end dates to their contracts.
+
+Conflicts of Interest:
+A contractor will always try to stretch projects out over a longer term or timeline because of 1 simple and crucial factor: Personal interest
+Their personal interest (as a contractual worker) will always be to maximise their own financial gain. They accomplish this by extending the duration it takes them to complete work, by hours, days, weeks or even months.
+This creates a "conflict of interest", because as contractors, their interest should be to "Finish projects ASAP, with the best quality possible", but as humans (who work for financial gain, and get paid by-the-hour), their interests are to "Take as long as possible to get paid more for the duration of the project".
+
+That being said, most contractors will start out strong - completing work at an impressive and diligent rate - but then, the "It's out of my hands"-phase sets in.
+Conversations will initially start out as "I completed {this} today, working on {that} next" for the first few weeks, and slowly turn into "I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain}" or "I spoke to {so and so} but they couldn't help me, so now I need to speak to {so and so} and possibly chat to {so and so} and that's gonna take 3 days". 
+This will continue for weeks (And may go completely unnoticed for months!), being the only feedback given, until management intervene by joining the conversations, demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! (Until the next cycle begins and management needs to intervene again -> note that relations with the contractor will sour over time if management intervenes regularly)
+
+Not all contractors are bad, but there’s a misconception that they are always faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers. In reality, this belief doesn’t hold unless in-house developers are significantly overpaid exorbitant salaries.
+This belief stems from a lack of understanding of technologists and their human-nature (specifically Greed), guaranteed issues that come from outsourced development (more on this below) and other biases - like the belief that they're The Best because "they have to be competitive to remain employed in a competitive contracting company" (Wholly untrue, and many contractors are shielded by "Hidden Incompetence" or because of the formal educations they hold (I have met fully-qualified "Software Engineers" that don't know what Data Structures are [The equivalent is an Electrical Engineer that doesn't know what a volt is])).
+
+Issues that come from outsourcing:
+limited customization
+Costs (planning and analysis will be major)
+How do you hold them accountable for bad code, if you dont have anyone that will know?
+Upgrade paths
+vendor/industry niche
+Security concerns when the system is meant to be secure and keep data confidential, but they're the ones building it (and could easily build in backdoors without anyone knowing [because you dont have dev staff])
+tech "religious wars" -> they will do either whatever is best for them, or what they are comfortable with, not what's best for your company. (Language and tech selection)
+
+Inhouse Devs vs Contractors:
+	Cost: inhouse wins
+	Skill and niche skill: inhouse wins
+	performance: inhouse wins
+	innovation and customization: inhouse wins
+	Security: inhouse wins
+
+
+How do we know if we should hire a contractor then?
+Of course, it comes down to business-needs/requirements, but when looking for "the right one", look for contractors that have the following characteristics:
+	is highly involved with project managers and Speaks regularly (Communication is always king in projects)
+	Explains any issue (complex and simple) in simple, accurate and concise English (This is super important for middle/upper Business management and C-level execs, because they dont care about technical jargon, they want to understand the issue to make the important business decisions)
+	Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business unit's code, or drawing up project plans for another team, etc. - because they're then wasting time and money, doing a job they weren't hired for)
+	Finishes projects as fast as possible (This is super important, and contrasts the conflict of interest we discussed previously -> more on this below)
+
+The Smart Contractor:
+To explain fully, I'll re-cover the conflict of interest that contractors have:
+The greedy contractor:
+	A contractor stretches their work out over a longer period of time to get paid more. Basically, Sally gets paid 10cr (Using the concept of Cr/Credits over currencies like $/£/R for simplicity) an hour. Her new project will take her 100 hrs to complete, so she'll get paid 1000cr (10cr x 100hrs) total, 
+BUT if she stretches this project out to 120~140hrs, she'll make between 20~40% more money (1200~1400cr), and she may get pulled into another project at the company over this extended time, so she won't have to find other employment when her contract ends! 
+If she's the only dev on the team, and there are no others to hold her accountable, she can stretch the project to 300~400 hrs and make 3~4x the amount of money, because there's nobody around to say "there's no way it takes that long to do, even with that error".
+The smart contractor:
+	Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. Jamie makes 10cr an hour. Her new project will take 100 hours to complete, she finishes it in 80, thereby only making 800cr - surely this is to her detriment because she made less money? Not at all! The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, they'll also recommend her to other companies and give her a good recommendation at the contracting company she works for, giving her even more projects and possibly a higher salary.
+
+Over time, Sally (the greedy contractor) will have a bad reputation of taking long, and will lose work or opportunities to do work because of her pace, thereby making less money and having less job-security in the long-run.
+Jamie (the smart contractor) will have a good reputation of being the fastest, which every company will want to hire because she wont miss deadlines and will communicate clearly. She'll never run out of work!
+
+
+
+
+"Hidden Incompetence:
+Thinking about it from another perspective; Think about a Commercial Bank, and you can't help but think about all the cutting-edge, military grade, super-technologies it implements and the workforce of ONLY the world's greatest minds it employs. 
+Yet, in reality, banks are some of the least secure organizations and outsource development to contractors (in the individual sense here, not the overarching company) whose credentials aren't verified, who have access to source code and your data (making it easy for them to share with hackers -> making attacks like [this](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) possible) and who have no direct ties to the success of the organization (if the company goes down, they can just move on to the next customer, unlike permanent employees), most banks also run off COBOL, which was written in the 1960s and no longer has support (Unlike Java, Python, C#, etc.). COBOL is infamous for its "legacy" (IT way of saying "old AF") status and the fact that there aren't many COBOL developers around anymore (So many banking systems will be locked-in (without customizations/improvements) in a few years).
+Why is this never noticed or considered? Because you don't want to, because you're placing your own personal security in the hands of the bank, so it's easier to believe that the bank is a "super-organism that can see in 4D and prevent crimes before they happen", than it is to recognize just how vulnerable your information actually is.
+This isn't to say that banks don't invest lots of money in fraud prevention, cybersecurity, etc., but they are still as vulnerable as any other company, we just have a bias that they're the best-of-the-best. This is the definition of Hidden Incompetence. 
+The reputation hides the inefficiencies and vulnerabilities in a sort of "halo-effect". This concept can apply to anything - including employees and contractors. Just because you believe someone/something is the best, it doesn't mean they are.
