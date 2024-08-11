@@ -5,22 +5,10 @@
     <link rel="stylesheet" href="../css/styles.css">
     <script type="text/javascript" src="../js/html_template_reader.js"></script>
     <script type="text/javascript" src="../js/contractors.js"></script>
-    <script>
-        //doing this so that we can run onload from multiple files without the callbacks overwiting each other
-        //this sets our onload to load up the template, while passing in specific params (like which elements we need to hide from the user). We do this to prevent broken links from the template because of relative paths, etc.
-        window.addEventListener('load', function() {
-        updateHTML(`<style>
-        a[href*="pages/contractors.html"] {
-            display: none;
-        }
-        </style>`); //this hides the HTMl
-        });
-    </script>
 </head>
 <body>
     <!-- Side navigation -->
     <div class="sidenav" id="sidenav"> <!-- Sidebar is basically just a list of links that redirect to other pages-->
-       
     </div>
 
     <!-- Actual contents start here -->

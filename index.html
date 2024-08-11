@@ -5,13 +5,6 @@
         <link rel="stylesheet" href="css/styles.css">
         <script type="text/javascript" src="js/html_template_reader.js"></script>
         <script type="text/javascript" src="js/home.js"></script>
-        <script>
-            //doing this so that we can run onload from multiple files without the callbacks overwiting each other
-            //this sets our onload to load up the template, while passing in specific params (like which elements we need to hide from the user). We do this to prevent broken links from the template because of relative paths, etc.
-            window.addEventListener('load', function() {
-            updateHTML(``);
-            }); 
-        </script>
     </head>
     <body>
         <!-- Side navigation -->
