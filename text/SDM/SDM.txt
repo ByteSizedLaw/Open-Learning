@@ -66,19 +66,34 @@ Every person is different - and there's no way of knowing how someone will act i
 </ol>
 
 ## Downsides of being an SDM:
-<ul> Finding work
-<li> SDMs are hard to replace, so <b>keeping work</b> is super easy, but (it's a double-edged sword) they are also <br>hard to replace</b>, meaning that other companies aren't replacing them often - making new work <b>super hard to find</b>.</li>
-<li>This contrasts the "worker" or Developer, because Devs are always being hired and fired, making work extremely easy for them to find, because companies are constantly on the lookout for new ones.</li>
+<ul>
+    <li>
+        Finding work
+        <ul>
+            <li>SDMs are hard to replace, so <b>keeping work</b> is super easy, but (it's a double-edged sword) they are also <br>hard to replace</b>, meaning that other companies aren't replacing them often - making new work <b>super hard to find</b>.</li>
+            <li>This contrasts the "worker" or Developer, because Devs are always being hired and fired, making work extremely easy for them to find, because companies are constantly on the lookout for new ones.</li>
+        </ul>
+    </li>
+    <li>
+        People Management Challenges
+        <ul>
+            <li>Managing people involves handling conflicts, addressing performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining</li>
+        </ul>
+    </li>
+    <li>
+        Stressful Deadlines
+        <ul>
+            <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality</li>
+        </ul>
+    </li>
+    <li>
+        Decision-Making Pressure
+        <ul>
+            <li>SDMs make critical decisions that impact projects and careers. The weight of these decisions can be stressful</li>
+        </ul>
+    </li>
 </ul>
-<ul> People Management Challenges
-<li> Managing people involves handling conflicts, addressing performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining</li>
-</ul>
-<ul> Stressful Deadlines
-<li> Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality</li>
-</ul>
-<ul> Decision-Making Pressure
-<li> SDMs make critical decisions that impact projects and careers. The weight of these decisions can be stressful</li>
-</ul>
+
 
 
 ## Conclusion:
