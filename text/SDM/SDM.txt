@@ -8,11 +8,11 @@ Organizational hierarchies often place managers at the top, leading to the assum
 <br>
 However, expertise isn’t solely determined by position or number of years in a position.
 <br>
-Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter/X server/db} runs, he wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
+Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter server} runs, he wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
 <br>
-Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. They are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire lives.
+Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. They are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire careers.
 <br>
-Management are known as "generalists", because they aren't experts or have all the system knowledge, but they have a general understanding of what happens. They usually switch between positions and industries throughout their lives. 
+Management are known as "generalists", because they aren't experts nor have the best technical skills/knowledge, but they have a general understanding of what happens. They usually switch between positions and industries throughout their careers. 
 <br> 
 As you go up the hierarchy, the more "generalist" people become - basically, the less they know about "how exactly" the company works or produces value.
 
