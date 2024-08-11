@@ -6,7 +6,7 @@ SDMs are usually permanent employees (so the role is rarely outsourced) and act 
 ## Hierarchical Bias:
 Organizational hierarchies often place managers at the top, leading to the assumption that they possess superior knowledge or skills. 
 <br>
-However, expertise isn’t solely determined by position or experience in a "generalist" position.
+However, expertise isn’t solely determined by position or number of years in a position.
 <br>
 Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter/X server/db} runs, he wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
 <br>
