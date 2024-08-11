@@ -41,7 +41,7 @@ function updateBodyText() {
     markdownText = markdownText.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
     // Handle underscores for italic text
-    markdownText = markdownText.replace(/_([^_]+)_/g, '<em>$1</em>');
+    //markdownText = markdownText.replace(/_([^_]+)_/g, '<em>$1</em>');
 
     return markdownText;
 }
