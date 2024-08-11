@@ -27,7 +27,7 @@ As someone that's been a contractor myself, and who has worked with some really 
 ## Misconceptions about Contractors:
 "<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments</I>".
 <br>
-This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by "Hidden Incompetence" from the organization's reputation or the formal educations they hold.
+This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by ["Hidden Incompetence"](https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html) from the organization's reputation or the formal educations they hold.
 <br>
 <i>
 Note: I have met fully-qualified "Software Engineers" that don't know what <b>scripting</b> or <b>Data Structures</b> are [The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is], so I don't place too much focus on Formal Education. It's great to have, and to have studied at a renowned institution like Harvard (for example), but it doesn't guarantee expertise or knowledge, especially with the rise in cheating from modern AI advancements.
