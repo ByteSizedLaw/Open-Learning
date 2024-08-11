@@ -70,7 +70,7 @@ Every person is different - and there's no way of knowing how someone will act i
     <li>
         Finding work
         <ul>
-            <li>SDMs are hard to replace, so <b>keeping work</b> is super easy, but (it's a double-edged sword) they are also <b> hard to replace </b>, meaning that other companies aren't replacing them often - making new work <b>super hard to find</b>.</li>
+            <li>SDMs are hard to replace, so <b>keeping work</b> is super easy, but (it's a double-edged sword) they are also <b>hard to replace</b>, meaning that other companies aren't replacing them often - making new work <b>super hard to find</b>.</li>
             <li>This contrasts the "worker" or Developer, because Devs are always being hired and fired, making work extremely easy for them to find, because companies are constantly on the lookout for new ones.</li>
         </ul>
     </li>
