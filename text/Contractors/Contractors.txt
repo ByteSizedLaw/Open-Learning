@@ -42,7 +42,7 @@ In reality, these misconceptions stem from a lack of understanding of technologi
 <li> <b>Quality</b> -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?</li>
 <li> <b>Upgrade-paths</b> -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.</li>
 <li> <b>Vendor/Industry niche</b> -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.</li>
-<li> <b>Security concerns</b> -> When the system should be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing. Thereby making attacks like [this](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) possible.</li>
+<li> <b>Security concerns</b> -> When the system should be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing. Thereby making attacks like [this one](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) or [this one](https://www.bbc.co.uk/news/articles/c6ppv06e3n8o) possible.</li>
 <li> <b>Tech "religious wars"</b> -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.</li>
 </ol>
 
@@ -50,7 +50,7 @@ In reality, these misconceptions stem from a lack of understanding of technologi
 For Long-term development or large-scale projects:
 <ol>
 <li> <b>Cost</b>: in-house wins.</li>
-<li> <b>Skill and niche skill</b>: in-house  wins, but you may find contractors that specialize in a specific area or have niche skills.</li>
+<li> <b>Skill and niche skill</b>: in-house wins, but you may find contractors that specialize in a specific areas.</li>
 <li> <b>Performance</b>: in-house wins.</li>
 <li> <b>Innovation and customization</b>: in-house wins. Contractors will become in-house devs if they're allowed to, or if you get 'taken off the upgrade path' from too many customizations.</li>
 <li> <b>Security</b>: in-house wins.</li>
