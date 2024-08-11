@@ -42,7 +42,7 @@ Where the PM focuses specifically on the project and what work needs to be done,
 
 ## Misconceptions about SDMs:
 <ol>
-<li> <b>"SDMs are the best-of-the-best"</b>: Contrary to this belief, SDMs are usually the <b>least technically-skilled people</b> on the team. Their role is more about orchestrating resources, aligning projects with business goals, and fostering collaboration</li>
+<li> <b>"SDMs Are The Best-of-the-best"</b>: Contrary to this belief, SDMs are usually the <b>least technically-skilled people</b> on the team. Their role is more about orchestrating resources, aligning projects with business goals, and fostering collaboration</li>
 <li> <b>"SDMs Are Just Paper-Pushers"</b>: While administrative tasks are part of the job, SDMs do much more. They shape team culture, drive innovation, and ensure projects ultimately succeed. Administrative work is just one aspect of their jobs.</li>
 <li> <b>"SDMs Are Always Serious"</b>: Effective SDMs balance seriousness with approachability. They build rapport with their team, listen actively, and create a positive work environment. Humor and empathy are essential.</li>
 </ol>
@@ -70,24 +70,24 @@ Every person is different - and there's no way of knowing how someone will act i
     <li>
         Finding work
         <ul>
-            <li>SDMs are hard to replace, so <b>keeping work</b> is super easy, but (it's a double-edged sword) they are also hard to replace, meaning that other companies aren't replacing them often - making new work <b>super hard to find</b>.</li>
+            <li>SDMs are hard to replace, so <b>keeping work is super easy</b>, but it's a double-edged sword because they are also hard to replace, so other companies aren't replacing them often - so <b>finding work is super hard</b>.</li>
             <li>This contrasts the "worker" or Developer, because Devs are always being hired and fired, making work extremely easy for them to find, because companies are constantly on the lookout for new ones.</li>
         </ul>
     </li>
     <li>
-        People Management Challenges
+        People Management Challenges:
         <ul>
             <li>Managing people involves handling conflicts, addressing performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining</li>
         </ul>
     </li>
     <li>
-        Stressful Deadlines
+        Stressful Deadlines:
         <ul>
             <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality</li>
         </ul>
     </li>
     <li>
-        Decision-Making Pressure
+        Decision-Making Pressure:
         <ul>
             <li>SDMs make critical decisions that impact projects and careers. The weight of these decisions can be stressful</li>
         </ul>
@@ -99,7 +99,7 @@ Every person is different - and there's no way of knowing how someone will act i
 ## Conclusion:
 Ultimately, being an SDM can be super rewarding, but it balances out by being super challenging as well.
 <br>
-By being one of those things that are hard to measure accurately, you have your work cut out for you, when trying to lead teams to success.
+By being one of those things that are hard to measure accurately - and differs for every team - you have your work cut out for you, when trying to lead teams to success.
 <br>
 Ultimately, Leaders - more than anyone - need to be "team players", and shouldn't rest on their laurels or titles, or allow their egos to go unchecked.
 <br>
