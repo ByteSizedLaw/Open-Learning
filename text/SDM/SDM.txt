@@ -17,7 +17,7 @@ Management are known as "generalists", because they aren't experts or have all t
 As you go up the hierarchy, the more "generalist" people become - basically, the less they know about "how exactly" the company works or produces value.
 
 
-## Why does it exist?:
+## Why does the SDM role exist?:
 <ol>
 <li> <b>Strategic Alignment</b>: SDMs align software development efforts with the overall business strategy. They ensure that projects contribute to the company’s objectives, whether it’s launching a new product, improving efficiency, or enhancing customer experience </li>
 <li> <b>Resource Management</b>: SDMs allocate resources. They balance workloads, assign tasks, and manage budgets. By optimizing resource utilization, they enhance productivity and reduce bottlenecks.</li>
