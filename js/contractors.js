@@ -1,4 +1,9 @@
-window.onload = function() {
+//doing this so that we can run onload from multiple files without the callbacks overwiting each other
+window.addEventListener('load', function() {
+    updateBodyText();
+});
+
+function updateBodyText() {
     var fileDisplayArea = document.getElementById('pageText');
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Contractors/Contractors.txt');
@@ -9,7 +14,8 @@ window.onload = function() {
             fileDisplayArea.innerHTML = parseMarkdown(xhr.response)
         }
  };
-  function parseMarkdown(markdownText) {
+
+ function parseMarkdown(markdownText) {
     // Replace Markdown headings (e.g., # Heading) with HTML <h1> tags
     markdownText = markdownText.replace(/^# (.+)/gm, '<h1>$1</h1>');
 
