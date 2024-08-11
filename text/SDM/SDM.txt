@@ -66,7 +66,7 @@ Every person is different - and there's no way of knowing how someone will act i
 </ol>
 
 ## Downsides of being an SDM:
-<ul>
+<ol>
     <li>
         Finding work
         <ul>
@@ -92,7 +92,7 @@ Every person is different - and there's no way of knowing how someone will act i
             <li>SDMs make critical decisions that impact projects and careers. The weight of these decisions can be stressful</li>
         </ul>
     </li>
-</ul>
+</ol>
 
 
 
