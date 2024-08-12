@@ -20,16 +20,13 @@ They accomplish this by extending the duration it takes them to complete work by
 </ul>
 
 
-## How to spot when Contractors are "conflicted":
+## How to spot when Contractors are "Conflicted":
 Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the <b>"It's out of my hands"-phase</b> sets in.
 <ul>
     <li>
-        Conversations will initially start out, positively, as:
+        Conversations will start out, positively, as:
         <ul>
             <li><i>"I completed {that} yesterday, I'm working on {this} today, all looking good and on-track!"</i> for the first few weeks or months</li>
-            <li></li>
-            <li></li>
-            <li></li>
         </ul>
     </li>
     <li>
@@ -43,10 +40,11 @@ Most contractors will start out strong - completing work at an impressive and di
 Basically, you'll notice that contractors have "slowed down" a lot, that they're "stalling", or that they're just hitting error-after-error that blocks any major progress for weeks or months on end.
 
 ## How to resolve Conflicts of Interest:
-This "stalling" behaviour-pattern will continue indefinitely (And may go completely unnoticed for months!), until management intervenes by joining the conversations with <i>"so and so"</i>, demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
+This "stalling" behaviour-pattern will continue indefinitely (And may go completely unnoticed for months!), until management intervenes by joining these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts
+<br>
+After intervention, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
 <br>
 Note: Relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.
-
 
 ## If all contractors do that, why hire them in the first place??:
 Not all contractors are bad, but there’s a misconception that they are <b>always</b> faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
