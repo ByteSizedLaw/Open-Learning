@@ -5,16 +5,48 @@ A Contractor is an IT professional who works on a contractual (non-permanent) ba
 Most contractors will stretch projects out over a longer term or timeline because of 1 simple and crucial factor: 
 <ol><li>Personal interest</li></ol>
 
-Their personal interest (as a contractual worker, who works for money) will always be to maximise their own financial gain. They accomplish this by extending the duration it takes them to complete work, by hours, days, weeks or even months.
+Their personal interest (as a person that works for money) will always be to maximise their own financial-gain. 
 <br>
-This creates a "<b>Conflict of Interest</b>", because as contractors/workers, their interest should be to "Finish projects ASAP, with the best quality possible", but as humans (who work for financial gain, and get paid by-the-hour), their interests are to "Take as long as possible, to get paid more over a longer time period".
+They accomplish this by extending the duration it takes them to complete work by hours, days, weeks or even months.
+<ul>
+    <li>
+        This creates a "<b>Conflict of Interest</b>":
+        <ul>
+            <li>because as <b>workers</b>, their interest is to "<b>Finish work as fast as possible</b>", because they are being paid to finish work ASAP</li>
+	    <li>but as <b>humans</b> that work for profit, their interests are to "<b>Finish work as slow as possible</b>", because they make more money.</li>
+            <li>This causes a conflict, because they now have to choose between doing "what's best for the company they don't actually work for" and doing "what's best for themselves"</li>
+        </ul>
+    </li>
+</ul>
+
 
 ## How to spot when Contractors are "conflicted":
-Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the "It's out of my hands"-phase sets in.
+Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the <b>"It's out of my hands"-phase</b> sets in.
+<ul>
+    <li>
+        Conversations will initially start out, positively, as:
+        <ul>
+            <li><i>"I completed {that} yesterday, I'm working on {this} today, all looking good and on-track!"</i> for the first few weeks or months</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+    <li>
+        Conversations will then slowly turn into:
+        <ul>
+	    <li><i>"I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}"</i></li>
+            <li><i>"I spoke to {so and so} but they couldn't help, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days -> despite no work being done for the last week"</i></li>
+	</ul>
+    </li>
+</ul>
+Basically, you'll notice that contractors have "slowed down" a lot, that they're "stalling", or that they're just hitting error-after-error that blocks any major progress for weeks or months on end.
+
+## How to resolve Conflicts of Interest:
+This "stalling" behaviour-pattern will continue indefinitely (And may go completely unnoticed for months!), until management intervenes by joining the conversations with <i>"so and so"</i>, demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
 <br>
-Conversations will initially start out as "I completed {this} today, working on {that} next, all looking good and on-track!" for the first few weeks or months, and slowly turn into "I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}" or "I spoke to {so and so} but they couldn't help me, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days, despite no work being done for the last week".
-<br>
-This will continue indefinitely (And may go completely unnoticed for months!), being the only feedback given, until management intervenes by joining the conversations with "so and so", demanding evidence of work being done, or threatening to end contracts - at which point, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again -> note that relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.
+Note: Relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.
+
 
 ## If all contractors do that, why hire them in the first place??:
 Not all contractors are bad, but there’s a misconception that they are <b>always</b> faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
