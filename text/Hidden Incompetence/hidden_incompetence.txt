@@ -11,7 +11,7 @@ This [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) makes us bel
 <br>
 Hidden incompetence is exactly the same as a halo-effect. People are shielded from being "outed as incompetent" by the reputation, status or <b>assumed</b> experience/skill they hold.
 <br>
-You'll usually see that most management or Senior staff will be 50+ years old, this is because of the <b> assumed </b> expertise that they've developed over the years, which has properly equipped them for the job. This is just an assumption though, and doesn't guarantee that they are as skilled as others believe them to be.
+You'll find that most management or Senior staff will be 50+ years old, this is because of the <b> assumed </b> expertise that they've developed over the years, which has properly equipped them for the job. This is just an assumption though, and doesn't guarantee that they are as skilled as others believe them to be.
 <br>
 We assumed this solely from their advanced age, alone.
 <br>
@@ -34,8 +34,37 @@ Employees from Apple are surely the best-of-the-best and the brighest minds arou
 <br>
 Not necessarily.. we just assumed that, because Apple's <b>reputation</b> as being a Tech-Giant with only the best cutting-edge, world-class Tech, hides employee shortcomings and what happens behind closed-doors.
 <br>
-We attribute to all Apple employees that "they are the best, because they work for Apple, and a world-class organization like Apple will only hire the best". This assumption is completely untrue, because there's no evidence to support it.
+We attribute to all Apple employees that <i>"they are the best, because they work for Apple, and a world-class organization like Apple will only hire the best"</i>. This assumption is completely untrue, because there's no evidence to support it.
 <br>
 In this vein, an incompetent employee within Apple is now being shielded by "Hidden Incompetence", simply because they work for Apple, so they must be the best, and won't be questioned or tested.
 <br>
 In their interactions with vendors or other IT professionals, they will feel superior and better, because they come from an organization with more renown - despite the fact that they may actually be the least technically-skilled in the interaction.
+
+## Hidden Incompetence: Education
+Naturally, when someone holds impressive Certifications/Qualifications/Degrees, we assume that they are experts in their fields, and that anything they say is, by default, 100% true and accurate.
+<br>
+This is a [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - specifically Hidden Incompetence - in effect, because we're assigning those attributes to them based on an assumption - made from the <b>reputation</b> that their Certifications/Qualifications/Degrees have.
+<br>
+As with our Apple example, we're assuming that <i>"someone with a Masters Degree is a Master in their field and always 100% right, because they have to be a Master to hold that Degree"</i>.
+<br>
+This isn't always the case, because people can cheat on exams, or barely Pass the modules they need and still get the Degree (They become Masters of CompSci with barely 50% [or less, depending on the pass-mark] of the knowledge). 
+<br>
+<ul>
+    <li>
+        Note: Differences in Educational Quality
+        <ul>
+            <li>A Masters Degree in CompSci from Harvard is going to differ (In content, length, difficulty and quality) from other universities in another country, like Venezuela, for example.</li>
+            <li>So there's no <i>"1 size fits all"</i> when it comes to Certifications/Qualifications/Degrees, because content, difficulty and duration differs between universities and countries. </li>
+	    <li>You may also find that one person's Diploma/Certificate in Computer Science is better than another's Masters Degree in Computer Science, because of the difference in their experience and skill.</li>
+        </ul>
+    </li>
+    <li>
+</ul>
+<br>
+I've met "Software Engineers" with their <b>Honours Degree in Computer Science</b>, that don't know what <b>scripting</b> or <b>Data Structures</b> are.
+<br>
+The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is, 
+<br>
+So Formal Education doesn't guarantee expertise or knowledge, especially with the rise in cheating from modern AI advancements and online-learning platforms.
+<br>
+As humans, we attribute expertise to those who hold impressive certifications, because we're easy to impress and manipulate, but these assumptions dont guarantee that the "experts" are actual experts.
