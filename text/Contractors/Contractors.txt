@@ -103,18 +103,18 @@ To explain fully, I'll revise the Conflict of Interest that contractors have:
 <i>The smart contractor</i>:
 * Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. 
 * Jamie makes 10cr an hour. Her new project will take 100 hours to complete, she finishes it in 80, thereby only making 800cr - surely this is to her detriment because she made less money? Not at all! 
-*  The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, they'll also recommend her to other companies and give her a good recommendation at the contracting company she works for, giving her even more projects and possibly a higher salary.
+*  The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, or when they seek candidates for permanent-employment.
 <br>
 Over time, Sally (the greedy contractor) who will develop a bad reputation for being slow or inefficient, will lose work or opportunities because of her pace, thereby making her less money in the long-run.
 <br>
 Whereas Jamie (the smart contractor) who will develop a good reputation for being the fastest, will be sought after by many companies because she won't miss/extend deadlines. She'll never run out of work or opportunities!
 <br>
-In this scenario, Jamie is more competitive than Sally, because she has something that will make employers favour her above Sally, resulting in more work and money for her in the long-run.
+In this scenario, Jamie is smarter than Sally because she's disciplined and working towards gaining more money in the long-run. Whereas Sally is shooting herself in the foot for immediate financial-gain.
 <br>
 
 
 ## Conclusion:
-Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). EQ is arguably just as important as technical skill - in some cases (code-red cases, where sirens are blaring and everyone's in a panic) it's even more valuable.
+Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). EQ is arguably just as important as technical skill - in some cases (code-red cases, where sirens are blaring and tempers are fuming) it's even more valuable.
 <br>
 Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" that refuse to collaborate - or, even worse, who shoot others down and create toxic working environments - to run amock. 
 <br>
