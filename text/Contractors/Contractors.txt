@@ -30,36 +30,39 @@ Most contractors will start out strong - completing work at an impressive and di
         </ul>
     </li>
     <li>
-        Conversations will then slowly turn into:
+        But then slowly turn into:
         <ul>
 	    <li><i>"I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}"</i></li>
             <li><i>"I spoke to {so and so} but they couldn't help, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days -> despite no work being done for the last week"</i></li>
 	</ul>
     </li>
 </ul>
-Basically, you'll notice that contractors have "slowed down" a lot, that they're "stalling", or that they're just hitting error-after-error that blocks any major progress for weeks or months on end.
+Basically, you'll notice that contractors have "slowed down" a lot, possibly that they're "stalling", or that they're just hitting error-after-error that blocks any major progress for weeks or months on-end.
+<br>
+This phase is characterized by bouts of "no progress", lots of conversations and running-around "to find answers", with no actual work being done during the day.
 
 ## How to resolve Conflicts of Interest:
-This "stalling" behaviour-pattern will continue indefinitely (And may go completely unnoticed for months!), until management intervenes by joining these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts
+This "It's out of my hands"-phase will continue indefinitely (And may go completely unnoticed for months!), 
+<br>
+Until management intervenes by joining these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts
 <br>
 After intervention, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
 <br>
-Note: Relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.
+<i>Note: Relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.</i>
 
 ## If all contractors do that, why hire them in the first place??:
-Not all contractors are bad, but there’s a misconception that they are <b>always</b> faster, smarter, and cheaper than in-house developers, which allows the bad ones to take advantage of unsuspecting employers.
+Not all contractors are bad,
 <br>
-I've worked with a few contractors, and one of them was absolutely outstanding in every project - he's gotten to the point now where the organization will just assign entire projects to him to complete on his own, because of the trust and reputation he's built from his hard work over the years.
+I've worked with a few contractors, and one of them was outstanding in every project - he's gotten to the point now where the company will just assign entire projects to him to complete on his own, because of the trust and reputation he's built from his hard work over the years.
 <br>
-As someone that's been a contractor myself, and who has worked with some really great people over the years, I can safely say that there are many phenomenal contractors out there, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
-
+As someone that's been a contractor before, and who has worked with some really great people over the years, I can safely say that there are many phenomenal contractors out there - with incredible skills, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
 
 ## Misconceptions about Contractors:
 "<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments</I>".
 <br>
 This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by ["Hidden Incompetence"](https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html) from the organization's reputation or the formal educations they hold.
 <br>
-In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or overemphasis on "where someone studied", etc.).
+In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or exaggerated importance of Education/Degrees, etc.).
 
 ## Issues that come from outsourcing:
 <ol>
