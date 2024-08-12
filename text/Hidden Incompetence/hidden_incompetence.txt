@@ -48,7 +48,6 @@ This is a [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - speci
 As with our Apple example, we're assuming that <i>"someone with a Masters Degree is a Master in their field and always 100% right, because they have to be a Master to hold that Degree"</i>.
 <br>
 This isn't always the case, because people can cheat on exams, or barely Pass the modules they need and still get the Degree (They become Masters of CompSci with barely 50% [or less, depending on the pass-mark] of the knowledge). 
-<br>
 <ul>
     <li>
         Note: Differences in Educational Quality
@@ -58,9 +57,7 @@ This isn't always the case, because people can cheat on exams, or barely Pass th
 	    <li>You may also find that one person's Diploma/Certificate in Computer Science is better than another's Masters Degree in Computer Science, because of the difference in their experience and skill.</li>
         </ul>
     </li>
-    <li>
 </ul>
-<br>
 I've met "Software Engineers" with their <b>Honours Degree in Computer Science</b>, that don't know what <b>scripting</b> or <b>Data Structures</b> are.
 <br>
 The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is, 
