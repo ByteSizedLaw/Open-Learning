@@ -44,7 +44,7 @@ This phase is characterized by bouts of "no progress", lots of conversations and
 ## How to resolve Conflicts of Interest:
 This "It's out of my hands"-phase will continue indefinitely (And may go completely unnoticed for months!), 
 <br>
-Until management intervenes by joining these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts
+Until management intervenes by hosting these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts.
 <br>
 After intervention, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
 <br>
@@ -58,9 +58,9 @@ I've worked with a few contractors, and one of them was outstanding in every pro
 As someone that's been a contractor before, and who has worked with some really great people over the years, I can safely say that there are many phenomenal contractors out there - with incredible skills, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
 
 ## Misconceptions about Contractors:
-"<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super competitive environments</I>".
+"<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super-competitive environments</I>".
 <br>
-This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by ["Hidden Incompetence"](https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html) from the organization's reputation or the formal educations they hold.
+This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by ["Hidden Incompetence"](https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html) by the contracting-company's reputation or the Formal Educations/Degrees they hold.
 <br>
 In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or exaggerated importance of Education/Degrees, etc.).
 
@@ -86,12 +86,12 @@ For Long-term development or large-scale projects:
 </ol>
 
 ## How do we know if we should hire a contractor then?
-Of course, it comes down to business-needs/requirements, but when looking for "<b>the right one</b>", look for contractors that have the following characteristics:
+Of course, it comes down to business-needs/requirements, but when looking for "<b>The One</b>", look for contractors that have the following characteristics:
 <ol>
-<li> Is highly collaborative with Project Managers (PMs) and Business Analysts (BAs), and communicates regularly, clearly and openly (Communication is always King for Project Management)</li>
-<li> Explains any issue (complex and simple) in simple, accurate and concise English (This is <b>super</b> important for middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them)</li>
-<li> Stays in their lane (You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money by doing a job they weren't hired for)</li>
-<li> Finishes projects as fast as possible (This is <b>super important</b>, and contrasts the conflict-of-interest we discussed previously)</li>
+<li> Is highly collaborative with Project Managers (PMs) and Business Analysts (BAs), and communicates regularly, clearly and openly (Communication is always King for Project Management).</li>
+<li> Explains any issue (complex and simple) in simple, accurate and concise English. This is <b>super important</b> for conversations with middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them by spewing technical jargon.</li>
+<li> Stays in their lane. You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money by doing a job they weren't hired for.</li>
+<li> Finishes projects as fast as possible (This is <b>super important</b>, and contrasts the conflict-of-interest we discussed previously).</li>
 </ol>
 
 ## The Smart Contractor:
