@@ -62,7 +62,7 @@ As someone that's been a contractor before, and who has worked with some really 
 <br>
 This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by ["Hidden Incompetence"](https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html) by the contracting-company's reputation or the Formal Educations/Degrees they hold.
 <br>
-In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or exaggerated importance of Education/Degrees, etc.).
+In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or overexaggerated importance of Formal Education/Degrees, etc.).
 
 ## Issues that come from outsourcing:
 <ol>

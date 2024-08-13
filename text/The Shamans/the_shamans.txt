@@ -1,1 +1,45 @@
 # The "Shamans"
+In the modern IT realm, there exists complex technologies and frameworks - plus acronyms up-the-wazoo! 
+<br>
+There are different fields and specializations, from web-dev to cyber-security and so on, each with their own technologies, terms, frameworks, rules, etc., and they're all always changing!
+<br>
+So, over time, as IT became commonplace in any business, businessmen acknowledged that there is simply too much for any 1 person to master, too much to remember, too much to deal with, when they already have so much to do, and that things are becoming obsolete at an alarming rate, while new tech takes the stage and turns business on its head.
+<br>
+Because of this everchanging landscape, businesspeople simply shut themselves away from this wondrous-world of tech, and instead, employed Mediums (People that communicate for you [usually with spirits]) to communicate their desires with the "spirits of technology", and turn ambitious ideas into money-making engines.
+<br>
+<i>Who are these mediums?</i> They're the IT staff, of course!
+<br>
+These wonderful magicians are able to turn problems (like "my printer won't work"; "I can't run this app"; "This app isn't working") into solutions with nothing but the <b>POWER OF THEIR MINDS!!!</b>
+<br>
+They also know all the magic keywords - the Spells (Language Syntax) - to turn abstract ideas into reality. They possess the magic to turn a Start-Up's ambitious hopes and dreams into phenomenal wealth.
+<br>
+Because of these romanticizations, it's easy to see why people still think about technology and technologists in this way.
+<br>
+People believe that tech is this profound, deep and magical thing that only a select few understand, or could ever master. They go completely silent when a techie speaks, and they're too afraid to "speak IT" in the techie's presence.
+<br>
+Techies/Technologists (Software devs, engineers, etc.) go even further with the romanticizations - because they feel like <b>actual Wizards</b>, wielding this incomprehensible magic that mere mortals could not begin to grasp.
+<br> 
+Techies who fall into this trap of romanticizing tech - because it makes their lives interesting and makes them feel smarter - end up becoming what I call "Shamans". 
+<br>
+<br>
+<i>Ok, so we've said all of this, and we still haven't explained what a Shaman is?</i>
+<br>
+Well, A "Shaman" is a techie who believes that they're an actual Shaman -> someone who belongs to a <b>VERY SELECT FEW</b> who understand the magical and mystical <b>esoteric</b> arts of Technomancy.
+<br> 
+This <b>CHOSEN ONE</b> believes that ONLY they can understand or wield tech, and therefore (This is very important) <i><b>only they should ever be allowed to</b></i>.
+<br> 
+<br> 
+They are Mediums for you to communicate with technology, but also <b>GateKeepers</b>, that will prevent ANYONE except the other chosen-few to enter into this forbidden "spirit realm", because only they have <i>authority</i> to do so.
+<br>
+Shamans genuinely believe that they are the smartest, brightest minds in any room they enter, and that they don't need to work in teams, or input from anyone (let alone a disgusting non-techie - ewww) because they are the absolute best-of-the-best, the pinnacle of human evolution.
+<br>
+<br>
+This is dangerous for you as an SDM or PM, because they will either do the absolute bare-minimum to help other team members, or they will outright refuse to. This includes helping <i>you</i>.
+<br>
+This is even worse as a PM/SDM, when you've got complex issues to explain to <i>your</i> bosses, but the Shaman refuses to explain the issue to you, or uses verbose jargon to muddle your picture of the problem.
+<br>
+Even worse than that, they could sabotage entire projects and actively "work others out" by creating toxic environments (Grouping up with other Shamans) to remove any other staff they feel threatened by. This acts to the detriment of the business, because you're losing good staff, simply because of a Shaman's ego.
+<br>
+Shamans are incredibly dangerous for ANY team (In any industry) and for any project.
+<br>
+Strike them down when and where they appear.
