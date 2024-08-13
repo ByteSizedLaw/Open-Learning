@@ -13,13 +13,14 @@ These wonderful magicians are able to turn problems (like "my printer won't work
 <br>
 They also know all the magic keywords - the Spells (Language Syntax) - to turn abstract ideas into reality. They possess the magic to turn a Start-Up's ambitious hopes and dreams into phenomenal wealth.
 <br>
+<br>
 Because of these romanticizations, it's easy to see why people still think about technology and technologists in this way.
 <br>
-People believe that tech is this profound, deep and magical thing that only a select few understand, or could ever master. They go completely silent when a techie speaks, and they're too afraid to "speak IT" in the techie's presence.
+People believe that "tech" is this profound, deep and magical thing that only a select-few geniuses understand, or could ever master. They go completely silent when a techie speaks, and they're too afraid to "speak IT" in the techie's presence in fear of looking dumb.
 <br>
 Techies/Technologists (Software devs, engineers, etc.) go even further with the romanticizations - because they feel like <b>actual Wizards</b>, wielding this incomprehensible magic that mere mortals could not begin to grasp.
 <br> 
-Techies who fall into this trap of romanticizing tech - because it makes their lives interesting and makes them feel smarter - end up becoming what I call "Shamans". 
+Techies who fall into this trap of romanticizing tech - because it makes their lives interesting and makes them feel smarter - become what I call "Shamans". 
 <br>
 <br>
 <i>Ok, so we've said all of this, and we still haven't explained what a Shaman is?</i>
@@ -29,17 +30,23 @@ Well, A "Shaman" is a techie who believes that they're an actual Shaman -> someo
 This <b>CHOSEN ONE</b> believes that ONLY they can understand or wield tech, and therefore (This is very important) <i><b>only they should ever be allowed to</b></i>.
 <br> 
 <br> 
-They are Mediums for you to communicate with technology, but also <b>GateKeepers</b>, that will prevent ANYONE except the other chosen-few to enter into this forbidden "spirit realm", because only they have <i>authority</i> to do so.
+They are Mediums for you to communicate with technology, but also <b>GateKeepers</b>, that will prevent ANYONE except their chosen-few to enter into this forbidden "spirit realm", because only they have <i>authority</i> to do so.
 <br>
-Shamans genuinely believe that they are the smartest, brightest minds in any room they enter, and that they don't need to work in teams, or input from anyone (let alone a disgusting non-techie - ewww) because they are the absolute best-of-the-best, the pinnacle of human evolution.
+Shamans genuinely believe that they are the smartest minds in any room they enter, and that they don't need to work in teams, or get input from anyone (let alone a disgusting non-techie -> ewww) because they are the absolute best-of-the-best, the pinnacle of human evolution. 
+<br>
+They usually also refuse to "surrender" a topic they feel expert-at to any peers. Basically, they will outright refuse to believe anyone else has any knowledge or skill in an area they feel expert at, because they dont want anyone else 'stealing their thunder'.
 <br>
 <br>
-This is dangerous for you as an SDM or PM, because they will either do the absolute bare-minimum to help other team members, or they will outright refuse to. This includes helping <i>you</i>.
+This is dangerous for you as an SDM or PM, because they will either do the absolute bare-minimum to help other team members, or they will outright refuse to. This includes helping <i>you</i>!
 <br>
-This is even worse as a PM/SDM, when you've got complex issues to explain to <i>your</i> bosses, but the Shaman refuses to explain the issue to you, or uses verbose jargon to muddle your picture of the problem.
+This is even worse as a PM/SDM, when you've got complex issues to explain to <i>your</i> bosses, but the Shaman refuses to explain the actual issue to you, or uses verbose jargon to muddle your already-muddy picture of the problem.
 <br>
-Even worse than that, they could sabotage entire projects and actively "work others out" by creating toxic environments (Grouping up with other Shamans) to remove any other staff they feel threatened by. This acts to the detriment of the business, because you're losing good staff, simply because of a Shaman's ego.
+Even worse than that, they could sabotage entire projects and actively "work others out" by creating toxic environments (Grouping up with other Shamans and targetting the "outcasts" of wizard society) to remove any other staff they feel threatened by. 
+<br>
+This acts to the detriment of the business, because you're losing good staff, simply because of a Shaman's ego.
+<br>
 <br>
 Shamans are incredibly dangerous for ANY team (In any industry) and for any project.
+<br>
 <br>
 Strike them down when and where they appear.
