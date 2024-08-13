@@ -60,7 +60,7 @@ Strike them down when and where they appear.
         <ul>
             <li>Like a dragon guarding it's gold, they guard the areas they feel expert at.</li>
 	    <li>They outright invalidate others' skills/opinions because they believe that ONLY they are allowed to know something.</li>
-            <li>This could manifest in arguments, behind-the-scenes gossip - where they turn team members against "outcasts", or in blatant refusal to "surrender the area of expertise" or acknowledge that others are right or capable of doing something.</li>
+            <li>This could manifest in arguments, behind-the-scenes gossip - where they turn team members against "outcasts", or in blatant refusal to "surrender the area of expertise", or acknowledge that others are right, or capable of doing something.</li>
             <li>Basically, they'll act as GateKeepers for anything they feel that only they should know.</li>
         </ul>
     </li>
@@ -91,3 +91,13 @@ Strike them down when and where they appear.
         </ul>
     </li>
 </ul>
+
+
+# Are all Shamans bad?
+Yes, even if they're productive by working on their own, it's not good for the team or business to have a Shaman in your midst.
+<br>
+Some managers believe that it's good to have conflict and competitiveness in the team because it keeps everyone on their toes, this is fine - if Shamans aren't involved. Once Shamans get involved, the culture changes completely, and "healthy competition" becomes "do or die", where team members are actively trying to "work each other out". 
+<br>
+This culture doesn't foster growth or learning, it punishes it.
+<br>
+And it's especially bad for the business when people no longer want to work with Shamans, and they leave - because you lose actual experts to keep <i>self-assumed experts<i> and their egos happy.
