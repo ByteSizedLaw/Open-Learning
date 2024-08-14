@@ -198,3 +198,45 @@ Once Shamans are involved, the culture changes completely, and "healthy competit
 This Shaman/Hero-Dev Culture doesn't foster growth or learning, it punishes it.
 <br>
 And it's <i>especially</i> bad for the business when people no longer want to work with Shamans, and they leave - because you lose actual experts to keep <i>self-assumed experts</i> and their egos happy.
+
+
+## How non-technical people perpetuate the Shaman culture:
+As discussed in our "intro to Shamans", Shamans are born from over-romanticization. 
+<br>
+They're <i>usually</i> born from a techie's fantasy of being a Wizard that turns into pure delusion.
+<br>
+But Shamans can also be born from constant praise and brown-nosing by non-techies.
+<br>
+In other words, by sucking up to Techies and over-praising them, you may boost their egos too much and turn them into a Shaman (over time).
+<br>
+Non-technical people also perpetuate the Shaman culture in another way by <i>allowing</i> Shamans to gatekeep tech and knowledge, out of fear of being seen as stupid by techies when they ask questions or try to learn something new.
+<br>
+<br>
+For non-techies that are overwhelmed by the sheer complexity of technology,
+<br>
+Remember that tech, like any other field of study, was created by humans, for humans. By default, you are 100% capable of learning it, it just takes time; lots of time - and lots of effort.
+<br>
+<br>
+Most importantly, remember that Technology isn't a magical and mystical art that only a select few can master, and it's not something that only a certain group should know. It's a tool created by humans, for humans.
+<br>
+Any techie that tries to pretend otherwise, is totally full of BS, and you should not entertain their antics - especially as a PM/SDM. Don't be afraid to ask questions or learn. Learning should not be taboo in your team.
+
+
+## Your responsibility as Project Manager (PM) or Software Dev Manager (SDM):
+As someone that interfaces between the technical-experts <i>(The development or project team)</i> and the business-experts <i>(The product owner, project sponsor, C-level Executives, customers)</i>, 
+<br>
+It's your duty to ensure seamless-collaboration between these groups of Professionals. This includes reporting back to Business whenever there's a major issue, or realigning Dev when there's a change of Business plans.
+<br>
+The only way to do this job, is through translating complicated technical-jargon (from the Dev team) into simple English (for the Business team), and vice versa. 
+<br>
+<br>
+Your responsibility is therefore, to identify and "kill" shamans wherever they emerge, by forcing them to share their profound esoteric knowledge, and explain complex issues in simple AND accurate terms.
+<br>
+Naturally, Shamans will fight against knowledge-sharing of any kind, because it de-romanticizes and demystifies the illusion that they are Wizards.
+<br>
+But you need to force them to communicate and share their knowledge, to help other staff grow, and to remove "Key-Person Dependencies", 
+<br>
+Because your responsibility as SDM/PM is ultimately to put the Business and Project first, before Shaman egos.
+
+## "But some things are WAAAAY too complicated to break down or simplify!"
+<i>"If you can’t explain it to a six-year-old, you don’t understand it yourself." - Albert Einstein.</i>
