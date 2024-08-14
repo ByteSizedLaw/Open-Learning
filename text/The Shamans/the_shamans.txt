@@ -132,6 +132,7 @@ Strike them down when and where they appear.
                    <li>You had better be 100% perfect and right if you're going to be part of <i>their team</i>.</li>
                 </ul>
            </li>
+           <li>
 		"The Expert":
 		<ul>
                    <li>Shamans place themselves on a Golden Pedestal, and always have an expert opinion to share, no matter the topic.</li>
