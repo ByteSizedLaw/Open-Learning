@@ -95,9 +95,10 @@ Of course, it comes down to business-needs/requirements, but when looking for "<
 </ol>
 
 ## The Smart Contractor:
-To explain fully, I'll revise the Conflict of Interest that contractors have:
+To explain fully, I'll revise the <i>Conflict of Interest</i> that contractors have with the "Greedy Contractor" example.
 <br>
-<i>The greedy contractor</i>:
+<br>
+<i>The Greedy Contractor</i>:
 <ul>
    <li>
 	A contractor stretches their work out over a longer period of time to get paid more. 
@@ -108,8 +109,7 @@ To explain fully, I'll revise the Conflict of Interest that contractors have:
 	</ul>
    </li>
 </ul>
-<br>
-<i>The smart contractor</i>:
+<i>The Smart Contractor</i>:
 <ul>
    <li>
 	Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. 
