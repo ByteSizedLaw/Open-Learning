@@ -12,7 +12,7 @@ Thinking about it differently, if you had to ask Elon Musk what time backups {fo
 <br>
 Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. They are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire careers, because they are "specialists".
 <br>
-Managers are "generalists", because they aren't experts and dont have the best technical skills/knowledge, but they have a general understanding of what happens. They usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field or industry (unlike technologists/devs/engineers). 
+Managers are "generalists", because they aren't experts and don't have the best technical skills/knowledge, but they have a general understanding of what happens. They usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field or industry (unlike "Web devs" or "Mobile App Devs", who specialize in a single position).
 <br>
 <br>
 As you go up the organizational hierarchy, the more "generalist" people become -> basically, the less they know about "how exactly" the company works or produces value.
@@ -47,6 +47,28 @@ Where the PM focuses specifically on the project and what work needs to be done,
 <li> <b>"SDMs Are Always Serious"</b>: Effective SDMs balance seriousness with approachability. They build rapport with their team, listen actively, and create a positive work environment. Humor and empathy are essential.</li>
 </ol>
 Note that the first point covers technical skill. Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. Generally, those studying in the fields of HR or an MBA will become PMs or SDMs over time.
+
+## SDMs aren't Tech-Leads:
+Yes, the final-decision is always up to them because they're ultimately the-most-responsible for the team and project, 
+<br>
+But SDMs are also the <b>least technically-skilled people on the team</b> so there are usually experts that make all the Tech/Language recommendations for them.
+<br>
+These experts are the Senior Engineer (SE), AKA Tech-Lead or Team-Lead.
+<br>
+<br>
+Every project consists of 3 key-people, these are:
+<ol>
+<li><b>PM</b>: Responsible for the project's success. They manage <i>what</i> work is done, and <i>when</i> it's done by.</li>
+<li><b>SDM</b>: Responsible for the project's success. They manage <i>who</i> does the work, and <i>how</i> they work with others to get the Project done. Basically, they manage the People, Relationships and Culture</li>
+<li><b>Tech-Lead</b>: Responsible for the project's success. They make all the recommendations of what Tech or Languages are used and often work on the Development itself as well. They manage the Tech selection, and resolve any issues other staff may have, while also working on the project itself. They act as a sounding-board to managers and workers</li>
+</ol>
+This sounds like "maybe an SDM could be a Tech-Lead though", but they are completely different roles, with different areas of focus and importance.
+<br>
+It's also important to note that all 3 are "Responsible for the project's success", this means that all 3 could be fired simultaneously if an important project is botched.
+<br>
+Usually, because of this threat, SDMs will "stay in their own lane" and allow Tech-Leads and PMs to excel in theirs, to ensure that projects are successful.
+<br>
+In the scope of larger and more important projects, it's difficult and dangerous for SDMs to wear-too-many-hats, so they employ the help of a trusted Tech-Lead to run with all the tech-based decisions for them.
 
 ## Traits of a good SDM:
 Every person is different - and there's no way of knowing how someone will act in a specific scenario until you see them in that scenario, but "<b>the good SDM</b>" usually has the following characteristics:
