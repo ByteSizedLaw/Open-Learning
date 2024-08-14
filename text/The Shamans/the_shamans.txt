@@ -7,41 +7,46 @@ So, over time, as IT became commonplace in any business, businessmen acknowledge
 <br>
 Because of this everchanging landscape, businesspeople simply shut themselves away from this wondrous-world of tech, and instead, employed Mediums (People that communicate for you [usually with spirits]) to communicate their desires with the "spirits of technology", and turn ambitious ideas into money-making engines.
 <br>
+<br>
 <i>Who are these mediums?</i> They're the IT staff, of course!
 <br>
-These wonderful magicians are able to turn problems (like "my printer won't work"; "I can't run this app"; "This app isn't working") into solutions with nothing but the <b>POWER OF THEIR MINDS!!!</b>
+These wonderful magicians are able to turn problems (like "my printer won't work") into solutions with nothing but the <b>POWER OF THEIR MINDS!!!</b>
 <br>
-They also know all the magic keywords - the Spells (Language Syntax) - to turn abstract ideas into reality. They possess the magic to turn a Start-Up's ambitious hopes and dreams into phenomenal wealth.
+They also know all the Magic keywords - the Spells (Language Syntax) - to turn abstract ideas into reality. 
+<br>
+They possess the magic to turn a Start-Up's ambitious hopes and dreams into an engine that produces phenomenal wealth, and runs off nothing but electricity.
 <br>
 <br>
 Because of these romanticizations, it's easy to see why people still think about technology and technologists in this way.
 <br>
-People believe that "tech" is this profound, deep and magical thing that only a select-few geniuses understand, or could ever master. They go completely silent when a techie speaks, and they're too afraid to "speak IT" in the techie's presence in fear of looking dumb.
+People believe that "tech" is this profound, deep and magical thing that only a select-few geniuses understand, or could ever master. 
+<br>
+They go completely silent when a techie speaks, and they're too afraid to "speak anything IT" in the techie's presence in fear of looking stupid.
 <br>
 Techies/Technologists (Software devs, engineers, etc.) go even further with the romanticizations - because they feel like <b>actual Wizards</b>, wielding this incomprehensible magic that mere mortals could not begin to grasp.
 <br> 
 Techies who fall into this trap of romanticizing tech - because it makes their lives interesting and makes them feel smarter - become what I call "Shamans". 
 <br>
 <br>
-<i>Ok, so we've said all of this, and we still haven't explained what a Shaman is?</i>
+<i>Ok, so we've said all of this, but we still haven't explained what a Shaman is?</i>
 <br>
-Well, A "Shaman" is a techie who believes that they're an actual Shaman -> someone who belongs to a <b>VERY SELECT FEW</b> who understand the magical and mystical <b>esoteric</b> arts of Technomancy.
+Well, a "Shaman" is a techie who believes that they're an actual Shaman -> someone who belongs to a <b>VERY SELECT FEW</b> who understand the magical and mystical <b>esoteric</b> arts of Technomancy.
 <br> 
-This <b>CHOSEN ONE</b> believes that ONLY they can understand or wield tech, and therefore (This is very important) <i><b>only they should ever be allowed to</b></i>.
+This <b>CHOSEN ONE</b> believes that ONLY they can understand or wield tech, and therefore (This is very important) <i><b>only they should ever be allowed to</b></i>!
 <br> 
 <br> 
 They are Mediums for you to communicate with technology, but also <b>GateKeepers</b>, that will prevent ANYONE except their chosen-few to enter into this forbidden "spirit realm", because only they have <i>authority</i> to do so.
 <br>
-Shamans genuinely believe that they are the smartest minds in any room they enter, and that they don't need to work in teams, or get input from anyone (let alone a disgusting non-techie -> ewww) because they are the absolute best-of-the-best, the pinnacle of human evolution. 
+Because of ego and arrogance (Often also incompetence), Shamans genuinely believe that they're the smartest people in any room they enter, and that they don't need to work in teams, or get input from anyone (let alone a disgusting non-techie -> ewww) because they are the absolute best-of-the-best, the pinnacle of human evolution (Ego at play here). 
 <br>
-They usually also refuse to "surrender" a topic they feel expert-at to any peers. Basically, they will outright refuse to believe anyone else has any knowledge or skill in an area they feel expert at, because they dont want anyone else 'stealing their thunder'.
+Also because of their egos, they usually refuse to <i>"surrender"</i> a topic they feel expert at to any peers. They will outright refuse to believe anyone else has any knowledge or skill in an area they feel expert at, because they don't want anyone else 'stealing their thunder'.
 <br>
 <br>
 This is dangerous for you as an SDM or PM, because they will either do the absolute bare-minimum to help other team members, or they will outright refuse to. This includes helping <i>you</i>!
 <br>
-This is even worse as a PM/SDM, when you've got complex issues to explain to <i>your</i> bosses, but the Shaman refuses to explain the actual issue to you, or uses verbose jargon to muddle your already-muddy picture of the problem.
+This is even worse as a PM/SDM, when you've got complex issues to explain to <i>your</i> bosses, but the Shaman refuses to explain the actual issue to you, or uses verbose jargon to muddy your already-muddy picture of the problem.
 <br>
-Even worse than that, they could sabotage entire projects and actively "work others out" by creating toxic environments (Grouping up with other Shamans and targetting the "outcasts" of wizard society) to remove any other staff they feel threatened by. 
+Even worse than that, they could sabotage entire projects and actively "work others out" by creating toxic environments (Grouping up with other Shamans and targeting the "outcasts" of wizard society) to remove any other staff they feel threatened by. 
 <br>
 This acts to the detriment of the business, because you're losing good staff, simply because of a Shaman's ego.
 <br>
@@ -50,6 +55,9 @@ Shamans are incredibly dangerous for ANY team (In any industry) and for any proj
 <br>
 <br>
 Strike them down when and where they appear.
+<br>
+<br>
+(Note for SDMs: You'll also find that <i>you</i> may become their target at some point, when their delusion reaches higher levels of "I'm the best, I should be in charge".)
 
 
 # Traits that Shamans have:
@@ -67,26 +75,32 @@ Strike them down when and where they appear.
     <li>
         Selfishness:
         <ul>
-            <li>They usually won't help with something unless it benefits them in some way, like by making them look smart or charming to the larger group</li>
-	    <li>They usually won't share knowledge with other team members, and will always say the bare-minimum when handing-over work to someone else, forcing others to figure it out on their own</li>
+            <li>They won't help with something unless it benefits them in some way, like by making them look smart or charming to the larger group</li>
+	    <li>They won't share knowledge with other team members, and will always say the bare-minimum when handing-over work to others, forcing others to figure it out on their own</li>
             <li>They usually fill Knowledge-sharing sessions with reasons for why they're experts, or why you should trust them on a certain topic, rather than actual information that will teach anyone anything -> this is usually to stall until the session ends and they can go back to being cool and mysterious.</li>
             <li>You may also find that Shamans are Jacks-of-all-Trades and Masters-of-All, who have years of experience with {this} and they've expertly done {that} a million times -> until there's a major code-red issue, then they're nowhere to be seen.</li>
         </ul>
     </li>
     <li>
-        Isolated/Reclusive:
+        They <i>are</i> the team:
         <ul>
-            <li>They don't want to be PART of the team, they want to BE the team</li>
-	    <li>Basically, they will prefer to do work on their own, without interacting with others - partially because they don't want others to "steal their thunder" or to learn their secret, ancient techniques, but also, because they truly believe that they're the only ones capable of doing the work.</li>
-            <li>This is terrible for PMs/SDMs, especially in the more modern Agile methodologies of Software Dev, because you cant have a Shaman show up, grab a piece of work and disappear into the mountains for a few weeks, then re-emerge once they've hit some kind of issue, or they've written bad code that's too late into the project to change or fix.</li>
+            <li>They don't want to be PART of the team, they want to BE the team.</li>
+	    <li>Basically, they will always opt to work on their own - because they don't want others to learn their secret, ancient techniques, but also, because they truly believe that they don't need input from anyone else (Not even the SDM/PM).</li>
+            <li>This is bad for PMs/SDMs, especially in modern Agile methodologies of Software Dev, because you can't have a Shaman grab a piece of work and disappear into the mountains for weeks, only to emerge once there's an irresolvable issue, or they've written bad code that's too late into the project to redo.</li>
+	    <li>They will also try to get rid of anyone they feel threatened by, because they don't like authority (unless <i>they</i> have it). Leading to them LITERALLY being the team (as the only member)</li>
+  	    <li>Basically, they don't want peers who are their equals or betters. They want people that either know less than them and therefore suck-up to them, or that "work for them" like puppets or robots</li>
+            <li>This is bad for PMs/SDMs and the business, because you've got someone who's playing "office politics" to gain <i>your</i> control and authority over <i>your</i> team, and remove people <i>they</i> don't like (including you) - as if they own the company. They are acting in their own selfish best-interest to suit their ego and destroy your team from the inside out.</li>
         </ul>
     </li>
     <li>
         Superiority:
         <ul>
-            <li>Only they are allowed to know things, so they will outright attack others that enter their domain of expertise.</li>
-	    <li>This may manifest in their refusal to let someone else perform a task (like uploading code to GitHub, for example), because they truly believe that only they should be allowed to, because they are "the only one who knows what they're doing".</li>
-            <li>Shamans place themselves on a golden pedestal, and always have some expert opinion to share. You'll usually find that - especially in conversations of tech or languages - they've basically built everything under the sun, by themselves. There's always some other company they've used {this} at, and they've worked with {that} before. They will outright refuse to admit that they don't know something, and if they're ever outed, they will persist that they are experts (This is usually where the conflict with other staff comes in, and Shamans start to divide the team).</li>
+            <li>Only they are allowed to know things, so they will outright attack others that enter their "domain of expertise".</li>
+	    <li>This may manifest in their refusal to let someone else perform even simple tasks (like uploading code to GitHub, for example), because they truly believe that only they should be allowed to, because they are "the only one who knows what they're doing".</li>
+            <li>Because of their superiority, everyone around them has to permanently walk on eggshells, and they're not allowed to make any mistakes (Which are part of growth and learning).</li>
+            <li>Shamans place themselves on a golden pedestal, and always have some expert opinion to share. You'll usually find that - especially in conversations of Tech or Languages - they've basically built everything under the sun, by themselves. </li> 
+            <li>There's always {some other company} they've used {this} at, and they've worked with {that} for years before.</li>
+	    <li>They will outright refuse to admit that they don't know something, and, if they're ever outed/bested by an actual expert, they will ignorantly persist that they are the experts (This is usually where the conflict with other staff comes in, and Shamans start to divide the team with "office politics").</li>
         </ul>
     </li>
 
@@ -94,26 +108,32 @@ Strike them down when and where they appear.
         Rules apply to EVERYONE! (except them):
         <ul>
             <li>They will try to enforce Coding Standards and Ways of Working (WoW) that <i>they've</i> defined -> because it's what <i>they're</i> comfortable with and it makes <i>them</i> feel like the Team-Lead, Tech-Lead or SDM</li>
-            <li>They will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, and may even succeed in establishing them as Standards, by "re-architecting the old useless processes" to impress management (Note for SDMs: Believe me, they dont make a single move without <i>your</i> managers hearing about it, because their whole modus-operandi is <i>"office politics"</i>)</li>
+            <li>They will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, and may even succeed in establishing them as Standards, by "re-architecting the old useless processes" to impress management (Note for SDMs: Believe me, they don't make a single move without <i>your</i> managers hearing about it, because their whole modus-operandi is <i>"office politics"</i>)</li>
             <li>This is all fine and well, until it comes to the part where they also have to follow these rules. </li>
             <li>They will outright circumvent or bypass these rules at any given chance, because they're <i>superior - Gods among mortals</i>, so why should the rules (that they created) apply to them?</li>
 	    <li>Hilariously, if ANYONE else does the same, they will attack these staff in front of the larger group, for not following the principles <i>they</i> defined.
-            <li>It's basically just a massive Ego-Trip because everyone else needs to follow <b>their</b> rules, or they get <i>put in their place</i></li>
-            <li>For example: Shamans may believe that EVERYONE should "participate" in Code-Review meetings, where they can rip someone apart in front of the larger group to prove how smart they are and how inadequate others are (Note how they've corrupted the entire purpose of Code-Reviews), but will completely refuse to have Code Reviews for their own code, by either hiding that they need a review entirely, or by quickly speeding through the code. There's also the case where they will use their own code review to attack others (For example, "Look how great I did this, I'm so smart, {personX} that originally wrote this did it badly because they don't know what they're doing").
+            <li>It's basically just a massive Ego-Trip because everyone else needs to follow <b>their</b> rules, or they get "<i>put in their place</i>".</li>
+            <li>For example: Shamans may believe that EVERYONE should "participate" in Code-Review meetings, where they can rip someone apart in front of the larger group to prove how smart they are and how inadequate others are (Note how they've corrupted the entire purpose of Code-Reviews), but will completely refuse to have Code Reviews for their own code, by either hiding that they need a review entirely, or by quickly speeding through the code. There's also the case where they will use their own code review to attack others (For example, "Look how great I did this, I'm so smart, {personX} that originally wrote this did it badly because they don't know what they're doing").</li>
+	    <li>Basically, rules apply to everyone, except them, because they're flawless in everything they do - and when they're forced to follow rules, their nasty-side becomes abundantly clear.</li>
         </ul>
     </li>
 
 </ul>
+Bascially, after reading this, you'll think of Shamans as "toxic". Well, they are!
+<br>
+They're toxic employees/"professionals" that allow their egos to go unchecked, leading them to act in malicious, narcissistic and spiteful ways.
 
 # Are all Shamans bad?
 Yes, 100%. Always!
 <br>
-Even if Shamans are productive by working on their own, or by grouping with other Shamans to form a <i>Wizard Society</i>, it's not good for the team or business to have a Shaman in your midst.
+Even if Shamans are productive by working on their own, or by grouping with other Shamans to form a <i>Wizard Society</i> that work under the <i>self-appointed Shaman King</i>, it's not good for the team or business to have a Shaman in your midst.
 <br>
-Some (I'd say "very bad") managers believe that it's good to have some conflict and competition in the team because "it keeps everyone on their toes", this is fine - if Shamans aren't involved and everyone's friends. 
 <br>
-Once Shamans get involved though, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team</i> members are actively trying to "work each other out".
+Some (I'd say "very bad") managers believe that it's good to have some conflict and competition in the team because "it keeps everyone on their toes", this is fine - if staff are all friends, and Shamans aren't involved. 
+<br>
+Once Shamans get involved, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team members</i> are now actively trying to get rid of each other.
+<br>
 <br>
 This Shaman/Hero-Dev Culture doesn't foster growth or learning, it punishes it.
 <br>
-And it's especially bad for the business when people no longer want to work with Shamans, and they leave - because you lose actual experts to keep <i>self-assumed experts</i> and their egos happy.
+And it's <i>especially</i> bad for the business when people no longer want to work with Shamans, and they leave - because you lose actual experts to keep <i>self-assumed experts</i> and their egos happy.
