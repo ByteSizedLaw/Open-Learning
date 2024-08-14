@@ -61,7 +61,7 @@ Strike them down when and where they appear.
 
 
 ## Traits that Shamans have:
-<i>Note: You'll find that Shamans are very close to my definition of "Hero-Devs" (That page is still under construction), because they essentially are, and share lots of the same traits. It's possibly to be both a Shaman and a Hero-Dev, or to be either-or.</i>
+<i>Note: You'll find that Shamans are incredibly close to my definition of "Hero-Devs" (That page is still under construction), because they essentially are hero-devs, and share lots of the same traits. It's possible to be both a Shaman and a Hero-Dev because there's just so much overlap. The key difference is really that the Shaman hides or "gatekeeps" knowledge</i>
 <ul>
     <li>
         <b>Guard esoteric knowledge</b>:
@@ -102,7 +102,7 @@ Strike them down when and where they appear.
         </ul>
     </li>
     <li>
-        Superiority:
+        <b>Superiority</b>:
         <ul>
 	   <li>
 		"Everyone around me is useless":
@@ -147,47 +147,47 @@ Strike them down when and where they appear.
         </ul>
     </li>
     <li>
-        Rules apply to EVERYONE! (except them):
+        <b>Rules apply to EVERYONE!</b> (except them):
         <ul>
 	   <li>
                  Admin hell:
 	      <ul>
 		<li>They will try to enforce Coding Standards and Ways of Working (WoW) that <i>they've</i> defined -> because it's what <i>they're</i> comfortable with and it makes <i>them</i> feel like the Tech-Lead or SDM</li>
-		<li>On their own, these Standards and WoW aren't bad, and may even be helpful, but - as with most things - the Shaman turns it toxic and weaponizes it.</li>
-		<li>The Shaman uses these Standards and WoW as methods to attack other staff, and will try to bury others under the admin - especially if it's different to what they're used to.</li>
+		<li>On their own, these Standards and WoW aren't bad, and may even be helpful, but the Shaman corrupts it and weaponizes it.</li>
+		<li>They use these Standards and WoW as methods to attack other staff, and will also try to bury others under the admin - especially if it's different to what they're used to.</li>
+		<li>An example of them weaponizing Admin: Shamans may believe that EVERYONE should "participate" (keyword here) in Code-Review meetings, where they can rip someone apart in front of the larger crowd to prove how smart they are and how inadequate others are. They may also use their own code review to attack others (For example, "Look how great I did this, {personX} that originally wrote this did it badly because they don't know what they're doing").</li>
 	      </ul>
 	   </li>
 	   <li>
                  "Too cool for rulez!":
 	      <ul>
-		<li>Shamans will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, by "re-architecting the old <i>useless</i> processes" to impress management</li>
+		<li>Shamans will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, by "re-architecting the old <i>useless</i> processes" to impress upper management</li>
 		<li>This is all fine, until they also have to follow these rules.</li>
-		<li>They will outright circumvent or bypass rules, because they're <i>superior - Gods among mortals</i>, so why should the rules (that they created) apply to them?</li>
-	    	<li>Hilariously, if ANYONE ELSE does the same, they will attack these staff in front of the larger crowd, for not following the principles <i>they</i> defined.
+		<li>At which point, they will outright refuse to, because they're <i>superior - Gods among mortals</i>, so why should the rules (that they created) apply to them?</li>
+	    	<li>Hilariously, if ANYONE ELSE does the same, they will attack these staff in front of the larger crowd, for not following the Divine Laws <i>they</i> defined.
             	<li>It's just a massive narcissistic Ego-Trip because everyone else needs to follow <b>their</b> rules, or they get "<i>put in their place</i>" by the Shaman.</li>
 	      </ul>
 	   </li>
-	    <li>Basically, rules apply to everyone but them, because they're flawless in everything they do - and when they're forced to follow rules, they lash out at staff and management alike.</li>
         </ul>
     </li>
 </ul>
 After reading this, you'll likely think of Shamans as "toxic". Well, they are!
 <br>
-They're toxic employees/"professionals" that allow their egos to go unchecked, leading them to act in malicious, narcissistic and spiteful ways.
+Very similar to Hero-Devs, they're toxic employees/"professionals" that allow their egos to go unchecked, leading them to act in malicious, narcissistic and spiteful ways.
 <br>
-Their behaviour should not be allowed in the workplace.
+Their behaviour should not be allowed in the Professional workplace,
 <br>
 And nobody should be allowed to gatekeep technology, learning or growth!
 
 ## Are all Shamans bad?
 Yes, 100%. Always!
 <br>
-Even if Shamans are productive by working on their own, or by grouping with other Shamans to form a <i>Wizard Society</i> that work under the <i>self-appointed Shaman King</i>, it's not good for the team or business to have a Shaman in your midst.
+Even if Shamans are productive by working on their own, or by grouping with other Shamans to form a <i>Wizard Society</i> that work under the <i>Shaman King</i>, it's not good for the team or business to have a Shaman in your midst.
 <br>
 <br>
 Some (I'd say "very bad") managers believe that it's good to have some conflict and competition in the team because "it keeps everyone on their toes", this is fine - if staff are all friends, and Shamans aren't involved. 
 <br>
-Once Shamans get involved, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team members</i> are now actively trying to get rid of each other.
+Once Shamans are involved, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team members</i> are now actively trying to get rid of each other.
 <br>
 <br>
 This Shaman/Hero-Dev Culture doesn't foster growth or learning, it punishes it.
