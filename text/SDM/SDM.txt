@@ -60,13 +60,13 @@ Every project consists of 3 key-people, these are:
 <ol>
 <li><b>PM</b>: Responsible for the project's success. They manage <i>what</i> work is done, and <i>when</i> it's done by.</li>
 <li><b>SDM</b>: Responsible for the project's success. They manage <i>who</i> does the work, and <i>how</i> they work with others to get the Project done. Basically, they manage the People, Relationships and Culture</li>
-<li><b>Tech-Lead</b>: Responsible for the project's success. They make all the recommendations of what Tech or Languages are used and often work on the Development itself as well. They manage the Tech selection, and resolve any issues other staff may have, while also working on the project itself. They act as a sounding-board to managers and workers</li>
+<li><b>Tech-Lead</b>: Responsible for the project's success. They make all the <i>recommendations</i> of what Tech or Languages are used and often <i>work</i> as a sounding-board to managers and workers alike.</li>
 </ol>
-This sounds like "maybe an SDM could be a Tech-Lead though", but they are completely different roles, with different areas of focus and importance.
+This sounds like <i>"An SDM could be a Tech-Lead though"</I>, but they are completely different roles, with different areas of focus and importance.
 <br>
-It's also important to note that all 3 are "Responsible for the project's success", this means that all 3 could be fired simultaneously if an important project is botched.
+It's also important to note that all 3 are <i>"Responsible for the project's success"</i>, this means that all 3 could be fired simultaneously if an important project is botched.
 <br>
-Usually, because of this threat, SDMs will "stay in their own lane" and allow Tech-Leads and PMs to excel in theirs, to ensure that projects are successful.
+Usually, because of this threat, SDMs will <i>"stay in their lane"</i> and allow Tech-Leads and PMs to excel in theirs, to ensure that projects are successful.
 <br>
 In the scope of larger and more important projects, it's difficult and dangerous for SDMs to wear-too-many-hats, so they employ the help of a trusted Tech-Lead to run with all the tech-based decisions for them.
 
