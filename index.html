@@ -3,16 +3,39 @@
     <head>
         <title>CyberFinn Blog</title>
         <link rel="stylesheet" href="css/styles.css">
-        <script type="text/javascript" src="js/html_template_reader.js"></script>
         <script type="text/javascript" src="js/home.js"></script>
     </head>
     <body>
         <!-- Side navigation -->
         <div class="sidenav" id="sidenav"> <!-- Sidebar is basically just a list of links that redirect to other pages-->
+            <!-- Side navigation template -->
+            <!-- Specify that this element is a dropdown list -->
+            <div class="dropdown">
+                <!-- name and type of the dropdown -->
+                <!-- decided to use an onclick here, rather than a link to our page, for a truly responsive and dynamic page. We dont want to reload the entire page, only a part of it! -->
+                <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/SDM/SDM.txt');">Software Dev Management</a>
+                <div class="dropdown-content">
+                    <!-- elements the dropdown contains -->
+                    <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/SDM/SDM.txt');">About SDM</a>
+                    <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Contractors/Contractors.txt');">Contractors</a>
+                    <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Hidden%20Incompetence/hidden_incompetence.txt');">Hidden Incompetence</a>
+                    <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/The%20Shamans/the_shamans.txt');">The "Shamans"</a>
+                </div>
+            </div>
+                <a href="#" >Project Management</a>
+                <a href="#" >Business Process Engineering</a>
+                <a href="#" >Business Analysis</a>
+                <a href="#" >Computer Science</a>
+                <a href="#" >Cyber Security</a>
+                <a href="#" >Database Engineering</a>
+                <a href="#" >Enterprise Systems Engineering</a>
+                <a href="#" >Technical Systems and Support</a>
+                <a href="#" >About CyberFinn</a>
         </div>
-        <!-- Page content -->
+
+        <!-- Actual contents start here -->
         <div class="main">
-            This site is still under construction. Please check the sidebar for other pages. I am frequently adding and updating content.
+            <p id="pageText">This site is still under construction. Please check the sidebar for other pages. I am frequently adding and updating content</p>
         </div>
     </body>
 </html>
