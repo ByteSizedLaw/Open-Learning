@@ -12,6 +12,7 @@
 
             // Append the container to the body (or any other parent element)
             document.body.appendChild(imageSection);
+			console.log("Image loaded");
         }
 
         // Call the function to display the image
