@@ -1,0 +1,48 @@
+    <script>
+        function addImage() {
+            const img = new Image();
+            img.src = 'https://avatars.githubusercontent.com/u/146375585';
+	        document.createElement('imageSection');
+            document.getElementById('imageSection').appendChild(img);
+        }
+    </script>
+
+# About Me
+I am Internationally Qualified through the United States of America's Accreditation Council for Business Schools and Programs and the British Accreditation Council, I also hold certification from Harvard University's John A. Paulson School of Engineering and Applied Sciences in the field of Computer Science (CompSci).
+
+## My qualifications and fields of study:
+<ol>
+	<li>Project Manager (PM)</li>
+	<li>Software Dev Manager (SDM)</li>
+	<li>Business Manager</li>
+	<li>Business Analyst (BA)</li>
+	<li>Business Ethicist</li>
+	<li>Researcher</li>
+	<li>Enterprise Account Manager</li>
+	<li>Enterprise Architect</li>
+	<li>Systems Architect</li>
+	<li>Business Process Engineer</li>
+	<li>Business Process Analyst</li>
+	<li>Business Process Manager</li>
+	<li>Computer Scientist</li>
+	<li>Software Engineer</li>
+	<li>Systems Engineer</li>
+	<li>Cyber Security Engineer</li>
+	<li>Automation Engineer</li>
+	<li>QA Engineer</li>
+	<li>Test Engineer</li>
+	<li>DevOps Engineer</li>
+	<li>DevSecOps Engineer</li>
+	<li>Systems Analyst</li>
+	<li>Data Analyst</li>
+	<li>Test Analyst</li>
+	<li>Usability Analyst</li>
+	<li>Android App Developer</li>
+	<li>Database Engineer (DBE) - Oracle DB, Firebird, MySQL</li>
+	<li>Database Administrator (DBA) - Oracle DB, Firebird, MySQL</li>
+	<li>Business Advisor/Consultant</li>
+	<li>Penetration Tester (Ethical Hacker)</li>
+	<li>Web Developer</li>
+	<li>AWS Developer</li>
+	<li>Integration Specialist</li>
+</ol>
