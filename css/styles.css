@@ -60,3 +60,14 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+/* Center the "about" image */
+img.aboutImage {
+  /* position: absolute;
+  top: 1%;
+  left: 25%;
+  transform: translate(-1%, -25%);*/
+  max-width: 80%; /* Adjust as needed */
+  border-radius: 3px; /* Optional styling */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); /* Optional styling */
+}
