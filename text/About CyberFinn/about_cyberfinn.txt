@@ -2,9 +2,20 @@
         function addImage() {
             const img = new Image();
             img.src = 'https://avatars.githubusercontent.com/u/146375585';
-	        document.createElement('imageSection');
-            document.getElementById('imageSection').appendChild(img);
+
+            // Create the container div for the image
+            const imageSection = document.createElement('div');
+            imageSection.id = 'imageSection'; // Set the ID for styling or other purposes
+
+            // Append the image to the container
+            imageSection.appendChild(img);
+
+            // Append the container to the body (or any other parent element)
+            document.body.appendChild(imageSection);
         }
+
+        // Call the function to display the image
+        addImage();
     </script>
 
 # About Me
