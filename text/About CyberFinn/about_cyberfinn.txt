@@ -1,23 +1,5 @@
-    <script>
-        function addImage() {
-            const img = new Image();
-            img.src = 'https://avatars.githubusercontent.com/u/146375585';
+<img src="https://avatars.githubusercontent.com/u/146375585" class="aboutImage" style="width:266px;height:266px;">
 
-            // Create the container div for the image
-            const imageSection = document.createElement('div');
-            imageSection.id = 'imageSection'; // Set the ID for styling or other purposes
-
-            // Append the image to the container
-            imageSection.appendChild(img);
-
-            // Append the container to the body (or any other parent element)
-            document.body.appendChild(imageSection);
-			console.log("Image loaded");
-        }
-
-        // Call the function to display the image
-        addImage();
-    </script>
 
 # About Me
 I am Internationally Qualified through the United States of America's Accreditation Council for Business Schools and Programs and the British Accreditation Council, I also hold certification from Harvard University's John A. Paulson School of Engineering and Applied Sciences in the field of Computer Science (CompSci).
