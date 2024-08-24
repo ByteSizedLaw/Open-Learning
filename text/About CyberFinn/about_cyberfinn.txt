@@ -27,6 +27,8 @@ I am Internationally Qualified through the United States of America's Accreditat
 	<li>Test Engineer</li>
 	<li>DevOps Engineer</li>
 	<li>DevSecOps Engineer</li>
+	<li>Network Engineer</li>
+	<li>Technical Support Engineer</li>
 	<li>Systems Analyst</li>
 	<li>Data Analyst</li>
 	<li>Test Analyst</li>
@@ -35,6 +37,7 @@ I am Internationally Qualified through the United States of America's Accreditat
 	<li>Database Engineer (DBE) - Oracle DB, Firebird, MySQL</li>
 	<li>Database Administrator (DBA) - Oracle DB, Firebird, MySQL</li>
 	<li>Business Advisor/Consultant</li>
+	<li>Cyber Legal Advisor/Consultant</li>
 	<li>Penetration Tester (Ethical Hacker)</li>
 	<li>Web Developer</li>
 	<li>AWS Developer</li>
