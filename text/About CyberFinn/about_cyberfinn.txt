@@ -33,7 +33,7 @@ I am Internationally Qualified through the United States of America's Accreditat
 	<li>Data Analyst</li>
 	<li>Test Analyst</li>
 	<li>Usability Analyst</li>
-	<li>Android App Developer</li>
+	<li>Mobile Application Developer</li>
 	<li>Database Engineer (DBE) - Oracle DB, Firebird, MySQL</li>
 	<li>Database Administrator (DBA) - Oracle DB, Firebird, MySQL</li>
 	<li>Business Advisor/Consultant</li>
@@ -43,3 +43,10 @@ I am Internationally Qualified through the United States of America's Accreditat
 	<li>AWS Developer</li>
 	<li>Integration Specialist</li>
 </ol>
+
+## Notes
+Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of the projects I've created and showcase to help others. 
+<br> 
+This is not a comprehensive list of all the projects I've ever worked on. 
+<br>
+There are many projects that I'm unable to share because the source code is proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I've worked with.
