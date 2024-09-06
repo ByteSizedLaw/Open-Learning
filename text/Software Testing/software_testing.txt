@@ -32,11 +32,12 @@ The project management team (as discussed <a href="#" onclick="updateBodyText('h
 </ol>
 That's perfect - right? We've covered all aspects of Requirements Gathering and Development!
 <br>
-well, no. 
+Well, no. 
 <br>
 How do we know the Dev will actually build the right thing? (Remember that there are sometimes massive budgets - of hundreds of millions of Dollars - sunk into each project)
 <br>
 How do we check this, and how do we hold them accountable if they've built subpar software?
+<br>
 <br>
 This is where the tester comes in.
 <br>
@@ -47,7 +48,7 @@ In a nutshell: The BA gathers requirements, the Dev builds a solution that meets
 ## Why do Software Testers exist: Project Risk Assessment:
 Business Stakeholders are the least technically-skilled, as all managers are.
 <br>
-This poses a challenge to them when they try to understand "how far along" a project is, how good the software will be, and if there are any risks involved with releasing the project (Their business-domain has them focus on financial/reputational damages/losses from the release of buggy/incomplete software, how many customers they'll lose, market share values, etc.).
+This poses a challenge to them when they try to understand "how far along" a project is, how good the software will be, and if there are any risks involved with releasing the project (Their roles focus on financial/reputational damages from the release of buggy software, how many customers they'll lose, market share values, etc.).
 <br>
 While Stakeholders don't really care about knowing the exact quality of the software, because they aren't technical and don't have time to read through the dev's code - they do care about the overall risk of releasing the software.
 <br> 
@@ -67,13 +68,14 @@ Validation
 <ul>
 	<li>This is where they look at the app the dev has built, and the requirements the user has requested, and check that they're related.</li>
 	<li>For example, a customer may have asked "I need a basic percentage calculator", but your dev has built "AES256 advanced encryption for logins using an Identity Provider service that auths logins via Kerberos Authentication on port 80"</li>
-	<li>this is a very exaggerated example, but devs do often misinterpret requirements or go out of their way to build something they want.</li>
+	<li>This is a very exaggerated example, but devs do often go out of their way to build something they want instead, because it helps their CVs/Resumes or makes their lives more interesting.</li>
 </ul></li>
 <li>
 Verification
 <ul>
-	<li>This is where they will look at HOW the app has been built. Does it have enough logical error handling, what happens if we pass in a string instead of a number, how well does it perform under load/stress, what happens if memory is exhausted, etc.</li>
-	<li>They will basically test the code that the dev has written, to verify that it is of acceptable quality and is ready for market</li>
+	<li>This is where they will look at <i>how the app has been built</i>. </li>
+	<li>They ask/test questions like: Does it have enough logical error handling? What happens if we pass in a string instead of a number? How well does it perform under load/stress? What happens if memory is exhausted? etc.</li>
+	<li>They'll basically test the code that the dev has written, to verify that it's of acceptable quality and is ready for market.</li>
 	<li>This type of testing can be split up into different approaches, like black-box testing, manual vs scripted/automated, regression testing, etc. </li>
 </ul></li>
 </ol>
