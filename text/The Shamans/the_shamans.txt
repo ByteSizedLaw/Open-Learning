@@ -157,8 +157,8 @@ Strike them down when and where they appear.
 	   <li>
                  Admin hell:
 	      <ul>
-		<li>They will try to enforce Coding Standards and Ways of Working (WoW) that <i>they've</i> defined -> because it's what <i>they're</i> comfortable with and it makes <i>them</i> feel like the Tech-Lead or SDM</li>
-		<li>On their own, these Standards and WoW aren't bad, and may even be helpful, but the Shaman corrupts it and weaponizes it.</li>
+		<li>They will try to enforce Coding Standards and Ways of Working (WoW) that <i>they've</i> defined -> because it's what <i>they're</i> comfortable with and it makes <i>them</i> feel like the Tech-Lead or SDM when they force others to follow <i>their rules</i> or <i>their way of doing things</i>.</li>
+		<li>On their own, these Standards and WoW aren't always bad, and may even be helpful, but the Shaman corrupts it and weaponizes it.</li>
 		<li>They use these Standards and WoW as methods to attack other staff, and will also try to bury others under the admin - especially if it's different to what they're used to.</li>
 		<li>An example of them weaponizing Admin: Shamans may believe that EVERYONE should "participate" (keyword here) in Code-Review meetings, where they can rip someone apart in front of the larger crowd to prove how smart they are and how inadequate others are. They may also use their own code review to attack others (For example, "Look how great I did this, {personX} that originally wrote this did it badly because they don't know what they're doing").</li>
 	      </ul>
@@ -166,10 +166,10 @@ Strike them down when and where they appear.
 	   <li>
                  "Too cool for rulez!":
 	      <ul>
-		<li>Shamans will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, by "re-architecting the old <i>useless</i> processes" to impress upper management</li>
+		<li>Shamans will insist that everyone has to follow these (sometimes ridiculous, "Blue Sky thinking") rules, by "re-architecting the old <i>useless</i> processes" to impress upper management (<i>your bosses</i>)</li>
 		<li>This is all fine, until they also have to follow these rules.</li>
 		<li>At which point, they will outright refuse to, because they're <i>superior - Gods among mortals</i>, so why should the rules (that they created) apply to them?</li>
-	    	<li>Hilariously, if ANYONE ELSE does the same, they will attack these staff in front of the larger crowd, for not following the Divine Laws <i>they</i> defined.
+	    	<li>Hilariously, if ANYONE ELSE (even the SDM) does the same, they will attack these staff in front of the larger crowd, for not following the Divine Laws <i>they</i> created.
             	<li>It's just a massive narcissistic Ego-Trip because everyone else needs to follow <b>their</b> rules, or they get "<i>put in their place</i>" by the Shaman.</li>
 	      </ul>
 	   </li>
@@ -192,7 +192,7 @@ Even if Shamans are productive by working on their own, or by grouping with othe
 <br>
 Some (I'd say "very bad") managers believe that it's good to have some conflict and competition in the team because "it keeps everyone on their toes", this is fine - if staff are all friends, and Shamans aren't involved. 
 <br>
-Once Shamans are involved, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team members</i> are now actively trying to get rid of each other.
+Once Shamans are involved, the culture changes completely, and "healthy competition" becomes "do or <b>die</b>", where <i>team members</i> are now actively trying to get rid of each other, instead of working together.
 <br>
 <br>
 This Shaman/Hero-Dev Culture doesn't foster growth or learning, it punishes it.

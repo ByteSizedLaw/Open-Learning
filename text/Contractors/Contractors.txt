@@ -60,7 +60,7 @@ As someone that's been a contractor before, and who has worked with some really 
 ## Misconceptions about Contractors:
 "<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super-competitive environments</I>".
 <br>
-This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by <a href="#" onclick="updateBodyText('https://cyber-finn.github.io/Blog/pages/hidden_incompetence.html');">Hidden Incompetence</a> by the contracting-company's reputation or the Formal Educations/Degrees they hold.
+This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Hidden%20Incompetence/hidden_incompetence.txt');">Hidden Incompetence</a> by the contracting-company's reputation or the Formal Educations/Degrees they hold.
 <br>
 In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or overexaggerated importance of Formal Education/Degrees, etc.).
 
@@ -133,6 +133,6 @@ Because EQ plays a very important role within Software Dev Management (As it doe
 <br>
 EQ is arguably just as important as raw Technical Skill - in some cases (where sirens are blaring and tempers are fuming) it's even more valuable.
 <br>
-Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" or ["Shamans"](https://cyber-finn.github.io/Blog/pages/the_shamans.html) that refuse to collaborate - or create toxic working environments - to run amok. 
+Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" or <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/The%20Shamans/the_shamans.txt');">"Shamans"</a> that refuse to collaborate - or create toxic working environments - to run amok. 
 <br>
 There needs to be some level of balance, which only staff with high EQs can bring to the table.
