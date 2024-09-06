@@ -26,6 +26,16 @@
                 <a href="#" >Project Management</a>
                 <a href="#" >Business Process Engineering</a>
                 <a href="#" >Business Analysis</a>
+                <!-- Specify that this element is a dropdown list -->        
+                <div class="dropdown">
+                    <!-- name and type of the dropdown -->
+                    <!-- decided to use an onclick here, rather than a link to our page, for a truly responsive and dynamic page. We dont want to reload the entire page, only a part of it! -->
+                    <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Software%20Testing/software_testing.txt');">Software Testing</a>
+                    <div class="dropdown-content">
+                        <!-- elements the dropdown contains -->
+                        <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Software%20Testing/software_testing.txt');">About Testing</a>
+                    </div>
+                </div>
                 <a href="#" >Computer Science</a>
                 <a href="#" >Cyber Security</a>
                 <a href="#" >Database Engineering</a>
