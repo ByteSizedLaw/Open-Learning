@@ -1,4 +1,4 @@
-# What software testing ISN'T:
+# What Software Testing ISN'T:
 <ol>
 <li> A way for testers to tear apart a developer's code or debase their skills/abilities</li>
 <li> Looking for every single bug and building thousands of automated cases to run for every possible scenario</li>
@@ -8,22 +8,22 @@
 </ol>
 
 
-## why do software testers exist: Guarding against personal interest
-Software project teams (The people doing the most collaboration or communicating over the course of the project) consist of Developers, Business Analysts, and Project Managers.
+## Why do Software Testers exist: Guarding against personal interest
+The people doing the most collaboration or communicating over the course of the Project are Developers, Business Analysts (BAs), and Project Managers (PMs).
 <br>
-Analysts may try to "get as much requirement gathering done as fast as possible" to get more rapport as being "the fastest/best BA". 
+BAs may try to "get as much requirement gathering done as fast as possible" to get more rapport as being "the fastest/best BA". 
 <br>
 Devs may try new functionality/apps/languages/libraries to increase their own personal market value (or marketability), 
 <br>
-and PMs may try to get the project done as fast as possible. 
+And PMs want get the project done as fast as possible to boost their own rapport. 
 <br>
 <br>
-Each of these people have their own personal interest, which affects the Quality of the software - and none of them are advocating for what the Customer/User wants or needs.
+Each of these people have their own personal interest, which affects the Quality of the Software - and none of them are advocating for what the Customer/User wants or needs.
 <br>
-The Tester keeps them in check by ensuring that quality is upheld, and that they are creating usable software
+The Tester keeps them in check by ensuring that Quality is upheld, and that they are creating usable software that meets the Business Requirements.
 
 
-## Why do software testers exist: The Project Team itself
+## Why do Software Testers exist: The Project Team itself
 The project management team (as discussed <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/SDM/SDM.txt');">here</a>) consists of the SDM, Tech Lead and PM, but the actual Project team (people doing the work), consists of:
 
 <ol>
@@ -44,7 +44,7 @@ The tester acts as a bridge between the Developer and the Business Analyst, and 
 <br>
 In a nutshell: The BA gathers requirements, the Dev builds a solution that meets those requirements, and the tester checks that those requirements have actually been met.
 
-## Why do software testers exist: Project Risk Assessment:
+## Why do Software Testers exist: Project Risk Assessment:
 Business Stakeholders are the least technically-skilled, as all managers are.
 <br>
 This poses a challenge to them when they try to understand "how far along" a project is, how good the software will be, and if there are any risks involved with releasing the project (Their business-domain has them focus on financial/reputational damages/losses from the release of buggy/incomplete software, how many customers they'll lose, market share values, etc.).
@@ -78,16 +78,39 @@ Verification
 </ul></li>
 </ol>
 
-# Types of Testing
+# Defects vs Enhancements
+This one is all about the Customer Experience (AKA User Experience or UX).
+<br>
+A customer may use these interchangeably, but they are completely different.
+<br>
+A Defect is: defective software that does not behave in the expected way -> basically, code that doesn't meet the business requirements, or breaks the system when certain actions are performed.
+<br>
+An Enhancement is: anything a customer requests to be added or reworked in their favour, when the existing software/system is actually still operable. If there are "manual workarounds", they are asking for an enhancement - not reporting a defect.
 
-## What is Regression Testing, and how does it differ from regular testing?
-Regression testing ensures that recent code changes haven’t negatively impacted existing functionalities. 
+## Why Test Software in the first place?:
+Well, in addition to the reasons (why we need Testers in the first place) above, Testers are important because they catch defects early - thereby reduce cost of rework, and assist stakeholders with project risk profiling.
 <br>
-It’s performed after bug fixes, new features, or performance improvements to confirm that the existing/old software still works as expected.
+Testers also bring stability to the system by increasing test-coverage of the system. This makes it easier for future devs to know when they've broken something important during an upgrade because they will see that tests are failing. This allows them to investigate and resolve the issue in-one-sitting, rather than having a client report it weeks later and having the issue go onto the backlog.
 <br>
-Basically, we go back and retest EVERYTHING (we REGRESS to the first test cycles).
+Over time, Testers also develop a more holistic overview of the entire system in completion, over the devs who have scope of only a select few areas, so Testers can actually help guide Devs on which things might break during their changes/fixes and reduce the overall impact of these changes. 
 <br>
-This is usually done via automated scripts.
+This is also a function that Testers should perform in scope of their jobs. If you're aware of issues that will arise after a dev does a fix, raise it beforehand and work with the dev to pre-emptively resolve the issues.
+
+
+<br>
+<br>
+# Different Types of Testing:
+
+## What is Regression Testing, and how does it differ from "regular" testing?
+"Regression testing" is one of those keywords that everyone knows, but nobody actually knows what it means.
+<br>
+Simply put, we go back and re-test EVERYTHING (we "REGRESS" to the first test cycles we did for this software). 
+<br>
+That's all it is. We rerun every test against the code.
+<br>
+It’s done after bug fixes, new features were added, or performance improvements were made, to confirm that the existing/old software still works as expected.
+<br>
+This is usually done via automated scripts that we've developed over the course of the SDLC for this piece of software.
 
 <ol>
 	<li> Purpose
