@@ -81,28 +81,6 @@ Verification
 	<li>This type of testing can be split up into different approaches, like black-box testing, manual vs scripted/automated, regression testing, etc. </li>
 </ul></li>
 </ol>
-
-## Should Devs "Mark their own homework" (Test their own Software)?
-Absolutely!
-<br>
-Devs should 100% test their own code, while they write it. 
-<br>
-This helps them to write testable code and keep the software closer to the Business Requirements.
-<br>
-<br>
-It's still important to have a designated Software Tester, and to deeply involve them during the project, 
-<br>
-Because (as the Dev) it protects you when things go incredibly wrong and Management are (literally) head-hunting.
-<br>
-<br>
-Testers (thankfully) are also the ones that have to write testcases for all your code - so you, as the dev, don't need to spend countless hours dreaming up every scenario and writing code to test code!
-<br>
-You can simply test your code as best as possible in that moment, cater for as many different scenarios as you can think of, and leave code-coverage and exhaustive-testing to the designated Tester.
-<br>
-<br>
-It's also INCREDIBLY GOOD to have someone qualified double-check your work and give the thumbs-up.
-<br>
-It helps establish (to the larger crowd/group/team) that you're not only dependable, but that you also write <b>Good Quality Software</b>.
 <br>
 
 # Defects vs Enhancements
@@ -114,17 +92,83 @@ A Defect is: defective software that does not behave in the expected way -> basi
 <br>
 An Enhancement is: anything a customer requests to be added or reworked in their favour, when the existing software/system is actually still operable. If there are "manual workarounds", they are asking for an enhancement - not reporting a defect.
 
-## Why Test Software in the first place?:
-Well, in addition to the reasons (why we need Testers in the first place) above, Testers are important because they catch defects early - thereby reduce cost of rework, and assist stakeholders with project risk profiling.
+## Why test Software in the first place?
+Well, Software Testers are important because they catch defects early into development
 <br>
-Testers also bring stability to the system by increasing test-coverage of the system. This makes it easier for future devs to know when they've broken something important during an upgrade because they will see that tests are failing. This allows them to investigate and resolve the issue in-one-sitting, rather than having a client report it weeks later and having the issue go onto the backlog.
+Thereby reducing cost of rework, and assist stakeholders with project risk profiling, leading to reduced financial losses from mistakes.
+<br>
+<br>
+Testers also bring stability to the system by increasing test-coverage of the system. 
+<br>
+This makes it easier for future Devs to pre-emptively know when they've broken something important during an upgrade because they will see that tests are failing before deployment. 
+<br>
+This allows them to investigate and resolve the issue in-one-sitting, rather than having a client report it weeks later and having the issue go onto the backlog.
+<br>
 <br>
 Over time, Testers also develop a more holistic overview of the entire system in completion, over the devs who have scope of only a select few areas, so Testers can actually help guide Devs on which things might break during their changes/fixes and reduce the overall impact of these changes. 
 <br>
 This is also a function that Testers should perform in scope of their jobs. If you're aware of issues that will arise after a dev does a fix, raise it beforehand and work with the dev to pre-emptively resolve the issues.
-
-
 <br>
+
+## Can Devs "Mark their own homework": From the Developer perspective
+Absolutely!
+<br>
+Devs should 100% test their own code while they write it. 
+<br>
+This helps them to write testable code and keep the software closer to the Business Requirements.
+<br>
+<br>
+It's still VERY important to have a designated Software Tester, and to deeply involve them in the project, 
+<br>
+Because (as the Dev) it protects you when things go incredibly wrong and Management are (literally) head-hunting.
+<br>
+<br>
+Testers (thankfully) are also the ones that have to write testcases for all your code
+<br>
+So you (as the dev) don't need to spend countless hours dreaming up every scenario and writing <i>code to test code</i>!
+<br>
+You can simply test your code as best as possible in that moment, cater for as many different scenarios as you can think of, 
+<br>
+And leave code-coverage and exhaustive-testing to the designated Tester.
+<br>
+<br>
+For the dev, it's also INCREDIBLY GOOD to have someone independent, qualified and trusted that double-checks your work and gives the thumbs-up.
+<br>
+It helps establish (to the larger crowd/group/team) that you're not only dependable, but that you also write <b>Good Quality Software</b>.
+<br>
+Working closely with the tester, and making them happy, is a sure-fire way to get your skills recognized. The Tester is your best friend!
+<br>
+
+## Can Devs "Mark their own homework": From the Business perspective
+Absolutely not!
+<br>
+Devs should 100% not be trusted. They lie, embellish and overestimate their own abilities because of fanaticism or egoism.
+<br>
+Because Software Development is an intellectual enterprise, they embellish their skills or certain events to make themselves more attractive/experienced/trustable,
+<br>
+Because it makes them feel more important or like <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/The%20Shamans/the_shamans.txt');">"Shamans" or Wizards</a>.
+<br>
+<br>
+Developers (Specifically self-proclaimed "Software Engineers") will always do what they want, when they want, if they're left to their own devices, to help their own marketability and resumes/CVs.
+<br>
+<br>
+To combat this, we've hired Project Managers that <i>ensure that work is being done</i>. 
+<br>
+But who ensures that the work being done <i>is actually the work required</i>?
+<br>
+Who checks that the software is usable, that it won't make us the laughingstock of Wallstreet? 
+<br>
+How do we know that it's "good quality" or can make us competitive?
+<br>
+<br>
+As "Business", we need someone that verifies Quality, ensures that Devs aren't "taking us for a ride", and reports any major issues with the project back to us, 
+<br>
+So that we can prepare to manage risk/damages.
+<br>
+That person is the dedicated Software Tester, who acts as our proxy and advisor.
+<br>
+
+
 <br>
 # Different Types of Testing:
 
