@@ -8,7 +8,7 @@
 </ol>
 
 
-## Why do Software Testers exist: Guarding against personal interest
+## Why do Software Testers exist: Guarding against Personal Interest
 The people doing the most collaboration or communicating over the course of the Project are Developers, Business Analysts (BAs), and Project Managers (PMs).
 <br>
 BAs may try to "get as much requirement gathering done as fast as possible" to get more rapport as being "the fastest/best BA". 
@@ -60,7 +60,9 @@ Their job doubles as both an "Advocate for the User" and "Advisor to Business St
 
 
 # What do Software Testers actually do?
-They perform 2x very specific functions.
+In addition to verifying that the Business Requirements were met and reporting project quality to project management,
+<br>
+They perform 2x very specific functions. These are:
 
 <ol>
 <li>
@@ -79,6 +81,29 @@ Verification
 	<li>This type of testing can be split up into different approaches, like black-box testing, manual vs scripted/automated, regression testing, etc. </li>
 </ul></li>
 </ol>
+
+## Should Devs "Mark their own homework" (Test their own Software)?
+Absolutely!
+<br>
+Devs should 100% test their own code, while they write it. 
+<br>
+This helps them to write testable code and keep the software closer to the Business Requirements.
+<br>
+<br>
+It's still important to have a designated Software Tester, and to deeply involve them during the project, 
+<br>
+Because (as the Dev) it protects you when things go incredibly wrong and Management are (literally) head-hunting.
+<br>
+<br>
+Testers (thankfully) are also the ones that have to write testcases for all your code - so you, as the dev, don't need to spend countless hours dreaming up every scenario and writing code to test code!
+<br>
+You can simply test your code as best as possible in that moment, cater for as many different scenarios as you can think of, and leave code-coverage and exhaustive-testing to the designated Tester.
+<br>
+<br>
+It's also INCREDIBLY GOOD to have someone qualified double-check your work and give the thumbs-up.
+<br>
+It helps establish (to the larger crowd/group/team) that you're not only dependable, but that you also write <b>Good Quality Software</b>.
+<br>
 
 # Defects vs Enhancements
 This one is all about the Customer Experience (AKA User Experience or UX).
