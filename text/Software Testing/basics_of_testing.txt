@@ -1,0 +1,186 @@
+# The root of all testing: 
+Create some inputs, define the expected outputs the system should give you, then execute the test and check if the results match our expectations for this input.
+
+## Equivalence classes and Test Partitioning:
+<i>Equivalence class: Basically one set of inputs that generate the same output </i>
+<br>
+For example, imagine we have the following inputs: "-10", "abcd", "0", "1000"
+<br>
+being passed into a Square-root function. Since they're all Strings, they all generate the same "not a number" error.
+<br>
+In our example, we realized that, although we have 4x test cases, they're really only 1x test case, because we've only tested passing in a string..
+<br>
+We haven't tested anything else.
+<br>
+<br>
+Realizing this, we know to be aware of over-testing specific parts of our app or test-cases - while not testing others at all. (like in our example, where we tested only strings, but no negative numbers, etc.)
+<br>
+How do we check this though? How do we know that we're not over-testing or re-testing the same condition?
+<br>
+We need some way of PARTITIONING our test case inputs, to check that they don't overlap or re-test the same inputs. 
+<br>
+We also need some way of reducing the number of test cases we have to write, because exhaustive testing can take ages to perform - and may yield no new information over some basic (and well optimized) tests.
+<br>
+This is where Equivalence Class Partitioning comes in.
+<br>
+<br>
+Basically, we just ensure that our tests don't overlap with each other, and cover all respective inputs so that we're properly testing the system, 
+<br>
+and not falsely reporting that "the system passed 5000 test cases! :D" when it's only really passed 1 test-case, which was "what happens when it gets a string instead of a number".
+<br>
+<br>
+Strict partitions are good, because it maps a single input to a single output type.
+<br>
+Strict partitions (with the tester and Dev working together to improve the system during testing) help prevent cases where (for example) the square-root of 4 produces both the number 2 and "abcd".
+
+
+## Expected behaviour vs Observed behaviours:
+I think this one is pretty self-explanatory, so I'll just give a recap:
+<br>
+Expected behaviours are the behaviours of the system, as defined in the business Requirements. For example: "System prints abcd when user inserts ABCD".
+<br>
+Observed behaviours are the behaviours we've seen the system display during our testing. For example: "System prints error-invalid-memory-address when user inserts ABCD".
+<br>
+This observed behaviour (in our example) is totally different to what we've expected.
+<br>
+<br>
+Testers may also sometimes find an "undefined" behaviour - which is basically where a test falls outside of a logical error "range".
+<br>
+For example, the system checks for "if input is <0 show a light; if input >0 and <50 don't show a light"? 
+<br>
+Would passing in 51 now produce a light or no light? What would passing in a 0 do? I couldn't tell you, because the system doesn't cater for it - but it probably should, right?
+<br>
+<br>
+As the Tester, obviously, you need to test this scenario, but also make the developer aware of these scenarios to help robust the code and improve the system.
+<br>
+Working with the Dev and BA to resolve "undefined" behaviours will improve the system, test coverage, and make your job as the Tester a lot easier!
+<br>
+
+
+## How to choose Inputs that maximise the probability of finding defects:
+Most defects will be found near boundaries of Equivalence classes -> basically, at the end of one Equivalence Class, and the start of the new one.
+<br>
+Why? because they're often mentioned in code (if x >= 1) [1 is a boundary value here]
+<br>
+<br>
+Boundary values: are found at the Start and Ends of Equivalence Classes.
+<br>
+Interior values: every item within a given equivalence class - except the start and end values.
+<br>
+
+## Explicit boundaries vs Implicit boundaries
+Explicit boundaries are those defined by the business requirements, and are runtime independent.
+<br>
+Implicit boundaries are runtime and context dependent. They're usually either test-cases that fit the given nature of the application, or conditions that the BA didn't consider when writing the requirements. For example, how much memory is available? Is the server even on? How much data can the system process at once? etc.
+<br>
+<br>
+Basically:
+<br>
+Explicit boundaries are literally, explicitly stated by the BA as being a requirement the system has to have/pass.
+<br>
+Implicit boundaries are not explicitly stated, and the tester needs to think of their own inputs, based on the context of the application.
+<br>
+
+
+## Base cases, Edge cases and corner cases:
+Base: refers to both normal input parameters, and where the System operates as expected
+<br>
+Edge: refers to both abnormal input parameters, and where the System operates erroneously
+<br>
+Corner: refers to both ridiculous/illogical input parameters and/or where multiple errors occur simultaneously
+<br>
+
+## Happy Path vs Rainy Day Testing:
+Happy path: We test with valid inputs and the system operates as expected.
+<br>
+Rainy day testing: We test the worst-case scenarios and actively try to make the system fail. We do this to verify that it's producing the correct outputs and error messages, and that it actually can even survive worst-case conditions!
+<br>
+
+## Test case outputs:
+There are only 2x types:
+<br>
+Positive: system returns expected result (These are usually the actions the user would take under normal conditions - and should always result in positive responses)
+<br>
+Negative: system didn't return the expected result due to failure or some error (These are usually cases we expect to fail, like trying to square root a name)
+
+
+## Blackbox, Whitebox and Greybox Testing:
+Blackbox: where we dont know anything about the internal workings of the system - we emulate the user.
+<br>
+Whitebox: we know everything about the internal system and even have its code.
+<br>
+Greybox: we know a bit about the system and how it works, but not everything. we're somewhere between Blackbox and Whitebox testing.
+<br>
+
+
+## Static and Dynamic testing:
+A way of grouping tests - like we did for partitioning, but not exactly.
+<br>
+We basically group our tests into "what are we going to test on the actual app itself" and "what are we going to investigate/verify on the code itself".
+<br>
+<br>
+Dynamic tests are run on the system itself. We actually run the code and give it inputs, etc.
+<br>
+For example, to test a button, we'd need to actually click that button - but that requires that we're actually running the system/app, to be able to press the button.
+<br>
+<br>
+Sometimes, in some cases, this can be dangerous - if the system operates with some very important data and the only way to test it is to actually run it in production, because you could accidentally break production, etc.
+<br>
+So we also have Static testing at our disposal, which is basically where we can run Linters (they're software libraries that scan source code for errors [similarly to how your IDE always knows when you've not declared a variable, or used the wrong syntax]) or where we actually review the source code and check it for logical errors.
+<br>
+<br>
+<ol> Static testing aims to:
+<li>Reduce the impact of testing (or straining resources) on important systems</li>
+<li>Look at the code itself, rather than the results of using that code.</li>
+</ol>
+
+let's stop there for a second.
+<br>
+This isn't a "Static vs Dynamic testing" argument. 
+<br>
+Both are incredibly important, and BOTH should be used, because both focus on 2x very different aspects of the system.
+<br>
+<br>
+Dynamic testing: focuses on using the actual system and seeing that it operates as expected (Operational Analysis).
+<br>
+Static testing: focuses on the actual source code and checking its' quality (Quality Analysis).
+<br>
+<i>Side note: in case you missed it, Code Reviews are actually an example of Static Testing!</i>
+
+
+## Business Requirements and Testability:
+Right off the bat, requirements that cannot be tested should be scrapped immediately, because they are vague or "umbrella requirements".
+<br>
+Remember, Business are sinking (potentially) millions of dollars into this project - how are you going to prove to them that "our new social media platform is curing every cancer patient that uses it" if you have no way of knowing that for sure?
+<br>
+You need clear metrics to measure and prove that requirements have been met.
+<br>
+<br>
+If it were up to Business, the ONLY requirement would be "REQ-1: Make 100% more profit, every day.",
+<br>
+But this is completely unrealistic, and makes your job (as Tester) near impossible. 
+<br>
+How do you define testcases for this lofty business goal? Which system do you need to test? Which inputs can it take? It just doesn't make any sense!
+<br>
+<br>
+How do we combat this?:
+<br>
+All BAs should involve Testers when they do the official Business Requirements specifications. 
+<br>
+This allows the Tester to determine upfront if they're able to test the requirements, or if the requirements are still too vague and need to be broken down further.
+<br>
+
+## Writing Business Requirements:
+I'm going to have a whole section on this in the Business Analysis part of my site, but for now, I'll include this here:
+<br>
+Testers are rarely ever required to write tests - and usually only when there isn't already a BA - but it's still good to know how to write them, so that you can help rewrite the ambiguous ones!
+<br>
+<br>
+<ol>
+For Testers, all requirements should be:
+<li>Complete: How do you test the entire system, if you've only got requirements that focus on a specific area? Requirements should cover the entire system, without allowing anyone to interpret anything.</li>
+<li>Consistent: How do you test requirements that contradict each other like "when the number of items in the cart is 100, make it 0" and "when the number of items in the cart is 200, give them 20% discount"?.</li>
+<li>Clear: How do you interpret "the camera scans the user with the red lens"? Is the "red lens" the user's lens, or the camera's, and which camera are we talking about?</li>
+<li>Meaurable: How do you test "when the user logs in, the system responds QUICKLY"? How fast is quick? How can I emulate/change what their network latency will be at the time of login? Will they login from overseas?</li>
+<li>Possible: How do you test "10 trillion users logging in at once"? you don't. These kinds of requirements need to be removed or rethought.</li>
+</ol>
