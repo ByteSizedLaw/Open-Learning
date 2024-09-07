@@ -71,7 +71,9 @@ Interior values: every item within a given equivalence class - except the start 
 ## Explicit boundaries vs Implicit boundaries
 Explicit boundaries are those defined by the business requirements, and are runtime independent.
 <br>
-Implicit boundaries are runtime and context dependent. They're usually either test-cases that fit the given nature of the application, or conditions that the BA didn't consider when writing the requirements. For example, how much memory is available? Is the server even on? How much data can the system process at once? etc.
+Implicit boundaries are runtime and context dependent. They're usually either test-cases that fit the given nature of the application, or conditions that the BA didn't consider when writing the requirements. 
+<br>
+For example, how much memory is available? Is the server even on? How much data can the system process at once? etc.
 <br>
 <br>
 Basically:
@@ -129,7 +131,8 @@ Sometimes, in some cases, this can be dangerous - if the system operates with so
 So we also have Static testing at our disposal, which is basically where we can run Linters (they're software libraries that scan source code for errors [similarly to how your IDE always knows when you've not declared a variable, or used the wrong syntax]) or where we actually review the source code and check it for logical errors.
 <br>
 <br>
-<ol> Static testing aims to:
+Static testing aims to:
+<ol>
 <li>Reduce the impact of testing (or straining resources) on important systems</li>
 <li>Look at the code itself, rather than the results of using that code.</li>
 </ol>
@@ -176,8 +179,8 @@ I'm going to have a whole section on this in the Business Analysis part of my si
 Testers are rarely ever required to write tests - and usually only when there isn't already a BA - but it's still good to know how to write them, so that you can help rewrite the ambiguous ones!
 <br>
 <br>
-<ol>
 For Testers, all requirements should be:
+<ol>
 <li>Complete: How do you test the entire system, if you've only got requirements that focus on a specific area? Requirements should cover the entire system, without allowing anyone to interpret anything.</li>
 <li>Consistent: How do you test requirements that contradict each other like "when the number of items in the cart is 100, make it 0" and "when the number of items in the cart is 200, give them 20% discount"?.</li>
 <li>Clear: How do you interpret "the camera scans the user with the red lens"? Is the "red lens" the user's lens, or the camera's, and which camera are we talking about?</li>
