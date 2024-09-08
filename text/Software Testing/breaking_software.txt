@@ -25,7 +25,7 @@ These are pretty much logical and Operator errors, but I'll give them their own 
 <br>
 Using this example from my "Basics of Testing" section:
 <br>
-<li>The system checks for "if input is <0 show a light; if input >0 and <50 don't show a light" </li>
+<li>The system checks for "if input is <0 show a green light; if input >0 and <50 show a red light" </li>
 <br>
 We can see that 0 is not covered in this logic, even though it's explicitly mentioned in the code..
 <br>
