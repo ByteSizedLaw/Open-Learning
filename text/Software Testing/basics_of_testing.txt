@@ -244,7 +244,7 @@ Doing this is called a Test Run, and produces any of the 6x final statuses (Whet
 <li>Paused: Test was started but put on hold for a brief moment</li>
 <li>Running: The test is in progress.</li>
 <li>Blocked: The test can't be run at the moment. Could be because resources are too busy, equipment is not available, etc.</li>
-<li>Error: There's something preventing this case from running - usually because the test case itself doesn't match the context of the app/function. For Example: The user's profile photo is displayed in the chat window, but the app is a basic command-line app that copies files.</li>
+<li>Error: There's something preventing this case from running - usually because the test case itself doesn't match the context of the app/function. For Example: We test that the user's profile photo is displayed in the chat window, but the app is a basic command-line app that copies files.</li>
 </ol>
 <br>
 
