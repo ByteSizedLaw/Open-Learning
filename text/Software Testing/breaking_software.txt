@@ -125,4 +125,4 @@ Bad Data can either be too long or short, the incorrect format, out of range, un
 How does the system operate when it gets bad data? Does it correctly exit the current operation? Does it accidentally reveal important info about the internal workings of the system? Does it completely crash and spit out hundreds of error messages?
 <br>
 <br>
-The easiest way to test this - rather than spending hours crafting specific payloads - is to do <b>Fuzz Testing</b> (Bsacially just generating random automated inputs)
+The easiest way to test this - rather than spending hours crafting specific payloads - is to do <b>Fuzz Testing</b> (Basically just generating random automated inputs)
