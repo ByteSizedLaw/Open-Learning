@@ -200,10 +200,10 @@ These are basically where the app has tried to use "something", but found "nothi
 <br>
 Strongest English enjoyer vs Weakest Dev:
 <br>
-In English: Null is synonymous with "0", because both mean "nothing". Therefore: 0 = null;
-<br>
-In Programming: Null literally means "nothing", and "0" DOES NOT mean "nothing", it means "0" (the number 0 - not the concept of "nothing" like in English). 
-<br>
+<ul>
+<li>In English: Null is synonymous with "0", because both mean "nothing". Therefore: 0 = null </li>
+<li>In Programming: Null literally means "nothing", and "0" DOES NOT mean "nothing", it means "0" (the number 0 - not the concept of "nothing" like in English).</li>
+</ul>
 Bit weird, I know, but basically: 
 <br>
 0 is a value (natural number) that we can use in arithmetic or logical arguments. 
