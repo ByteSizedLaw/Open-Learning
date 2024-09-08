@@ -36,9 +36,12 @@ As the tester, you're probably thinking "ok, but I need like a million test-case
 <br>
 You don't need a test-case for every possible input, you only need a few well optimized/targeted ones.
 <br>
+<br>
 Generally, we want to keep variants to a minimum, because it's just testing the same thing - and we already know what will happen when the test is run.
 <br>
+<br>
 There's no point testing "what happens if I try to square root the name Jack" and "what happens if I try to square root the name Jill", because both are literally the same test.
+<br>
 <br>
 As the tester, to maximise efficiency, you want to test as little as possible - and only focus on the key, pressure points of the system. 
 <br>
@@ -57,7 +60,9 @@ We then add these all to our Test Plan, since we've now got a pretty solid Test 
 ## The basic structure of a Test Plan:
 A test plan is basically just a list of test-cases.
 <br>
-Each company, software tool and team will have their own way of doing things, but the general template is something like:
+Each company, software tool and team will have their own way of doing things, 
+<br>
+But each test-case in the list should have this info:
 <ol>
 <li>Test Identifier: Something like "10", "DB-1" or "SQL-Injection-Test". Basically any name that acts as a unique ID for this test case</li>
 <li>Description: of the test case and what it's testing</li>

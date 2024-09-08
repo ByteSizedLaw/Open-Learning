@@ -15,6 +15,7 @@ And the Tester wants to first do some preliminary checks that it at least meets 
 Within Acceptance testing is also <b>Smoke testing</b> which is where we just do a very basic test to check that the Happy Path at least works. 
 <br>
 We'll later come back and do full happy and rainy-day testing.
+<br>
 Smoke Testing can be either automated (scripted) or manual (unscripted).
 
 
