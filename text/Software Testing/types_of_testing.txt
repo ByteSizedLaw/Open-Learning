@@ -22,6 +22,7 @@ Smoke Testing can be either automated (scripted) or manual (unscripted).
 They're basically the same thing.
 <br>
 Acceptance Testing is testing that's done before the software moves to the next phase of the SDLC. It can be done before a tester accepts it for testing, or before a customer is willing to accept it.
+<br>
 User Acceptance Testing is the specific testing done by a non-technical representative, to confirm that they're happy with the software and that it's usable by customers.
 
 
