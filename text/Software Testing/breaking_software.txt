@@ -230,3 +230,40 @@ if (x != null) //Business Requirements: x MUST BE greater than 0 to continue
 ```
 
 In most cases, you will either get a null-pointer exception from the app under test, or you will spot these issues when reading through the code
+
+## Distributed Systems: bane of a Tester's existence
+Testing distributed systems is a nightmare, and I can't cover every aspect of how to test one, because no 2x are the same.
+<br>
+Usually, as a tester, you won't have to do this - and you wouldn't do it alone, but here are some checks that should be done right off the bat:
+<ol>
+<li> Connectivity to the other parts of the system (Check that the system has access to other servers and services if it needs them)</li>
+<li> Time and Timestamps: In a lot of cases, systems need to have time synchronicity, check that systems are synced with time</li>
+<li> Data consistency: One system may have the only "true" copy of data, or none may have a "true" copy, and may be different to the others. Ensure that data is consistent across all the servers</li>
+<li> Server failure: It will happen. Check that the other servers aren't impacted when one goes down.</li>
+</ol>
+
+
+## Config Errors:
+These could be both on the server and client side, but I'll touch on the client-side first:
+<br>
+<br>
+If you have a web-portal, does it still operate as expected when the user is using a different operating system? What happens when they have JavaScript disabled? What happens if they're using Internet Explorer (RIP)
+<br>
+<br>
+Secondly, has the server been configured properly? Are all the config files in a usable state by the system? Does the system have every config it needs? Are any other apps changing configs?
+<br>
+Has an admin changed settings? Does the system settings impact the client's view of the system?
+<br>
+And (worst case scenario) are we revealing important info back to the user when the system crashes on config errors?
+<br>
+<br>
+As the Tester, you need to investigate all of these possibilities - either directly, or collaborating with the Developers and admins.
+
+## Domain Specific issues
+Of course, context is always King.
+<br>
+You will experience completely different challenges when testing a nuclear reactor management system, than when you test a children's audio-book reader.
+<br>
+You'll have lots of random and unheard of issues pop up from time to time, and the best way to manage this is always to consult the domain-experts.
+<br>
+They will guide you and help you establish a baseline of what could go wrong, to help create new (and more specific/tailored) test cases for the system under test.
