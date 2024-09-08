@@ -77,7 +77,14 @@ Any integration point between any systems will always have some room for failure
 <br>
 There are bound to be errors or defects on either side of an integration - whether that integration is into another internal sub-system, or an external organization.
 <br>
-Always check these and the integration specifications to ensure that nothing was misinterpreted on your side.
+Always check these and the integration specifications to ensure that nothing was misinterpreted on your teams' side.
+<br>
+<br>
+Closer to home, integration points can also be the "interfaces" between internal classes/methods - where methods of either class are being called/used.
+<br>
+These can also be misused and spawn all kinds of logical errors. 
+<br>
+It's often worth it to read through the code and check the usage of classes/methods (the "flow of logic", as I said earlier) to vet it for any errors.
 
 ## System Context and requirements interpretation:
 BAs define at a high level what the system should do, and Devs create the system,
@@ -126,3 +133,100 @@ How does the system operate when it gets bad data? Does it correctly exit the cu
 <br>
 <br>
 The easiest way to test this - rather than spending hours crafting specific payloads - is to do <b>Fuzz Testing</b> (Basically just generating random automated inputs)
+
+## Injections
+We should fear injections like toddlers do.
+<br>
+Injections are where executable code is given as an input to the system, and the system is tricked into actually executing it.
+<br>
+This doesn't sound too bad, but it really is.
+<br>
+<br>
+Basically, hackers are able to gain access to your systems, delete/add/edit/read confidential data and hold your system hostage.
+<br>
+Always test for injections - the most common are SQL injections and LDAP injections, but there are also buffer overflow and integer overflow attacks as well (Where hackers will put assembly code at the end of a very long payload to trick the system into executing the assembly when it crashes).
+<br>
+If you aren't in charge of Security Testing for your team, at least ensure that the Security Tester ("Ethical hacker" or "Penetration Tester") tests for these conditions.
+<br>
+<i> Side note: I'm going to have an entire section dedicated to the basics of Security Testing, so don't stress if you don't know it offhand right now</i>
+
+## Display Errors
+These are just simple display concerns. Is the system showing this window correctly? Are we using the right images? Is the data accurate? Is there an unescaped HTML element that's breaking the entire view?
+<br>
+We can test all of this by inserting super big or super small values as inputs to the system and checking that it handles it correctly, and by consulting the Business Requirements.
+
+## Network Connectivity:
+Of course, context is King here,
+<br>
+But some questions to ask ourselves are: 
+<br>
+Does the system crash when the network is down? Do we lose data if we unplug the ethernet cable and plug it back in? Does the entire system become inoperable and erroneous when the network connection is poor? What happens when we're pulling reports via UDP, instead of TCP?
+<br>
+<br>
+The only ways to test this is via a <b>Hatchet Test</b> (basically just unplugging the network cable, or adding incredible distortion to the network connection)
+<br>
+In all cases, the system should gracefully slow down until a new connection is established, or should go into a "pending" state, rather than just crashing entirely. 
+<br>
+Most UI elements should also still be interactable (Of course, within the context of the system), to limit customer frustrations of an unresponsive system!
+
+## Disk Errors
+"Risky Code" (in the context of Testing) is code that may or may not fail. We know that it should work, but it COULD fail.
+<br>
+<br>
+An example: Reading a config file from disk.
+<br>
+It should 100% work, because the system needs that config file, 
+<br>
+But what if it's not there when the system checks? What if it's been locked out by another process? What if a user has opened it in Notepad and has accidentally changed the format? 
+<br>
+<br>
+What should the system do in these cases?
+<br>
+<br>
+As the tester, we need to verify if there are (actual code) errors when reading from disk and raise these with the project team for the BA and Dev to discuss.
+<br>
+Note: We need to verify that it's actually a code error, and not an operational/testing error.
+<br>
+What's the difference?
+<br>
+Well, a code error is "the dev didn't cater for this failure in the code, so the entire system crashes when the file is locked by another process",
+<br>
+An operational error is "the tester deleted the entire directory of the config file, and now the system can't find the file at all".
+<br>
+
+## Null-Pointer exceptions:
+These are basically where the app has tried to use "something", but found "nothing" instead. It was expecting to Square Root "300", but instead found <i>nothing</i>
+<br>
+<br>
+Strongest English enjoyer vs Weakest Dev:
+<br>
+In English: Null is synonymous with "0", because both mean "nothing". Therefore: 0 = null;
+<br>
+In Programming: Null literally means "nothing", and "0" DOES NOT mean "nothing", it means "0" (the number 0 - not the concept of "nothing" like in English). 
+<br>
+Bit weird, I know, but basically: 
+<br>
+0 is a value (natural number) that we can use in arithmetic or logical arguments. 
+<br>
+NULL is literally "nothing". It's an undefined portion of the computer's memory - it can also be used in logical arguments, but it's NOT a value, it's literally just nothing.. completely blank!
+<br>
+<br>
+For logical checks, these identical functions do 2x different things:
+<br>
+```C#
+x = 0;
+if (x > 0) //Business Requirements: x MUST BE greater than 0 to continue
+{
+   //[Success] only values of 1 or greater reach this point 
+}
+```
+<br>
+```C#
+x = 0;
+if (x != null) //Business Requirements: x MUST BE greater than 0 to continue
+{
+   //[Failure] anything that has any data (even 0) reaches here - because 0 doesn't mean "nothing" in programming, it's a value - a piece of data
+}
+```
+
+In most cases, you will either get a null-pointer exception from the app under test, or you will spot these issues when reading through the code

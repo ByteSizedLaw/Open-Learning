@@ -38,5 +38,11 @@ function updateBodyText(input) {
     // Handle underscores for italic text
     //markdownText = markdownText.replace(/_([^_]+)_/g, '<em>$1</em>');
 
+    // Handle code blocks/snippets
+    markdownText = markdownText.replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>');
+
+    // Handle inline code
+    markdownText = markdownText.replace(/`([^`]+)`/g, '<code>$1</code>');
+
     return markdownText;
 }
