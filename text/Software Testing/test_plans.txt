@@ -58,11 +58,13 @@ We then add these all to our Test Plan, since we've now got a pretty solid Test 
 <br>
 
 ## The basic structure of a Test Plan:
-A test plan is basically just a list of test-cases.
+A test plan is basically just a list of test-cases, which we use to see how far along we are with testing.
 <br>
-Each company, software tool and team will have their own way of doing things, 
+Each company, and team will have their own way of tracking test-cases, like using notepad, Excel, or some fancy tool to track the test plan,
 <br>
-But each test-case in the list should have this info:
+Even these software tools may have their own ways of tracking test plans,
+<br>
+But in each case, each test-case in the List should, at least, have this info:
 <ol>
 <li>Test Identifier: Something like "10", "DB-1" or "SQL-Injection-Test". Basically any name that acts as a unique ID for this test case</li>
 <li>Description: of the test case and what it's testing</li>
