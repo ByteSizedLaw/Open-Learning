@@ -1,4 +1,4 @@
-## Breaking Software:
+# Breaking Software:
 Although our goal isn't to tear the developers apart, we do want to tear the system apart. 
 <br>
 This section is all about knowing which things to look for when testing, because they can produce unexpected errors and break the system if not handled correctly.
