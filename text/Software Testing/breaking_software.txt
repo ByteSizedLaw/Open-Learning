@@ -96,8 +96,8 @@ Sometimes, their interpretations are incorrect.
 <br>
 Some common things to check, to ensure that the dev interpreted correctly (and to make your testing easier) are:
 <ol>
-<li>How should the system display errors</li>
-<li>How should data be displayed</li>
+<li>How should the system display errors?</li>
+<li>How should data be displayed?</li>
 <li>What format should input/output files be in?</li>
 <li>What other systems does this one integrate into, and which interfaces does it have?</li>
 <li>What UI is expected?</li>

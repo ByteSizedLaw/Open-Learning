@@ -1,10 +1,10 @@
 # The Defect Lifecycle:
 <ol>
-<li>Discovery: Tester Discovers the issue.</li>
-<li>Reporting: Tester Reports the issue to the Project Management team</li>
-<li>Priority/Triage/Assignment: PM team assigns priority and dedicates someone to work on the issue</li>
-<li>Resolution: The Dev fixes the issue (could be 5min, could be 5 months)</li>
-<li>Verification The Tester checks that the issue has been resolved, and if so, closes the issue</li>
+<li><b>Discovery</b>: Tester Discovers the issue.</li>
+<li><b>Reporting</b>: Tester Reports the issue to the Project Management team.</li>
+<li><b>Priority/Triage/Assignment</b>: PM team assigns priority to the issue, and dedicates someone to work on the issue.</li>
+<li><b>Resolution</b>: The Dev fixes the issue (could be 5min, could be 5 months).</li>
+<li><b>Verification</b>: The Tester checks that the issue has been resolved, and if so, closes the issue.</li>
 </ol>
 <br>
 The lifecycle isn't necessarily linear, 
@@ -18,13 +18,13 @@ Different teams, tools and businesses have their own ways - and you should follo
 <br>
 But this is a general guideline to make "reporting the issue" as helpful as possible to the dev - and to yourself when you need to verify that the fix is right:
 <ol>
-<li>Summary: A very basic overview of the issue - like "system crashes when user logs in".</li>
-<li>Description: A more detailed description of the issue - could also include some of the test data you used, or a link to the testcase</li>
-<li>Reproduction Steps: Very important! Tells the reader exactly which steps you took to produce the error  - so that they (and you, later, at verification stage) can see if the bug is resolved</li>
-<li>Expected Behaviours: How the system should've behaved</li>
-<li>Observed Behaviours: How the system actually behaved</li>
-<li>Impact: What is the impact of this issue? (client can't log in, system is inoperable, etc.)</li>
-<li>Severity: Blocker, Normal, Minor, Critical, Enhancement, etc. -> in most cases, these will have different meaning for different teams</li>
-<li>Workarounds: Steps the user can take to "get around" the issue and still use the system.</li>
-<li>Notes: Basically anything else you want to add, like test-cases, system info, error messages, screenshots, the Client-version number, etc.</li>
+<li><b>Summary</b>: A very basic overview of the issue - like "system crashes when user logs in".</li>
+<li><b>Description</b>: A more detailed description of the issue - could also include some of the test data you used, or a link to the testcase.</li>
+<li><b>Reproduction Steps</b>: Very important! Tells the reader exactly which steps you took to produce the error  - so that they (and you, later, at verification stage) can see if the bug is resolved.</li>
+<li><b>Expected Behaviours</b>: How the system should've behaved.</li>
+<li><b>Observed Behaviours</b>: How the system actually behaved.</li>
+<li><b>Impact</b>: What is the impact of this issue? (client can't log in, system is inoperable, etc.).</li>
+<li><b>Severity</b>: Blocker, Normal, Minor, Critical, Enhancement, etc. -> in most cases, these will have different meaning for different teams.</li>
+<li><b>Workarounds</b>: Steps the user can take to "get around" the issue and still use the system.</li>
+<li><b>Notes</b>: Basically anything else you want to add, like test-cases, system info, error messages, screenshots, the Client-version number, etc.</li>
 </ol>

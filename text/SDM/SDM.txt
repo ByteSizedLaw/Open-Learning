@@ -8,11 +8,20 @@ Organizational hierarchies often place managers at the top, leading to the assum
 <br>
 However, expertise isn’t solely determined by position or number of years in a position.
 <br>
-Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter server} runs, he wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
 <br>
-Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. They are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire careers, because they are "specialists".
+Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter server} runs, 
 <br>
-Managers are "generalists", because they aren't experts and don't have the best technical skills/knowledge, but they have a general understanding of what happens. They usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field or industry (unlike "Web devs" or "Mobile App Devs", who specialize in a single position).
+He wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
+<br>
+<br>
+Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. 
+<br>
+Workers are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire careers, because they are "specialists".
+<br>
+<br>
+Managers are "generalists", because they aren't experts and don't have the best technical skills/knowledge, but they have a general understanding of what happens. 
+<br>
+They usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field or industry (unlike "Web Devs" or "Mobile App Devs", who specialize in a single field).
 <br>
 <br>
 As you go up the organizational hierarchy, the more "generalist" people become -> basically, the less they know about "how exactly" the company works or produces value.
@@ -99,19 +108,19 @@ Every person is different - and there's no way of knowing how someone will act i
     <li>
         People Management Challenges:
         <ul>
-            <li>Managing people involves handling conflicts, addressing performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining</li>
+            <li>Managing people involves handling conflicts, addressing employee performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining, and may (in some rare cases) result in you becoming a target for death-threats, etc.</li>
         </ul>
     </li>
     <li>
         Stressful Deadlines:
         <ul>
-            <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality</li>
+            <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality.</li>
         </ul>
     </li>
     <li>
         Decision-Making Pressure:
         <ul>
-            <li>SDMs make critical decisions that impact projects and careers. The weight of these decisions can be stressful</li>
+            <li>SDMs make critical decisions that impact projects and entire careers. The weight of these decisions can be stressful, or even dangerous (in the case of disgruntled and violent ex-employees)</li>
         </ul>
     </li>
 </ol>
@@ -119,13 +128,14 @@ Every person is different - and there's no way of knowing how someone will act i
 
 
 ## Conclusion:
-Ultimately, being an SDM can be super rewarding, but it balances out by being super challenging as well.
+Being an SDM can be super rewarding, but it balances out by being super challenging as well.
 <br>
 By being one of those things that are hard to measure accurately - and differs for every team - you have your work cut out for you, when trying to lead teams to success.
 <br>
-Ultimately, Leaders - more than anyone - need to be "team players", and shouldn't rest on their laurels or titles, or allow their egos to go unchecked.
 <br>
 Remember, that as the SDM, you are the least skilled, least knowledgeable person in your team. 
 <br>
 "Your" workers are the experts and should be taken seriously and treated with due respect. Without your team, it will be impossible to achieve anything.
 <br>
+<br>
+Ultimately, Leaders - more than anyone - need to be "team players", and shouldn't rest on their titles/laurels, or allow their egos to go unchecked.
