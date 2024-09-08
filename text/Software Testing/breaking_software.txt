@@ -1,0 +1,128 @@
+## Breaking Software:
+Although our goal isn't to tear the developers apart, we do want to tear the system apart. 
+<br>
+This section is all about knowing which things to look for when testing, because they can produce unexpected errors and break the system if not handled correctly.
+<br>
+<br>
+I'll present them as "look for x when testing", but obviously, you could/should "weaponize" these as inputs in your testing efforts to ensure that the system is robust and exits gracefully.
+
+## Logic errors and Operators:
+Could be as simple as using a less-than sign (<) instead of a greater-than sign (>), or could be more complicated to the point of using multiple variables and integrations into different systems.
+<br>
+Usually, I check for operators, and the overall "flow of logic" (In other words, are they doing certain things before they should? Does it make logical sense?)
+<br>
+<br>
+Some errors that the common (usually beginner-level) Dev/Programmer makes:
+<br>
+Using "break" instead of "continue" within a loop - causing iterations to be skipped.
+<br>
+Or not using "break" statements in a Switch's Case condition.
+<br>
+
+## Off-By-One errors:
+These are pretty much logical and Operator errors, but I'll give them their own short section.
+<br>
+<br>
+Using this example from my "Basics of Testing" section:
+<br>
+<li>The system checks for "if input is <0 show a light; if input >0 and <50 don't show a light" </li>
+<br>
+We can see that 0 is not covered in this logic, even though it's explicitly mentioned in the code..
+<br>
+So when we pass in a 0, we don't know what will happen, because the behaviour of the system is "undefined" 
+<br>
+<i>Note: Logically, we know that no light will show - since nothing will happen for this input as it falls outside of both cases, but in more complex systems, this could have some serious consequences that may not be as easy to spot or understand </i>
+<br>
+<br>
+In this case, the dev should fix it in either of these ways, to include 0 in the logical condition:
+<br>
+<ul>
+<li>"if input is <0 show a green light; if input >=0 and <50 show a red light"</li>
+<li>"if input is <=0 show a green light; if input >0 and <50 show a red light"</li>
+<ul>
+<br>
+This is, obviously, a very basic and low-risk example. 
+<br>
+If this were an error in a financial institution, however, the dev would probably be fired into the sun for losing (potentially) millions of dollars.
+<br>
+<i>Spoiler alert: These errors DO happen in financial institutions across the globe.</i>
+
+
+## Rounding and Float errors:
+Floats are used to store floating point numbers (A number with a decimal point - like 2.10).
+<br>
+They're great! ..Or are they?
+<br>
+<br>
+Floats have a pretty dangerous down-side, being that they are don't have a high degree of accuracy. As the precision of the number goes up, the accuracy of it goes down. 
+<br>
+Storing 2.10 into a float doesn't guarantee that the computer will store it as exactly "2.10", it may store it as 2.10893759, or even 2.99999999912395
+<br>
+This is fine for a few cases though, and you'd probably think "meh, that's not so bad though!", 
+<br>
+but when you start to multiply floats x floats, you sometimes get unexpected results, because "what you're inputting" is different to "what the computer is seeing".
+<br>
+Having this randomness in core Systems, like Banking Systems, could be catastrophic and lose the organization millions of dollars.
+<br>
+<br>
+Always check for the use of float datatypes in important systems and make sure they're being handled correctly.
+<br>
+<br>
+When converting numbers with precision (2.10) into integer datatypes (2), you'll have to round up/down to the ceiling/floor of the float number and lose some data (the ".10").
+<br>
+Always check that this loss is intentional and insignificant in the context of the system.
+
+## Integration points:
+Any integration point between any systems will always have some room for failure, usually in the JSON payloads they exchange (Missing or Bad data will be great to test here).
+<br>
+There are bound to be errors or defects on either side of an integration - whether that integration is into another internal sub-system, or an external organization.
+<br>
+Always check these and the integration specifications to ensure that nothing was misinterpreted on your side.
+
+## System Context and requirements interpretation:
+BAs define at a high level what the system should do, and Devs create the system,
+<br>
+But, because Requirements are generally abstracted, they are left to interpret some things.
+<br>
+Sometimes, their interpretations are incorrect.
+<br>
+<br>
+Some common things to check, to ensure that the dev interpreted correctly (and to make your testing easier) are:
+<ol>
+<li>How should the system display errors</li>
+<li>How should data be displayed</li>
+<li>What format should input/output files be in?</li>
+<li>What other systems does this one integrate into, and which interfaces does it have?</li>
+<li>What UI is expected?</li>
+<li>Who will access this system? How?</li>
+<li>What are the expected ranges/limits/volumes of data flowing through this system?</li>
+<li>What format should input data be in?</li>
+</ol>
+
+## Missing Data:
+Sometimes, the entire system can crash or grind to a halt if certain data isn't found where it was expected.
+<br>
+This could be from some files that need to be in specific formats - where they don't have required fields or contain only spaces which break the format, 
+<br>
+Or some JSON tags that are missing because the one side of an integration point thought it was unnecessary.
+<br>
+<br>
+Does the system correctly handle not receiving this important data? Does it gracefully drop the current request and move on, or does it stop and keep it in memory? Does it completely crash and spit out hundreds of error messages?
+<br>
+These are all things we need to test and raise with the project team if the system is not behaving in the expected way
+
+
+## Bad Data:
+Bad Data is data that is unusable by the system for the current operation. 
+<br>
+For example, if I have a database with a strict column limitation on the ID column, that says "ID can only be a number", and I pass in "test123". 
+<br>
+The system wont be able to insert that data into that column, because it's not a number - which means that the data ("test123") is bad and the system can't use it.
+<br>
+Bad Data can either be too long or short, the incorrect format, out of range, unparseable or corrupted.
+<br>
+<br>
+How does the system operate when it gets bad data? Does it correctly exit the current operation? Does it accidentally reveal important info about the internal workings of the system? Does it completely crash and spit out hundreds of error messages?
+<br>
+<br>
+The easiest way to test this - rather than spending hours crafting specific payloads - is to do <b>Fuzz Testing</b> (Bsacially just generating random automated inputs)
