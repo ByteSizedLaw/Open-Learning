@@ -55,9 +55,11 @@ Where the PM focuses specifically on the project and what work needs to be done,
 <li> <b>"SDMs Are Just Paper-Pushers"</b>: While administrative tasks are part of the job, SDMs do much more. They shape team culture, drive innovation, and ensure projects ultimately succeed. Administrative work is just one aspect of their jobs.</li>
 <li> <b>"SDMs Are Always Serious"</b>: Effective SDMs balance seriousness with approachability. They build rapport with their team, listen actively, and create a positive work environment. Humor and empathy are essential.</li>
 </ol>
-Note: The first point covers technical skill. Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. 
+Note: The first point covers technical skill. 
 <br>
-Generally, those studying in the fields of HR or for an MBA will become PMs or SDMs at some point.
+Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. 
+<br>
+Generally, those studying in the fields of HR, Project Management or for an MBA will become PMs or SDMs at some point, even though they don't know anything about Software Dev - because the job is non-technical.
 <br>
 <br>
 Also Note: If you (the SDM) are the most skilled in your team, you are in the wrong position and the organization is wasting it's best worker. 
