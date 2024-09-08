@@ -1,0 +1,94 @@
+# Types of Testing
+
+
+## Acceptance Testing:
+Because not all Testers are technically-skilled, and because different Devs have different preferences or methods of doing things,
+<br>
+The Tester may need to first vet the app/code before they're ready to actually test it. (How can you test the code if it's an uncommented mess?)
+<br>
+<br>
+This can also be done when there are known defects with the system, 
+<br>
+And the Tester wants to first do some preliminary checks that it at least meets the baseline for testing, before they actually start testing.
+<br>
+<br>
+Within Acceptance testing is also <b>Smoke testing</b> which is where we just do a very basic test to check that the Happy Path at least works. 
+<br>
+We'll later come back and do full happy and rainy-day testing.
+Smoke Testing can be either automated (scripted) or manual (unscripted).
+
+
+## Acceptance Testing vs User Acceptance Testing?:
+They're basically the same thing.
+<br>
+Acceptance Testing is testing that's done before the software moves to the next phase of the SDLC. It can be done before a tester accepts it for testing, or before a customer is willing to accept it.
+User Acceptance Testing is the specific testing done by a non-technical representative, to confirm that they're happy with the software and that it's usable by customers.
+
+
+## Operational testing:
+Very basically, it's testing the app in Production.
+<br>
+Ideally, DEV, INT, QA and PROD environments should be identical,
+<br>
+Realistically, in more complex businesses with more complex operations, they're not.
+<br>
+Often, you'll experience issues in Prod that didn't present themselves in QA, everyone will be stumped. 
+<br>
+It happens, and requires some testing in Prod to ID where the issue is.
+
+
+## Alpha Testing vs Beta Testing:
+Both of these are still User Acceptance Tests.
+<br>
+<b>Alpha Testing</b> does exactly what User Acceptance Testing does, but instead of using a single non-technical representative, it uses a very small group/panel/jury of customers.
+<br>
+Once those customers have made recommendations, and we've made changes, etc.
+<br>
+We move on to Beta Testing
+<br>
+<br>
+<b>Beta Testing</b> is Alpha Testing, but instead of using a small panel of customers, we open the floor to a larger audience and allow them to weigh in their thoughts.
+<br>
+<br>
+It's possible to entirely skip either of these - but not recommended, unless the system is for internal-use-only. 
+<br>
+Even when the System is for internal-use-only, you (as the Tester) should look for defects and report them ASAP.
+
+
+## What is Regression Testing, and how does it differ from "regular" testing?
+"Regression testing" is one of those keywords that everyone knows, but nobody actually knows what it means.
+<br>
+Simply put, we go back and re-test EVERYTHING (we "REGRESS" to the first test cycles we did for this software). 
+<br>
+That's all it is. We rerun every test against the code.
+<br>
+It’s done after bug fixes, new features were added, or performance improvements were made, to confirm that the existing/old software still works as expected.
+<br>
+This is usually done via automated scripts that we've developed over the course of the SDLC for this piece of software.
+
+<ol>
+	<li> Purpose
+		<ul>
+			<li>Regular Testing: Focuses on verifying new features or functionalities to ensure they work correctly</li>
+			<li>Regression Testing: Ensures that existing features continue to function correctly after changes are made</li>
+		</ul>
+	</li>
+	<li> Scope
+		<ul>
+			<li>Regular Testing: Typically targets specific new features or components.</li>
+			<li>Regression Testing: Covers both new and existing features to detect any unintended side effects of recent changes</li>
+		</ul>
+	</li>
+	<li> Frequency
+		<ul>
+			<li>Regular Testing: Conducted during initial development phases or when new features are added</li>
+			<li>Regression Testing: Performed continuously throughout the development lifecycle, especially after any code changes</li>
+		</ul>
+	</li>
+	<li> Automation
+		<ul>
+			<li>Regular Testing: Can be manual or automated, depending on the complexity and requirements</li>
+			<li>Regression Testing: Often automated to efficiently retest large parts of the application</li>
+		</ul>
+	</li>
+</ol>
