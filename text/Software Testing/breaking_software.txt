@@ -39,7 +39,7 @@ In this case, the dev should fix it in either of these ways, to include 0 in the
 <ul>
 <li>"if input is <0 show a green light; if input >=0 and <50 show a red light"</li>
 <li>"if input is <=0 show a green light; if input >0 and <50 show a red light"</li>
-<ul>
+</ul>
 <br>
 This is, obviously, a very basic and low-risk example. 
 <br>
