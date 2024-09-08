@@ -51,11 +51,18 @@ Where the PM focuses specifically on the project and what work needs to be done,
 
 ## Misconceptions about SDMs:
 <ol>
-<li> <b>"SDMs Are The Best-of-the-Best"</b>: Contrary to this belief, SDMs are usually the <b>least technically-skilled people</b> on the team. Their role is more about orchestrating resources, aligning projects with business goals, and fostering collaboration</li>
+<li> <b>"SDMs Are The Best-of-the-Best"</b>: Contrary to this belief, SDMs are usually the <b>least technically-skilled people</b> on the team. Their role is more about orchestrating resources, aligning projects with business goals, and fostering collaboration.</li>
 <li> <b>"SDMs Are Just Paper-Pushers"</b>: While administrative tasks are part of the job, SDMs do much more. They shape team culture, drive innovation, and ensure projects ultimately succeed. Administrative work is just one aspect of their jobs.</li>
 <li> <b>"SDMs Are Always Serious"</b>: Effective SDMs balance seriousness with approachability. They build rapport with their team, listen actively, and create a positive work environment. Humor and empathy are essential.</li>
 </ol>
-Note that the first point covers technical skill. Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. Generally, those studying in the fields of HR or an MBA will become PMs or SDMs over time.
+Note: The first point covers technical skill. Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. 
+<br>
+Generally, those studying in the fields of HR or for an MBA will become PMs or SDMs at some point.
+<br>
+<br>
+Also Note: If you (the SDM) are the most skilled in your team, you are in the wrong position and the organization is wasting it's best worker. 
+<br>
+The "most skilled" workers should be workers.
 
 ## SDMs aren't Tech-Leads:
 Yes, the final-decision is always up to them because they're ultimately the-most-responsible for the team and project, 
