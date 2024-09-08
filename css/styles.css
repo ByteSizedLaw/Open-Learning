@@ -71,3 +71,16 @@ img.aboutImage {
   border-radius: 3px; /* Optional styling */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); /* Optional styling */
 }
+
+/* These style our code snippets */
+pre {
+  background: #1f5b0c;
+  padding: 1em;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+}
