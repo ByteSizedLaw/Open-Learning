@@ -108,7 +108,7 @@ Every person is different - and there's no way of knowing how someone will act i
     <li>
         People Management Challenges:
         <ul>
-            <li>Managing people involves handling conflicts, addressing employee performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining, and may (in some rare cases) result in you becoming a target for death-threats, etc.</li>
+            <li>Managing people involves handling conflicts, addressing employee performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining, and may (in some rare cases) result in you becoming a target for threats, etc.</li>
         </ul>
     </li>
     <li>
@@ -121,6 +121,15 @@ Every person is different - and there's no way of knowing how someone will act i
         Decision-Making Pressure:
         <ul>
             <li>SDMs make critical decisions that impact projects and entire careers. The weight of these decisions can be stressful, or even dangerous (in the case of disgruntled and violent ex-employees)</li>
+        </ul>
+    </li>
+    <li>
+        Poor leadership is hilariously hard to spot!:
+        <ul>
+            <li>Poor Leadership is often accompanied by so many other (seemingly random) issues, that it's often only realized AFTER an entire team (including the SDM) has been fired and replaced.</li>
+            <li>As a Leader, it's actually very hard for you to know if you're doing a good job, because Poor Leadership is so incredibly difficult to detect.</li>
+            <li>It's easy to know when a Dev/BA/Tester are underperforming, but how do you know if you (as the SDM) are doing poorly?</li>
+            <li>To those only logging in to make money, this isn't a concern at all, because it means that keeping your job is ultra-easy, even if you do poorly or have no clue what you're doing -> but to the SDMs that want to improve themselves, this is a pretty crucial existential crisis.</li>
         </ul>
     </li>
 </ol>
