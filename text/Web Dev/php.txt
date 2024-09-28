@@ -610,7 +610,6 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 </ol>
 
 ## Accessing files on Disk
-<br>
 Note about the Die command: it terminates the current script's execution and closes all resources. 
 <br>
 This will close any open files, etc. that you're using in your script, but closes the entire app too
