@@ -160,13 +160,11 @@ This makes it do comparisons with data as-is, causing our example to be FALSE, b
 
 Another example is:
 ```PHP
-<? PHP
 	$a = "100";
 	$b = "+100";
 	
 	if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
 	if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
-?>
 ```
 
 ## Echo vs Print
