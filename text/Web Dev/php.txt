@@ -1,0 +1,949 @@
+## Note: 
+This section doesn't cover exactly how to write PHP, it covers concepts of PHP and explains them at an abstract level, very rarely giving exact code snippets.
+<br>
+The reason for this is that there are thousands of tutorials out there that walk you through writing the code, but I wanted to create a tutorial explaining how it works and does what it does, and why you should or shouldn't use it!
+
+# What is PHP?
+PHP is a server-side scripting language, which means that code gets executed on the server when you make requests to PHP pages.
+<br>
+This is good, because it allows you (as the Dev) to write complex systems, without exposing a lot of the inner-workings or confidential parts to clients -> which client-side scripting languages do.
+<br><br>
+PHP has been around for ages as one of the first Server-side hosting frameworks, and as such, is very closely tied to CSS and HTML. 
+<br>
+It's so closely linked to HTML that it's actually able to return HTML pages or elements!
+
+
+## How does PHP work?
+When the web server gets a request for "hey gimme this file", it reads that file from disk and sees that it's got PHP code within the file
+<br>
+It grabs the PHP part and passes it to the PHP interpreter (Which is on the server) to execute.
+<br>
+<br>
+The PHP Script is responsible for passing back clean files/data to the interpreter when it executes, for the client browser to display,
+<br>
+So, when a script is detected and processed by the Interpreter, the PHP spits out HTML back to the Interpreter, and the Interpreter patches the new HTML (that replaces the PHP script part) and old HTML together to create a full document
+<br>
+<i>Note: Some Web Devs force their servers to pass any html files to the interpreter to hide that they use php from users as an obfuscation technique.</i>
+<br>
+<br>
+PHP is a scripting language, and PHP Scripts are still scripts, they're not <i>"one ring to rule them all"</i>, 
+<br>
+So if you go to the same page 2x on the same pc, you might see the same thing, but you're actually interacting with 2x totally different scripts.
+<br>
+<br>
+PHP scripts are lightweight, small and usually handle only a single purpose per script, so you'd use multiple to build a system - not just one big PHP file that exists forever.
+<br>
+Each of these scripts only exist for the time you're calling them. 
+<br>
+They aren't static on the web server, and the web server cleans up the memory usage by destroying those objects once you've finished the call.
+<br>
+This is part of what make scripting languages like PHP and Python so fantastic and fast. 
+<br>
+They only exist for the duration of the call, and then clean up all resource usage afterwards
+
+# Returning data from PHP
+PHP can only pass back an html file by default. 
+<br>
+To test this, create a test html file, and rename it as a .php file extension
+<br>
+You'll just see the regular html again when you open it in your browser!
+<br>
+<br>
+Every Echo statement from PHP returns either HTML, XML, text or JSON, but the server will treat it as regular Text if not explicitly stated. 
+Any HTML that listens directly to the result will treat the data as HTML tags, which can cause some issues if you're passing back JSON and your HTML can't interpret it
+
+
+## Do I need the PHP tags in my files?
+If you have ONLY php code in a file, you can leave out the closing tag ?>.
+<br>
+This is actually good practice because it prevents excess whitespace leaks from your code (Especially important when we use Objects!)
+<br>
+<br>
+That being said though, the opening php tag is required for the interpreter to know what language it is
+
+## Variable Syntax
+Always place the $ (dollar sign) in front of all variable names (In both declaration and usage). 
+<br>
+This also lets the Interpreter work faster, since it will immediately know it's working with a variable.
+<br>
+You don't need to use $ with constants, but you can only globally define those with the define() method (PHP's special syntax for defining global constants) or like in the Method-scoped Constants section
+
+## And/Or vs &&/||
+The "and" and "or" keywords are interchangeable with "&&" and "||" respectively, 
+<br>
+but the latter should always be used because they are of higher order/precedence to the interpreter and execute faster.
+<br>
+There may be some cases where you'd need to use "or" over "||",
+<br>
+but this is only where you'd need a second statement to execute if the first failed, which "||" can't do.
+
+## Incrementation
+doing this
+```PHP
+if ($x++ == 10) echo $x;
+```
+is different to this:
+
+```PHP
+if (++$x == 10) echo $x;
+```
+<br>
+The first one will first check x against 10, and if it passes, increment it (so echo will be 11)
+<br>
+The second will first increment 10 to 11, then check it, and wont echo
+
+## Global Variables
+We can "declare" global variables within our functions using the <i>"global"</i> keyword before using them.
+<br>
+I say "declare" here, because we aren't redeclaring them, we're just telling PHP "hey this variable was actually declared outside of this function" and it then works on the global variable when we call it.
+<br>
+<br>
+Remember, anything that's outside of a method, can't be accessed by code within methods.
+<br>
+To get around this, we redeclare a variable as "global $ourVarName;" at the start of the method, to access the variable from within a method. 
+<br>
+Outside of the method (where you first created the variable), don't use global to declare the var, you can declare it same as usual and just use "global" within the methods to reference that variable
+
+
+## Static Variables
+These are a bit weird.
+<br>
+They will remain in memory throughout the lifetime of the app. Even if different instances of the method are run/created by other parts of the app, the same var's object will be used to access/update data. 
+<br>
+This is good and bad.
+<br>
+Also, the lines where static vars are declared will be skipped the next time the function runs, because the app ignores their re-declarations, which is a big speed boost!
+<br>
+<br>
+Remember: Static variables ONLY exist for this current run, they do not exist when the user refreshes/reloads the page, or when the script terminates/ends.
+<br>
+PHP scripts are scripts. Small functions that run to do something. Even though the webserver uses PHP to do stuff, it doesn't keep objects in memory when the script ends.
+
+
+## SUPERGLOBALS:
+These are inputs/vars passed into the app by the server itself. 
+<br>
+In most cases, it'll be stuff like the $_POST or $_GET methods from users entering info in HTML and posting it to the server.
+<br>
+<br>
+This is SUPER dangerous if unsanitized, because hackers can inject all kinds of malicious payloads, etc.
+<br>
+Basically, these are pretty much global vars which we can access from anywhere, but the name "Super" means that it's given to us by PHP itself; 
+<br>
+<br>
+Super = given by PHP itself
+<br>
+Global = accessible anywhere
+
+## True/False vs TRUE/FALSE
+For TRUE and FALSE statements, use "true" and "false" instead, because the lowercase version can't be redefined - whereas uppercase can be. 
+<br>
+This is also important to check when using 3rd party libraries
+
+## Booleans
+When printing out Booleans, TRUE is 1, and FALSE is null (Wont even show!).
+<br>
+This is because PHP treats TRUE as 1 (on), and FALSE as nothing (off). 
+<br> 
+You can still use it same as other languages, it's just a bit strange for newcomers to PHP and programming
+
+## Loosely-typed
+PHP is a loosely typed language, so it will autoconvert variables, etc. into the right type where it sees fit.
+<br>
+For example, it'll convert "1" into an int if I say: If("1" == 1)
+<br>
+This is great, but can cause some unexpected results as well.
+<br>
+To force it to do the comparison WITHOUT conversion - using the vars as-is - use the 3x equals "===" signs. 
+<br>
+This makes it do comparisons with data as-is, causing our example to be FALSE, because "1" does not equal 1.
+
+Another example is:
+```PHP
+<? PHP
+	$a = "100";
+	$b = "+100";
+	
+	if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
+	if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
+?>
+```
+
+## Echo vs Print
+They're both the same, implemented as constructs and don't need parentheses (), but print and echo commands are different.
+<br>
+Because print is implemented as a function, it can be used as part of logic, like ternary: <i>if($a==1) ? print "works : print "failed";</i>
+<br>
+Whereas the echo command cant, because it just echoes everything to the end of the line or string.
+
+## Case Statements
+Case statements are super useful for reducing code files!
+<br>
+We might find that we have lots of repeating lines like <i>"elseif(something==somethingElse)"</i>
+<br>
+So a case statement lets us get around these duplicate lines of code by simplifying the syntax. 
+<br>
+You can use them interchangeably with IF-Else statements, and should use them when there's lots of cases, to reduce codefile size!
+<br>
+<br>
+The actual code starts inside of the first colon, and ends at the "break;"
+<br>
+example: <i>case "test": doSomething(); break;</i>
+
+
+## Grouping Loops
+This is a MASSIVE design choice - and could introduce bugs, but you can actually group FOR LOOPS together into one!
+<br>
+Example: <i>for($a=0, $b=0; $a<10, $b>9; $a++, $b++)</i>
+<br>
+<br>
+Each for loop has 3x parts (assignment, logical condition, incrementation) so we usually separate each with a Semi-Colon,
+<br>
+We then add and separate each grouped expression, into each of those 3x parts, with a comma 
+<br>
+Basically, we do a regular for-loop and combine the inner loops with the main one, separating each section with a comma
+
+## The break command
+"break" is super powerful!
+<br>
+"break" followed by a number tells the app how many layers to break out of,
+<br>
+So - in other words - if you've got 3x inner loops, and use "break 2;", it will shoot out to the highest loop and continue execution - instead of stopping entirely!
+
+
+## functions vs objects [1 vs many]
+In PHP, Functions are blocks of repeating code that we extract and define for reuse. 
+<br>
+This makes app loading faster because it's compiled only once, no matter how often it's called, and decreases programming errors.
+<br>
+PHP Objects are groups of functions and the data they use, they are called <i>Classes</i>.
+<br>
+<br>
+Methods are defined as "function myFuncName" and classes are defined as "class myClassName". 
+<br>
+Classes/Objects will have a constructor, destructor and some functions within them.
+
+## Passing by reference
+Pass-by-reference is deprecated in newer versions of PHP
+<br>
+BUT, Receive-by-reference is allowed!
+<br>
+<br>
+with passbyref, we use "&" before a variable name when calling a method, like so: <i>test(&$variableA)</i>
+<br>
+with receiveByRef, we call it normally (without the &), and we define the function as having the &, "function test(&$variableA)"
+<br>
+This allows us to still do exactly what we wanted to, and the syntax is a bit weird now, but any changes we make to VariableA will change the original, not a copy of it.
+
+## Referencing other code within our PHP files
+There are some keywords we'd use to reference other files, and we'd usually do it at the start of our PHP script. 
+<br>
+<br>
+Here's a quick breakdown of the keywords and what they do:
+<br>
+"include": allows us to ref another file
+<br>
+"include_once": allows us to ref another file without cyclic references
+<br>
+Both of these above only TRY to include the file, and wont fail if there's an error
+<br>
+"require": fails if the file can't be reffed
+<br>
+"require_once": is the same as include_once and fails if the file can't be reffed
+<br>
+<br>
+Our "_once" methods ensure that there's no cyclic references. 
+<br>
+These are basically where you've referenced "file 1" from "file 2", and you're now referencing "file 2" from "file 1", so they both reference each other, and neither can load until the other does.
+
+## Checking that a function exists
+"function_exists" allows us to search the name of a specific function in standard PHP and UDF functions. 
+<br>
+This is awesome for compatibility with older and new versions of PHP
+
+## Cloning objects
+All objects (class objects) are passed by reference - even when we clone them
+<br>
+Example:
+```PHP
+$person1->name = "amy";
+$person2 = $person1;
+$person2->name = "sally";
+```
+<br>
+Both Person objects now have the name "sally" because we created a reference to Person1 when we created Person2, then we changed it's name - thus changing original Person1
+<br>
+<br>
+To get around this, use the "clone" keyword, this will copy the object!
+```PHP
+$person2 = clone $person1
+```
+
+## Constructors
+When we create objects, we sometimes need to initialize some values at declaration, so we create constructor methods inside the object.
+<br>
+We use the "function __construct()" keyword (2x underscores _ + construct) to declare a constructor
+
+
+## Destructors
+We do this to basically kill off an object once we no longer need it or once the method is done running and we need to clear memory, like if we need to close conn to a DB, etc.
+<br>
+<br>
+EVERY class needs a destructor method, because the resource was created within the class, so it can only be released there. 
+<br>Most errors/memory-leaks come from failure to deconstruct resources once they're done/used
+<br>
+<br>
+We use the "function __destruct()" keyword to declare a destructor/destroyer, then add our code inside of the function
+
+## $this
+the "$this" keyword is same as C#/java/Python.
+It lets us access only the current object's properties
+
+## Method-scoped Constants
+Unlike the global-scoped constants, we can declare constants within methods using the "const" keyword - they still don't have the variable "$" sign though!
+<br>
+We can also access them directly (within that class/object) using the "self::" + the name of the const to access
+
+
+## Accessing methods of classes directly
+We can do this calling ClassName::MethodName(), BUT the method/function must be declared as Static!
+<br>
+ALSO, remember that any other methods/functions this method references from within in the same class need to be called as ClassName::MethodName() as well!
+
+## Something cool on Static vars
+Classes can also have static member vars that tell you info about all instances of the class - like how many Users logged in, etc.
+<br>
+These are declared within the class as "static $abc" and then used as normal - they are normal static vars and will keep their data across multiple instances of the class
+<br>
+These are great for tracking how many people visited your site, etc.!
+
+## Class and Object basics
+We use "->" on an object to access its public data or non-static methods
+<br>
+We use "::" on a class to access a static method
+
+## Advanced Classes and static access
+We can declare anything within a class as static, to make it context-agnostic (the data within it doesn't change depending on how many times we use it, or where we use it),
+<br>
+But the way that we access these objects differs.
+<br>
+For methods, we need to use the ClassName :: MethodName()
+<br>
+For member variables, we need to use ClassName :: MemberName()
+<br>
+If you access static members from within the same class, we need to use Self :: MemberName()
+<br>
+<br>
+Like so:
+```PHP
+<?php
+    $temp = new Test();
+    echo "Valid: " . Test::get10() . "\r\n";
+    echo "Valid: " . Test::$myTest. "\r\n";
+    //cant do this because we're trying to access instance data on a static object (the var is static)
+    echo "Invalid: " . $temp->myTest . "\r\n";
+    echo Test::test1(). "\r\n";
+    echo Test::test2(). "\r\n";
+class Test{
+    static $myTest = "hello world";
+    
+    static function get10(){
+        return 10;
+    }
+    static function test1()
+    {
+        //static methods need to use "Self" to access any other static methods/members within the current class
+        return Self::$myTest;
+    }
+    static function test2()
+    {
+        return Self::test1();
+    }
+}
+?>
+```
+## Classes and Inheritance:
+I think the easiest way to describe this is in the scope of "Publishers" and "Subscribers" (or consumers).
+<br>
+If you think about a publishing company - whether it's Game Dev, News or Media - the Publisher is "making something available for others to use".
+<br>
+This is a pretty important concept in most languages, because we can act as a publisher to parts of our app, and make our lives a lot easier by writing less code.
+<br>
+<br>
+In some cases, we may find that we need a whole bunch of very similar Classes, with similar data and methods.
+<br>
+I'll use an example of Aeroplanes/planes (this thought was inspired by Microsoft Flight Simulator™).
+<br>
+<br>
+There are many different types of planes out there, from fighter jets and Boeings to WW2 bombers (I don't know much about planes).
+<br>
+All have a very well defined shape that characterizes them,
+<br>
+They all have wings, combustion engines that propel them, a seat for the pilot and potential passengers (thereby a maximum carry load and passenger load) and they're all made of similar sturdy materials.
+<br>
+<br>
+If we were writing a game (Microsoft Flight Simulator™) that had planes (Microsoft Flight Simulator™)
+<br>
+We would have to sit and write exactly the same code for each of these types of planes, and then - within each Class - make small changes for the different types of engines and fueling systems, etc.
+<br>
+This is fine, until we realize that something we previously assumed to be correct (like combustion engines) has now changed, and we need to individually change 1000+ classes, and then retest every one for failures/differences, etc.
+<br>
+<br>
+This would not only introduce lots of risk and effort - and testing effort, it would also be a massive waste of time.
+<br>
+The easier solution would be to have a single class/blueprint that has all of these basic common traits (has wings, has combustion engine, has seats, is made of metal, etc.) in one place,
+<br>
+And then, for each type of plane, we'd "clone" that class/blueprint and just add whatever else we need that's specific to that type of plane.
+<br>
+<br>
+Luckily for us, we're not the first ones to think of this or encounter this dilemma.
+<br>
+The creators of most languages have added support for "Inheritance", which is exactly the solution we came up with.
+<br>
+<br>
+By having a class "inherit" from another, it gets all the attributes and methods of the "Parent" class.
+<br>
+So by inheriting from the "Plane" class, our "Boeing" class would now automatically have all the same attributes as a regular plane, and we can still customize/extend it to however we need.
+<br>
+<br>
+Inheritance is pretty easy, you just use the "extends" keyword followed by the name of the Parent class.
+<br>
+<br>
+something slightly tricky on Inheritance is that: if you create a method with the same name as the Parent class, PHP will execute the new method instead of the parent.
+<br>
+If you ever need to reference the Parent method within this new method, just use "Parent :: ParentMethodName"()
+<br>
+You can also declare the Parent method as a "final function", which tells PHP to never override it. So instead of "public/private", you'd use the "final" keyword.
+<br>
+<br>
+It's also generally advised to use "Self"::"methodName" within a child class, to ensure that you're calling the right methods from within the current class, etc.
+<br>
+<br>
+When you create a constructor within a child-class, it wont call the constructor of the Parent class, so you'll need to manually call "Parent::__construct()" within your constructor
+
+## Concatenation
+PHP doesn't use the + operator for concatenations, it uses a fullstop (.) instead, like Perl.
+
+# PHP Arrays
+Probably the most complicated thing in PHP.
+<br>
+Arrays allow us to deal with more complex data structures, and also allow some pretty easy ways to access data - while remaining quick and efficient.
+<br>
+<br>
+There are Numeric and Associative arrays.
+<br>
+<b>Numeric arrays</b> are where we use integer indexes to store or access data.
+<br>
+<b>Associative arrays</b> are where we use words/keyword to store or access data.
+
+## Array Functions
+### inserting into Numeric Arrays:
+```PHP
+	$arr[] = "hello";
+	$arr[] = "world!";
+```
+This basically tells PHP to create a numeric array and place the data at the next available location in that array - PHP then increments the element count (which starts at 0) and waits for future insertions
+<br>
+We could also have specified the exact locations to insert into like this:
+```PHP
+	$arr[0] = "hello";
+	$arr[1] = "world!";
+```
+<br>
+### Getting items from a numeric array:
+```PHP
+	$arr[] = "hello";
+	$arr[] = "world!";
+
+	echo $arr[0] . " " . $arr[1]; //echo "hello world!"
+```
+### Associative arrays:
+These are basically maps, or Key-value-pairs.
+<br>
+We can store and access data using "tags", like so:
+```PHP
+	//store data in specific tags
+	$arr["first"] = "hello";
+	$arr["second"] = "world!";
+	
+	//get data from specific tag
+	echo $arr["second"]; //echo "world!"
+```
+These types of Arrays are super useful when we're extracting info from HTML or XML, because those datatypes may be presented to our code in Key-value-pairs.
+
+### Creating Numeric Arrays with the Array keyword:
+```PHP
+$arr = array("hello", "world!"); //this tells PHP to create a new numeric array and add these items
+```
+retrieving items will still be the same as with regular Numeric Arrays
+
+### Creating Associative Arrays with the Array keyword:
+```PHP
+	$arr = array("first" => "hello", 
+		     "second" =>"world!");
+```
+retrieving items will still be the same as with regular Associative Arrays
+
+## FOREACH item AS something:
+This allows us to iterate over every element in an array/list
+<br>
+The syntax is as follows
+```PHP
+	foreach($listName as $item)
+	{
+	    //do something with the $item
+	}
+```
+for associative arrays, the syntax can be as follows:
+```PHP
+	foreach($listName as $item => $value) //allows us to access both the Key and Value of the item
+	{
+	    //do something with the $item and $value, can use both individually now
+	}
+```
+## Multidimensional Arrays:
+Arrays within arrays! That's literally all these are.
+<br>
+The reason we may need them is for applications where we need to store items that fit a certain category - like books.
+<br>
+Each book has an author, and a genre.
+<br>
+<br>
+For simplicity, I'll use Genre and book name.
+<br>
+<br>
+Imagine we wanted a simple list that said:
+<br>
+[Category : Book Name]
+<br>
+Horror : Call of Cthulhu, Data Structures and algorithms, Twilight
+<br>
+Mystery : At the mountains of Madness
+<br>
+<br>
+How would we implement this?
+<br>
+<br>
+The easiest way is to treat each category like its own array/list, then have those different arrays/lists in another bigger list called "books",
+<br>
+like so:
+```PHP
+	$books = array(
+		"Horror" => array("Call of Cthulhu", "Data Structures and algorithms", "Twilight"),
+		"Mystery" => array("At the mountains of Madness")
+	);
+```
+The following code will now print out the names of each of the books and the category they belonged to
+```PHP
+    foreach($books as $category => $name)
+    {
+        $leng = count($name);
+	//remember that we created the inner array as a numeric array, so we cant access it with tags, need to use for loop!
+        for($i=0; $i<$leng; $i++) 
+        {
+            echo "Category: " . $category . ". Book Name: " . $name[$i] . "<br>";
+        }
+    }
+```
+Note: You can also create numeric multidimensional arrays, by simply excluding the tags, like this:
+```PHP
+	$books = array(
+		array("Call of Cthulhu", "Data Structures and algorithms", "Twilight"),
+		array("At the mountains of Madness")
+	);
+```
+Accessing this data is the same as a regular numeric array, but requires 2x for loops
+
+
+## Some cool built-in array methods:
+
+<ol>
+	<li>Explode: 
+		<ul>
+			<li>Basically C#s equivalent of "string.Split". It allows you to split a string into array elements and insert them into an array</li>
+			<li>Syntax: </li>
+			<li>$arr = explode(" ", "hello world from CyberFinn!") //this would create 4x array elements. It does so by splitting the string into separate strings based on the instruction (I said " " - which is blank space)</li>
+		</ul>
+	</li>Count: 
+	<li>
+		<ul>
+			<li>Counts the elements in the array for you</li>
+		</ul>
+	</li>
+	<li>Sort:
+		<ul>
+			<li>sorts the elements in the array for you</li>
+			<li>sorts either SORT_NUMERIC (numbers ascending) or SORT_STRING (Alphabetically)</li>
+			<li>syntax: sort($arr, SORT_NUMERIC);</li>
+			<li>returns: true if success, false if failure</li>
+
+		</ul>
+	</li>
+	<li>is_array:
+		<ul>
+			<li>checks if the object is an array</li>
+			<li>syntax: is_array($arr);</li>
+			<li>returns: True if it is an array, false if not an array</li>
+		</ul>
+	</li>
+	<li>extract:
+		<ul>
+			<li>turns key-value-pairs in an array into variables</li>
+			<li>Note: if variables conflict with existing ones, the existing ones will be overwritten, so it's advised to use this syntax:</li>
+			<li>syntax: extract($GET, EXTR_PREFIX_ALL, "fromGet_"); //this will prefix the new variables with "fromGet_", and will extract all info from the associative GET array into new vars. This is useful for reading data from GET/POSTs</li>
+		</ul>
+	</li>
+	<li>compact:
+		<ul>
+			<li>turns variables into key-value-pairs (opposite of extract)</li>
+			<li>syntax: $arr = compact("variableNameWithout$sign"); //creates associative array where the value of variableNameWithout$sign can be accessed on the array by using the key "variableNameWithout$sign"</li>
+		</ul>
+	</li>
+	<li>reset:
+		<ul>
+			<li>"foreach.. as.." loops have an internal counter that tells it where it is in the array. Sometimes you may need to reset it to 0 and restart the loop</li>
+			<li>syntax: reset($arr)</li>		</ul>
+	</li>
+	<li>end:
+		<ul>
+			<li>opposite of reset. it changes the counter to the last element in the list</li>
+		</ul>
+	</li>
+</ol>
+
+## Accessing files on Disk
+<br>
+Note about the Die command: it terminates the current script's execution and closes all resources. 
+<br>
+This will close any open files, etc. that you're using in your script, but closes the entire app too
+<br>
+<br>
+Sometimes, you may not want to access the db, like when you're handling profile images, etc. -> it may make more sense to just read and store them on disk
+<br>
+This is where file handling comes in
+
+### File Disk operations:
+
+<ol>
+	<li>Checking files exist:
+		<ol>
+			<li>use the "file_exists" method (returns bool)</li>
+		</ol>
+	</li>
+	<li>creating files:
+		<ol>
+			<li>note: some systems are case sensitive, so always create files with lower-case names</li>
+			<li>
+example: 
+```PHP
+	$fileHandle = fopen("tes.txt", "w") or die("couldn't create the file"); //w = write mode
+
+	$data = "hello world";
+
+	fwrite($filehandle, $data) or die("failed to write to file");
+	fclose($fileHandle);
+	echo "success";
+```
+			</li>
+		</ol>
+	</li>
+	<li>reading files:
+		<ol>
+			<li>note: easiest way is to read it into a single string, we do this with fgets (file-get-string)</li>
+			<li>note: when calculating the number of chars to read, remember to count newline chars too!</li>
+			<li>using the same function as above, but replacing the fwrite with the following line - and opening the file in "r" mode:</li>
+```PHP
+$fileData = fgets($fileHandle, $numberOfCharactersToRead);
+```
+		</ol>
+	</li>
+	<li>Reading an entire file without handles:
+		<ol>
+			<li>we can use the simple get_file_contents method</li>
+			<li>note: this is super useful, because it works over the internet! which fopen doesn't. So we can use it to get HTML, etc from anywhere else, or locally</li>
+```PHP
+$fileContents = get_file_contents($filenameAndPath);
+```
+		</ol>
+	</li>
+	<li>copying files: 
+		<ol>
+			<li>note: copy returns a Boolean true if successful, false if failed</li>
+```PHP
+	copy($sourceFilePathAndName, $destinationFilePathAndName);
+```
+		</ol>
+	</li>
+	<li>moving files:
+		<ol>
+			<li>note: to move a file, we need to use the "rename" function</li>
+			<li>note: you can use "rename" on directories too</li>
+```PHP
+	rename($sourceFilePathAndName, $destinationFilePathAndName);
+```
+		</ol>
+	</li>
+	<li>deleting files:
+		<ol>
+			<li>note: to delete files, we use "unlink" which removes it from the filesystem</li>
+```PHP
+unlink($filename);
+```
+		</ol>
+	</li>
+	<li>File pointers and reading/writing from specific locations:
+		<ol>
+			<li>File pointers are the index at which the next file operation (read or write) will take place</li>
+			<li>File pointers are not the same as the file handle</li>
+			<li>we use the "fseek" method to do move the file pointer</li>
+			<li>note: fseek has support for specific locations, or for SEEK_END or SEEK_START, which find the end and start of file, respectively</li>
+```PHP
+fseek($fileHandle, 0, 100); //0 tells it how many positions backwards/forwards it needs to start from 100 chars in [so only start at 100], this is called the offset and should never exceed seek_end
+```
+			<li>note: it also has support for SEEK_SET, which sets the file pointer to the given/offset location in the file</li>
+```PHP
+fseek($fileHandle, 10, SEEK_SET); //set file pointer to position 10
+```
+			<li>note: it also has support for SEEK_CURR, which does the same as SEEK_SET, but sets it to the position you're currently at, plus the offset</li>
+```PHP
+fseek($fileHandle, 10, SEEK_CURR); //set filepointer to current location + 10 char
+```
+		</ol>
+	</li>
+	<li>Locking files:
+		<ol>
+			<li>This is needed for when multiple users are trying to write to the same file simultaneously, so that the file doesn't get corrupted</li>
+			<li>we use the "flock" function (it means "file lock")</li>
+			<li>we need to use the following params: LOCK_EX (to lock the file) and LOCK_UN (to unlock the file again)</li>
+			<li>note: it's advised to only lock and unlock the file directly before/after you've used the file, then release it asafp -> this is for efficiency and UX</li>
+			<li>always wrap the lock in an IF statement, because not all systems will support/allow you to access the file, and it could be locked out too! Always check for a secured/successful lock</li>
+```PHP
+flock($fileHandle, LOCK_EX); //lock the file
+flock($fileHandle, LOCK_UN); //unlock the file
+```
+		</ol>
+	</li>
+	<li>uploading files from a web browser
+		<ol>
+			<li>seems daunting, but is super easy</li>
+			<li>requires some HTML, and specifically the form tag's encoding type of "multipart/form-data"</li>
+			<li>note: we don't have to worry about deleting the temp files that get stored on the server, PHP does this for us when we eventually exit</li>
+			<li>Client and Server code sample:</li>
+```HTML-side
+	&lt;form method="post" action="upload.php" enctype="multipart/form-data"&gt;
+		Select File: &lt;input type="file" name="filename" size="10"&gt;
+		&lt;input type="submit" value="Upload"&gt;
+	&lt;/form&gt;
+```
+```PHP-side
+if($_FILES) //all uploaded files are always stored into this PHP-default associative array
+	{
+		$name = $_FILES["filename"]["name"];
+		//move the file from temp storage (where PHP autosaved it for this run) into the current directory, or new one
+		move_uploaded_file($_FILES["filename"]["tmp_name"], $name);
+	}
+```
+			<li>note: On the PHP-side, there are 5x things stored into the $_FILES array, which can only be accessed via the key ["filename"], these are: name, size (in bytes), tempName, error from uploading (if any), type (Internet Media Type -> they have specific names, but represent images, audio, etc.)</li>
+			<li>this means that we actually have a few filtering options to defend against zip bombs, etc. and ensure that only the right types are uploaded</li>
+		</ol>
+	</li>
+</ol>
+
+## System calls:
+PHP doesn't have all the functionality you need, but the OS (or other custom apps) do!
+<br>
+In these cases where you need more functionality, you'd use the underlying OS/System. 
+<br>
+<br>
+We do this using the exec (or "Execute") function 
+<br>
+<i>Note: ALWAYS wrap the input commands to the exec function in an "escapeshellcommand" -> this sanitizes inputs to prevent hacking the OS</i>
+
+## XHMTL or HTML5?
+XHTML is interoperable with XML parsers, so it's easy to read in using an xml parser.
+<br>
+This requires strict validation rules and stricter document formatting and parsing .
+<br>
+<br>
+HTML5 is a lot less strict, but has all the important functionality of XHTML and HTML4,
+<br>
+It's also a lot simpler to use - and most browsers nowadays (since 2011) use it
+
+
+### Some notes on MySQL
+You should've ideally studied some Database Engineering before working with databases at all, but if you have worked with databases before, or you're a chatGPT expert, it should be pretty easy to use.
+<br>
+Most databases are pretty easy to use and support the same types of DML queries - despite few syntactical differences
+<br>
+<br>
+If you have AMPPS installed, you can use: "c:\program files\ampps\MySQL\bin\MySQL" -u root -p to open MySQL in command prompt
+<br>
+you can then use "show databases;" to list all dbs
+<br>
+then use "use database;" to use a specific db
+<br>
+then use "show tables;" to show all tables
+<br>
+then use "describe table;" to describe the columns, etc of the table
+<br>
+<br>
+The MySQL shell also allows you to create databases, etc. from the shell window, if you have administrator access
+
+## PDO and MySQL
+MySQL is an incredibly lightweight and well optimized database management system, and is often used with PHP. Because most systems use databases, PHP actually has special methods of connecting to databases.
+<br>
+The most modern and secure one is PDO, or PHP Data Objects.
+<br>
+PDO is database independent, and incredibly well optimized for database activity (CRUD). 
+<br>
+It's lightweight and efficient, but also hides and manages a lot of code for you, to make it super simple
+<br>
+<br>
+PDO also has a method called "quote", which escapes quotes, etc. to prevent sql injections, which is just one of the many functions it has to help you improve system security and efficiency
+
+## Authentication, Session and Cookies:
+We often (on large scale sites or web apps) need to keep track of our users,
+<br>
+we do this via sessions and cookies.
+<br>
+
+
+## Cookies:
+A cookie is an item of data that the server saves to your disk via the browser. 
+<br>
+A cookie can contain up to 4Kb only.
+<br>
+They can ONLY be read by the issuing site/domain, so that they are inaccessible to other sites/domains
+<br>
+That being said, some html elements are embedded from multiple sites, and each can store its own cookies -> these are called 3rd party cookies
+<br>
+Most browsers allow you to disable cookies and 3rd party cookies
+<br>
+<br>
+From the server perspective: cookies are exchanged during the transfer of headers, before the HTML is actually sent, and it's IMPOSSIBLE to send a cookie once html has been sent
+<br>
+This means that cookies require careful planning and usage
+<br>
+note: cookies can be edited in the browser, so they're not ideal for storing confidential info like usernames or passwords, etc.
+<br>
+<br>
+creating cookies is easy:
+
+```PHP
+	setcookie(name, value, expiry, path, domain, secure, httponly);
+		//value = up to 4kb ONLY
+		//expiry = if left empty, expires when browser closes
+		//path = path of cookie on server - if nothing, is available only in the current directory, not available on any other site in the domain
+		//domain = domain of the cookie -> what domain/subdomain the cookie is available to
+		//secure = whether the cookie MUST use secure transfer -> if true, the cookie can only be sent via HTTPS. default is false
+```
+<br>
+Accessing cookies is also easy:
+```PHP
+	if(isset($_COOKIE["mycookie"]))
+```
+Note: You can only access them once the page reloads on the client browser and the client sends the cookie back to the server!
+<br>
+<br>
+Deleting cookies:
+<br>
+You need to issue it again with a expiry in the past
+<br>
+You can either manually set it to the past when recreating it, or set the value to FALSE or blank string, and php will do it for you
+<br>
+The best is to set it a year in the past, because the client date and time might not be correctly set, causing it to still be valid even if you've set it in the past.
+
+
+## HTTP Authentication:
+Uses the web server to manage users and passwords
+<br>
+<br>
+PHP sends a header request asking to start an auth dialog with the browser.
+<br>
+Server MUST have this turned on, but it's super common and installed with Apache, so it's likely that it's already on
+<br>
+When going to the site, the user will see a login request page asking for username and password
+<br>
+once the user has logged in, they won't ever see the login request again, until they've closed the browser, because the browser will keep sending the username and pword to the server until they close it
+
+## Storing user credentials
+The best way is to store the username and pword-HASH in MySQL
+<br>
+We create the hash using the password_hash function, and giving it the PASSWORD_DEFAULT 2nd arg  -> this makes it choose the most secure password alg available
+<br>
+This method also creates a random salt for the password as well
+<br>
+<br>
+To verify that passwords match the hashes, it's advised that we only use password_verify - which compares a password and a hash to verify if they match, 
+<br>
+But - because I know Cyber Security - I DEFINITELY DON'T WANT TO DO THAT CHECK ON THE SERVER BECAUSE IT WOULD MEAN TRANSMITTING CLEARTEXT PASSWORDS!!!
+<br>
+My approach is to first hash the users' password on their machine, and only then send it to our PHP to check. 
+<br>
+This prevents the user's password from being sniffed or stolen
+
+## Sessions:
+We can track users across different site-calls or script executions by setting up hidden fields in forms,but that's inefficient, 
+<br>
+So PHP handles it for us by storing cookies on the browser that ID that specific user, and allowing us to create Sessions (groups of vars) exists only for them. Nobody else, nothing else can see it or use it.
+<br>
+The cookies can still be hacked, so watch out for that!
+<br>
+<br>
+Starting a session MUST be done before any html is echoed (like with Cookies)
+<br>
+<br>
+You first start a session with "session_start()", then assign its' variables, etc.
+<br>
+You can start creating a session's vars by assigning value to it like an associative array:
+```PHP
+	$_SESSION["Test"] = "hello world";
+```
+It's also good practice to store and check the user's IP for the session:
+```PHP
+	$_SESSION["ip"] = $_SERVER["REMOTE_ADDR"];
+```
+Or to store the user agent (if they share the same IP -> for family, etc.):
+```PHP
+	$_SESSION["agent"] = $_SERVER["HTTP_USER_AGENT"];
+```
+Remember that sessions need to be closed as well,
+<br>
+We do this with session_destroy() -> but ideally, we should clear all cookies and $_SESSION variables too by setting them to null. 
+<br>
+It's best to create a custom method to do this
+<br>
+<br>
+Sometimes, we might want to leave it up to the server to decide when to log them out of the session.
+<br>
+We set an expiry in this case, by calling:
+```PHP
+ini_set('session.gc_maxlifetime', $duration);
+```
+
+## Preventing session fixation
+Session Fixation is basically when a hacker creates a bunch of sites, then sends those links to the sessions out and gets users to auth themselves on the session, then they come back and take control of the session
+<br>
+The best way to defend against it is to use a counter on the site - something like "sessionExists" or "initiated", and if you find that it's true for this session, regenerate the session ID, using "session_regenerate_id"
+<br>
+<br>
+We can also force cookies-only sessions, which prevents this too
+We do this with:
+```PHP
+ini_set("session.use_only_cookies", 1); 
+```
+This requires that users have cookies enabled though
+
+## Managing sessions on the server
+Sessions need to be placed into nice folders, because the root directory can become messy
+<br>
+It's probably good to use:
+```PHP
+ini_set("session.save_path", "myDesiredDirectory"); 
+```
+To keep it clean and web-inaccessible (can't be directly accessed by hackers)
+
+## REGEX in PHP:
+We use these 3x methods for Regular Expressions: preg_match(), preg_match_all(), preg_replace()
+<br>
+preg_match is actually pretty powerful because it can take up to 3x arguments and tells us (as the 3rd) what text matched the expression
