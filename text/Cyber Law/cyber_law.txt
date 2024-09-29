@@ -49,6 +49,8 @@ It's the only thing that really protects us from:
 
 
 ## Intro to Cyber Law (South Africa)
+To get into the important parts of Cyber Law, we first need to discuss the Constitution.
+<br>
 The Constitution came into effect on February 4th 1997 and lists many laws, but is basically founded on the following core values:
 <ol>
 	<li>Human Dignity</Li>
@@ -73,4 +75,10 @@ South Africa is also a signatory to lots of international treaties, and as such,
 The governing body will do so by implementing national legislation that complies to these requirements. 
 <br>
 This can be referred to as "Compliance", although compliance is a broad term.
-
+<br>
+<br>
+These international treaties are what cause the Constitutions and Legal Systems of many countries to be similar or focus on the same points.
+<br>
+This is why you can be tried as a criminal for breaking Cyber Law in most countries, because the law is basically international - or not tied to any one geographic location. 
+<br>
+Basically, breaking Cyber Law in the US and fleeing to Canada will still get you tried as a cybercriminal, because they treat the offenses just as seriously, because of the international treaties and their own compliance.
