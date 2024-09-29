@@ -157,3 +157,85 @@ In accordance with <i>Stare decisis</i>, all courts are bound by the decisions o
 Every High Court is on "equal footing", which means that a decision in the High Court of Durban is not binding in the High Court of Cape Town.
 <br>
 Magistrate courts cannot establish Judicial precedent, and those that are within the Magisterial district of a High Court are bound by the High Court's decisions
+
+## Common Law
+The foundation of South African law is the Common Law.
+<br>
+The common law is composed of Roman-Dutch law and English law.
+<br>
+Because of this, the Common Law is described as Hybrid/Mixed.
+
+## Custom/Tradition Law
+These are customs or traditions that were followed before colonization, such as the "Code of Zulu Law", etc.
+<br>
+A snippet from a formal legal debate on a customary law:
+<i>
+"But the position of a black woman who is a partner in a customary union [traditional marriage] and who is living with her husband, is quite different. 
+<br>
+In terms of section 11 (3)(b) of the Black Administration Act 38 of 1927, such a woman is deemed to be a minor and her husband is deemed to be her guardian.
+<br>
+This means, for example, that she cannot contract without the consent of her husband."
+</i>
+<br>
+The code of Zulu law - which only changed recently because of European and American influence - stated that women were the <b>property</b> of the Head of the Family (usually their dad) they belong to, indefinitely. 
+<br>
+The Head of the Family is the daughter's owner, and upon marrying her off for ilobolo (cattle/cows), would then give ownership of her to her new husband, who would be her owner for as long as she lived.
+<br>
+There was, and still is in some cases, no "official" marriage or certification ceremony as with most Western marriages, and the girl cannot consent or refuse, because it's her owner's privilege. 
+<br>
+The groom pays the bride's parents (or head of the family, in richer families) cattle, and - if the dad/owner consents - gets custody of the bride. 
+<br>
+This can be incredibly costly for young - or unemployed - couples, or detrimental to girls who don't want to get married to the groom.
+<br>
+<br>
+Because of traditional views that women are subservient to men, these traditions also held that a woman was a minor and could not make their own decisions, from birth to death.
+<br>
+This also meant that girls were unable to consent - or refuse - and that only her owner was able to consent/refuse for her. Some traditional marriages were/are held without consent of the bride.
+<br> 
+Recent changes to the Code of Zulu law have allowed women to be considered as an adult/major at the age of 21, or - in the case of girls under 21 - they become adults when they are married.
+<br>
+<br>
+Some of these laws should be redacted, because they directly contravene the Constitutional Rights of the people involved - as in the case of young girls being sold off as property, which degrades them to the position of a <b>slave</b>, 
+<br>
+or in the case of Female Genital Mutilation (The removal of a girl's clitoris and external genitalia for traditional or religious purposes).
+<br>
+These seemingly-outdated traditional laws are still laws though, and are valid in court or civil disputes.
+
+
+## Foreign Law and International Law
+Generally, a country's sources of law only apply to that country, but there are a few cases where - when using their services (like the internet) - the law will have extraterritorial jurisdiction (applies anywhere in the world).
+<br>
+An example of this is the European Union's Convention on Data Protection, which relates to data processing - and comes into effect when transmitting users' personal data across borders.
+<br>
+There are, however, some countries that don't agree to this or other laws, and may refuse to hold lawbreakers accountable!
+<br>
+<br>
+Unfortunately, there's no way to force a country to uphold its obligations to international law, other than to either declare war against it, or to impose sanctions on it.
+
+## The internet
+Closing out the intro, we'll discuss the Internet itself.
+<br>
+<br>
+The internet is a globally connected network that allows for international communication, and archiving or access of data resources and pieces of information.
+<br>
+It is a vast collection of different private, public, business, academic and government networks.
+<br>
+<br>
+Because of this, and the fact that it underpins most countries and economies now, it could be catastrophic if it were in the wrong hands.
+<br>
+Because of this, the internet's core is "neutrality", because it needs to be neutral - both for the safety of the country that operates it (the underlying infrastructure itself) and the safety of others.
+<br>
+However, there are a few debates around the neutrality of it, because there are speed differentials between different types of content and the recommendations of certain products, which all come from a select few countries.
+<br>
+<br>
+The internet actually originated in the US military and the Stanford Research Institute's NIC in the 1960s.
+<br>
+It's divided into 4x different layers - the first 2x of which should be neutral:
+<ol>
+	<li>Physical</li>
+	<li>Transport</li>
+	<li>Application</li>
+	<li>Content</li>
+</ol>
+The last 2x layers are usually somewhat censored to the country you live it, to only give you (the user/viewer) content that you'll likely want to interact with, or content that is relevant to you.
+
