@@ -82,3 +82,73 @@ These international treaties are what cause the Constitutions and Legal Systems 
 This is why you can be tried as a criminal for breaking Cyber Law in most countries, because the law is basically international - or not tied to any one geographic location. 
 <br>
 Basically, breaking Cyber Law in the US and fleeing to Canada will still get you tried as a cybercriminal, because they treat the offenses just as seriously, because of the international treaties and their own compliance.
+<br>
+<br>
+In conclusion of the Constitution, it is the main source of Law in SA. No other laws can bypass or change the constitutional rights of any South African (This applies to other countries as well).
+<br>
+The Constitution is the basis of all Cyber Laws, because most Cyber Laws aim to uphold the constitutional rights of every citizen by protecting them and their information from misuse or abuse.
+
+## Sources of South African Law
+These will be mostly similar to other countries, but there are some additions.
+<br>
+South African Law:
+<ol>
+	<li>South African Law (in descending order of importance -> constitution being the most important)
+		<ol>
+		<li>The Constitution</li>
+		<li>Legislation</li>
+		<li>Judicial Precedent</li>
+		<li>Common Law</li>
+		<li>Indigenous Law</li>
+		<li>Custom/Tradition</li>
+		<li>Secondary Sources of Law</li>
+		</ol>
+	</li>
+	<li>international Law</li>
+		<ol>
+		<li> Organizations
+			<ol>
+				<li>The United Nations (UN)</li>
+				<li>The African Union (AU)</li>
+			</ol>
+		<li> Types of International Laws
+			<ol>
+				<li>Treaties</li>
+				<li>Conventions</li>
+				<li>Accords</li>
+			</ol>
+		</li>
+		</ol>
+
+	<li>Foreign Law
+	<ol>
+		<li>Sources of Laws of other Countries (like their Constitution)</li>
+	</ol>
+	</li>
+</ol>
+The constitution is the most important source of law, and no other law, international law or foreign law can override the constitutional rights of every citizen.
+<br>
+
+## South African Legislation
+Legislation is the second most important source of law in South Africa.
+<br>
+Every piece of legislation needs to go before Parliament (The governing body who pass or reject new Laws), and is referred to as a "Bill" before it gets passed, which then becomes an "Act" once enacted/passed.
+<br>
+An Act is put into effect either by the Presidents signature, or on the date that the President has specified in a Proclamation (A statement made by the president on a matter concerning the public)
+
+## Judicial Precedent
+Courts - which are made up of Judges, juries and Lawyers - interpret legislation and the Constitution.
+<br>
+<br>
+Judicial precedent is encapsulated in the Latin doctrine <i>stare decisis</i>, which means "stand by your own decisions".
+<br>
+This means that courts are bound to their own decisions and the decisions of the superior courts.
+
+## Structure of Courts in South Africa
+In descending order of power - the Constitutional Court being the most powerful:
+<ol>
+	<li>Constitutional Court</li>
+	<li>Supreme Court of Appeal</li>
+	<li>High Courts</li>
+	<li>Magistrates Courts (District and Regional)</li>
+</ol>
