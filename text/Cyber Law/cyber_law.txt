@@ -140,9 +140,9 @@ An Act is put into effect either by the Presidents signature, or on the date tha
 Courts - which are made up of Judges, juries and Lawyers - interpret legislation and the Constitution.
 <br>
 <br>
-Judicial precedent is encapsulated in the Latin doctrine <i>stare decisis</i>, which means "stand by your own decisions".
+Judicial precedent is encapsulated in the Latin doctrine <i>stare decisis</i>, which means "stand by things decided".
 <br>
-This means that courts are bound to their own decisions and the decisions of the superior courts.
+This means that courts are bound to their own decisions and the decisions of the superior courts, as well as rulings of previous cases.
 
 ## Structure of Courts in South Africa
 In descending order of power - the Constitutional Court being the most powerful:
@@ -152,3 +152,8 @@ In descending order of power - the Constitutional Court being the most powerful:
 	<li>High Courts</li>
 	<li>Magistrates Courts (District and Regional)</li>
 </ol>
+In accordance with <i>Stare decisis</i>, all courts are bound by the decisions of the Constitutional Court and then the Supreme Court of Appeal.
+<br>
+Every High Court is on "equal footing", which means that a decision in the High Court of Durban is not binding in the High Court of Cape Town.
+<br>
+Magistrate courts cannot establish Judicial precedent, and those that are within the Magisterial district of a High Court are bound by the High Court's decisions
