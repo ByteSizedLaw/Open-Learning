@@ -2,12 +2,12 @@
 
 
 # About Me
-I am Internationally Qualified through the United States of America's Accreditation Council for Business Schools and Programs and the British Accreditation Council, I also hold certification from Harvard University's John A. Paulson School of Engineering and Applied Sciences in the field of Computer Science (CompSci).
+I am Internationally qualified through the United States of America's (USA) Accreditation Council for Business Schools and Programs (ACBSP) and the British Accreditation Council (BAC), in the fields of Computer Science and Systems Engineering.
 
 ## My qualifications and fields of study:
 <ol>
 	<li>Project Manager (PM)</li>
-	<li>Software Dev Manager (SDM)</li>
+	<li>Software Development Manager (SDM)</li>
 	<li>Business Manager</li>
 	<li>Business Analyst (BA)</li>
 	<li>Business Ethicist</li>
@@ -45,8 +45,6 @@ I am Internationally Qualified through the United States of America's Accreditat
 </ol>
 
 ## Notes
-Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of the projects I've created and showcase to help others. 
+Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of the open-source projects I've created to help others. 
 <br> 
-This is not a comprehensive list of all the projects I've ever worked on. 
-<br>
-There are many projects that I'm unable to share because the source code is proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I've worked with.
+This is not a comprehensive list of all the projects I've ever worked on, because many of the projects I have worked on are proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I've worked with.
