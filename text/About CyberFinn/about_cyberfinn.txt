@@ -5,7 +5,7 @@
 I am Internationally qualified through the United States of America's (USA) Accreditation Council for Business Schools and Programs (ACBSP) and the British Accreditation Council (BAC), in the fields of Computer Science and Systems Engineering.
 
 ## My qualifications and fields of study:
-<ol>
+<ul>
 	<li>Project Manager (PM)</li>
 	<li>Software Development Manager (SDM)</li>
 	<li>Business Manager</li>
@@ -42,7 +42,7 @@ I am Internationally qualified through the United States of America's (USA) Accr
 	<li>Web Developer</li>
 	<li>AWS Developer</li>
 	<li>Integration Specialist</li>
-</ol>
+</ul>
 
 ## Notes
 Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of the open-source projects I've created to help others. 
