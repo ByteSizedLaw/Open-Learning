@@ -2,7 +2,10 @@
 
 
 # About Me
-I am Internationally qualified through the United States of America's (USA) Accreditation Council for Business Schools and Programs (ACBSP) and the British Accreditation Council (BAC), in the fields of Computer Science and Systems Engineering.
+I am Internationally qualified through the United States of America's (USA) Accreditation Council for Business Schools and Programs (ACBSP) and the British Accreditation Council (BAC), in the fields of Computer Science and Systems Engineering. 
+<br>
+<br>
+I am also pursuing further education through Harvard University's John A. Paulsen School of Engineering and Applied Sciences, in the fields of Artificial Intelligence and Machine Learning (AI/ML), Computer Science and Data Science.
 
 ## My qualifications and fields of study:
 <ul>
@@ -45,6 +48,6 @@ I am Internationally qualified through the United States of America's (USA) Accr
 </ul>
 
 ## Notes
-Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of the open-source projects I've created to help others. 
+Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of my open-source projects. 
 <br> 
-This is not a comprehensive list of all the projects I've ever worked on, because many of the projects I have worked on are proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I've worked with.
+This is not a comprehensive list of all the projects I've ever worked on, because many of the projects I've worked on are proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I work with.
