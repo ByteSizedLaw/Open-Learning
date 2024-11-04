@@ -42,7 +42,7 @@ We all need some kind of guarantee that those systems are safe for us to use, an
 Cyber Law - and the governing bodies that police those laws - is that guarantee! 
 <br>
 It's the only thing that really protects us from:
-<li>Rich Executives that would sell or abuse confidential and private user info to get an extra 1% on their Market Share</li>
+<li>Rich Executives that would sell or abuse confidential and private user info to get an extra 1% on their dividends</li>
 <li>Hackers that are actively trying to get our information for Identity Theft, kidnappings and other malicious activities</li>
 <li>Regular employees that inadvertently aid either of the 2x mentioned above, because they weren't aware of the implications it could have, or never received regulatory training</li>
 
@@ -104,7 +104,7 @@ South African Law:
 		<li>Secondary Sources of Law</li>
 		</ol>
 	</li>
-	<li>international Law</li>
+	<li>International Law</li>
 		<ol>
 		<li> Organizations
 			<ol>
@@ -188,7 +188,7 @@ There was, and still is in some cases, no "official" marriage or certification c
 <br>
 The groom makes a payment of cattle to the bride's owner, and - if the bride's dad/owner consents - gets ownership of the bride.
 <br>
-This can be incredibly costly for young - or unemployed - couples because cattle are expensive - or detrimental to girls who are too young or that don't want to get married to the groom.
+This can be incredibly costly for young - or unemployed - couples because cattle are expensive - or detrimental to girls that don't want to get married.
 <br>
 <br>
 Because of traditional views that women are subservient to men, these traditions also held that a woman was a minor and could not make their own decisions, from birth to death.
@@ -199,29 +199,30 @@ This also meant that girls were unable to consent - or refuse - and that only he
 Recent changes to the Code of Zulu law have allowed women to be considered as an adult/major at the age of 21 years old, or - in the case of girls under 21 years old - they become adults when they are married.
 <br>
 <br>
-Some of these laws should be redacted, because they directly contravene the Constitutional Rights of the people involved - as in the case of girls being sold off as property, which degrades them to the position of a <b>slave</b>, 
+Some of these custom laws should likely be redacted or reworked, because there is potential for direct contravention of the Constitutional Rights of those involved - as in the case of girls being sold off as property or part of a trade, which degrades them to the position of a <b>slave</b>, 
 <br>
 Or in the case of Female Genital Mutilation (The removal of a girl's clitoris and external genitalia for traditional or religious purposes).
 <br>
 <br>
-These seemingly-outdated or harmful traditional laws are still laws though, and are actually valid in court or civil disputes, because they fall into the domain of Custom/Tradition Law.
+These seemingly-outdated or harmful traditional laws are still currently active provisions of the law, and are valid in court or civil disputes, because they fall into the domain of Custom/Tradition Law.
+<br>
+According to the Electronic Communications and Transactions Act 25 of 2002 - and the courts' findings in <i>Spring forest trading vs Wilberry and Another (2015)</i>, arrangements (even in these usually-informal cases) made via an electronic medium, are still relevant and binding in the court of law.
+<br>
+There are restrictions, however, that these agreements may not supersede any constitutional rights - and that those found guilty of contravening the constitutional right of those involved (in the case of FGM, for example) will be held accountable under the supreme law (The Constitution).
 <br>
 
 
 ## Foreign Law and International Law
-Generally, a country's sources of law only apply to that country, but there are a few cases where - when using their services (like the internet) - the law will have extraterritorial jurisdiction (applies anywhere in the world).
+Generally, a country's sources of law only apply to that country, but there are a few cases where - when using their services (like the internet) - the law will have extraterritorial-jurisdiction (It applies anywhere in the world).
 <br>
 An example of this is the European Union's Convention on Data Protection, which relates to data processing - and comes into effect when transmitting users' personal data across borders.
 <br>
 There are, however, some countries that don't agree to this or other laws, and may refuse to hold lawbreakers accountable!
 <br>
 <br>
-Unfortunately, there's no way to force a country to uphold its obligations to international law, other than to either declare war against it, or to impose sanctions on it.
+Unfortunately, there's no way to force a country to uphold its obligations to international law, other than to either declare war against it, or to impose sanctions on it until it complies.
 
 ## The internet
-Closing out the intro, we'll discuss the Internet itself.
-<br>
-<br>
 The internet is a globally connected network that allows for international communication, and archiving or access of data resources and pieces of information.
 <br>
 It is a vast collection of different private, public, business, academic and government networks.
@@ -236,12 +237,16 @@ However, there are a few debates around the neutrality of it, because there are 
 <br>
 The internet actually originated in the US military and the Stanford Research Institute's NIC in the 1960s.
 <br>
-It's divided into 4x different layers - the first 2x of which should be neutral:
+It's divided into 4x different layers - all of which should be neutral:
 <ol>
 	<li>Physical</li>
 	<li>Transport</li>
 	<li>Application</li>
 	<li>Content</li>
 </ol>
-The last 2x layers are usually somewhat censored to the country you live it, to only give you (the user/viewer) content that you'll likely want to interact with, or content that is relevant to you.
+The last 2x layers - although they shouldn't be - are usually somewhat censored to the country you live it, to only give you (the user/viewer) content that you'll likely want to interact with, or content that is relevant to you.
+<br>
+This is usually ok and most countries don't implement strict censorship, but it can also lead to a disconnection from the rest of the world - as is the case with North Korea, where citizens are fed propaganda via electronic media.
+<br>
+This partial filtering came after the motion to restrict certain apps (like YouTube, for example) that may promote a certain country's products above the one that you're currently in - which works to the detriment of that country, because its products aren't promoted enough.
 
