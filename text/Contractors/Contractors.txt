@@ -1,20 +1,33 @@
 # Contractors:
 A Contractor is an IT professional who works on a contractual (non-permanent) basis, rather than as a permanent employee, and is typically hired only for specific projects with specific start/end dates to their contracts.
 
-## Conflicts of Interest:
-Most contractors will stretch projects out over a longer term or timeline because of 1 simple and crucial factor: 
-<ol><li>Personal interest</li></ol>
-
-Their personal interest (as a person that works for money) will always be to maximise their own financial-gain. 
+## Expectations for Contractors
+The expectation on contractors is that they will join the team, immediately make huge amounts of progress, and then finish the project in record-time. 
 <br>
-They accomplish this by extending the duration it takes them to complete work by hours, days, weeks or even months.
+They will then move on to either another project, or to another company - thereby ending their contract with us.
+<br>
+
+## Conflicts of Interest:
+For contracts, the contract will either end when the project is finished or on a specific date.
+<br>
+For either of these end-types, most contractors will stretch projects out over a longer term or timeline because of 1 simple factor: 
+<ol><li>Personal interest</li></ol>
+<br>
+<i>How does this work though?</i>
+For contracts ending on specific dates, the contractor will try to coerce the company into further extending their contract by slowing down development as the end-date approaches. 
+<br>
+Since nobody else would be able to take over from them, companies are often forced to do extend these contracts.
+<br>
+<br>
+For contracts that only end when projects are completed, the contractor will delay the project as far as humanly possible to maximize financial gain.
+<br>
 <ul>
     <li>
         This creates a "<b>Conflict of Interest</b>":
         <ul>
-            <li>because as <b>workers</b>, their interest is to "<b>Finish work as fast as possible</b>", because they are being paid to finish work ASAP</li>
-	    <li>but as <b>humans</b> that work for profit, their interests are to "<b>Finish work as slow as possible</b>", because they make more money.</li>
-            <li>This causes a conflict, because they now have to choose between doing "what's best for the company they don't actually work for" and doing "what's best for themselves"</li>
+            <li>Because as <b>workers</b>, their interest is to "<b>Finish work as fast as possible</b>", because they are being paid to.</li>
+	    <li>But as <b>humans</b> that work for profit, their interests are to "<b>Finish work as slow as possible</b>", because they make more money that way.</li>
+            <li>This causes a conflict, because they now have to choose between doing <i>"what's best for the company they don't actually work for"</i> and doing <i>"what's best for themselves"</i></li>
         </ul>
     </li>
 </ul>
@@ -24,45 +37,46 @@ They accomplish this by extending the duration it takes them to complete work by
 Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the <b>"It's out of my hands"-phase</b> sets in.
 <ul>
     <li>
-        Conversations will start out, positively, as:
+        Early into the contract, conversations will start out positively, as:
         <ul>
-            <li><i>"I completed {that} yesterday, I'm working on {this} today, all looking good and on-track!"</i> for the first few weeks or months</li>
+            <li><i>"I completed {that} yesterday, I'm working on {this} today, all looking good and on-track!"</i> for the first few weeks or months.</li>
         </ul>
     </li>
     <li>
-        But then slowly turn into:
+        But they will then slowly turn into:
         <ul>
 	    <li><i>"I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}"</i></li>
             <li><i>"I spoke to {so and so} but they couldn't help, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days -> despite no work being done for the last week"</i></li>
 	</ul>
     </li>
 </ul>
-Basically, you'll notice that contractors have "slowed down" a lot, possibly that they're "stalling", or that they're just hitting error-after-error that blocks any major progress for weeks or months on-end.
 <br>
-This phase is characterized by bouts of "no progress", lots of conversations and running-around "to find answers", with no actual work being done during the day.
+Essentially, you'll notice that contractors have <i>"slowed down"</i> a lot, possibly even that they're "stalling" - if you're perceptive enough, or that they're just encountering error-after-error that blocks any major progress for weeks or months on-end.
+<br>
+This phase is characterized by bouts of "no progress", lots of conversations and running-around <i>"to find answers"</i>, with no actual work being done during the day.
 
 ## How to resolve Conflicts of Interest:
 This "It's out of my hands"-phase will continue indefinitely (And may go completely unnoticed for months!), 
 <br>
-Until management intervenes by hosting these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted devs, demanding evidence of work being done, or threatening to end contracts.
+Until management eventually intervenes by enforcing these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted experts, demanding evidence of work being done, or threatening to end contracts on the spot if no progress is made.
 <br>
 After intervention, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
 <br>
-<i>Note: Relations with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.</i>
+<i>Note: Relationships with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.</i>
 
 ## If all contractors do that, why hire them in the first place??:
 Not all contractors are bad,
 <br>
-I've worked with a few contractors, and one of them was outstanding in every project - he's gotten to the point now where the company will just assign entire projects to him to complete on his own, because of the trust and reputation he's built from his hard work over the years.
+I've worked with a few contractors, and one of them was outstanding in every project - he got to the point where the company would just assign entire projects to him to complete on his own, because of the trust and reputation he'd built from his hard work over the years.
 <br>
-As someone that's been a contractor before, and who has worked with some really great people over the years, I can safely say that there are many phenomenal contractors out there - with incredible skills, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
+As someone that's been a contractor before, I can safely say that there are many phenomenal contractors out there - with incredible skills, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
 
 ## Misconceptions about Contractors:
 "<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super-competitive environments</I>".
 <br>
 This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Hidden%20Incompetence/hidden_incompetence.txt');">Hidden Incompetence</a> by the contracting-company's reputation or the Formal Educations/Degrees they hold.
 <br>
-In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of "guaranteed issues that come from outsourced development" and other biases (like trust, or overexaggerated importance of Formal Education/Degrees, etc.).
+In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of the "guaranteed issues that come from outsourced development" and other biases (like trust, or overexaggerated importance of Formal Education/Degrees, etc.).
 
 ## Issues that come from outsourcing:
 <ol>
