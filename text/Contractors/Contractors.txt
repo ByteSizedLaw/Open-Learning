@@ -1,6 +1,15 @@
 # Contractors:
 A Contractor is an IT professional who works on a contractual (non-permanent) basis, rather than as a permanent employee, and is typically hired only for specific projects with specific start/end dates to their contracts.
 
+# Contracts:
+These are "terms of engagement" deals with the contractor that outline details like salary, the project, duration of the contract, and any other terms the company deems necessary for the business relationship.
+<br>
+Contracts can have one of two end conditions. 
+<br>
+One is where the contract expires naturally - where the end-date passes and the contract becomes completed.
+<br>
+The other is where the contract expires when the project finishes - with no specific end-date stipulated.
+
 ## Expectations for Contractors
 The expectation on contractors is that they will join the team, immediately make huge amounts of progress, and then finish the project in record-time. 
 <br>
@@ -8,31 +17,27 @@ They will then move on to either another project, or to another company - thereb
 <br>
 
 ## Conflicts of Interest:
-For contracts, the contract will either end when the project is finished or on a specific date.
-<br>
-For either of these end-types, most contractors will stretch projects out over a longer term or timeline because of 1 simple factor: 
+Most contractors will stretch projects out over a longer term or timeline because of 1 simple factor: 
 <ol><li>Personal interest</li></ol>
 <br>
-<i>How does this work though?</i>
+<i>How do they do this?</i>
 <br>
 For contracts ending on specific dates, the contractor will try to coerce the company into further extending their contract by slowing down development as the end-date approaches. 
 <br>
-Since nobody else would be able to take over from them, companies are often forced to do extend these contracts.
+Since nobody else would be able to take over from them, companies are often forced to do extend these contracts, to not jeopardize the project.
 <br>
 <br>
 For contracts that only end when projects are completed, the contractor will delay the project as far as humanly possible to maximize financial gain.
 <br>
-<ul>
-    <li>
-        This creates a "<b>Conflict of Interest</b>":
+<br>
+This creates a "<b>Conflict of Interest</b>":
         <ul>
             <li>Because as <b>workers</b>, their interest is to "<b>Finish work as fast as possible</b>", because they are being paid to.</li>
-	    <li>But as <b>humans</b> that work for profit, their interests are to "<b>Finish work as slow as possible</b>", because they make more money that way.</li>
-            <li>This causes a conflict, because they now have to choose between doing <i>"what's best for the company they don't actually work for"</i> and doing <i>"what's best for themselves"</i></li>
+	    <li>But as <b>humans</b> that work for profit, their interest is to "<b>Finish work as slow as possible</b>", because they make more money that way.</li>
         </ul>
-    </li>
-</ul>
-
+<br>
+This causes a conflict, because they now have to choose between doing <i>"what's best for the company they don't actually work for"</i> and doing <i>"what's best for themselves"</i>.
+<br>
 
 ## How to spot when Contractors are "Conflicted":
 Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the <b>"It's out of my hands"-phase</b> sets in.
