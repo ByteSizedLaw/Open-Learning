@@ -1,30 +1,41 @@
 # Software Development Management (SDM):
-A Software Dev Manager (SDM) plays a crucial role in Software Dev teams and large-scale projects. You can find them "spear-heading" major projects in various industries - from Game Dev to Finance.
+A Software Development Manager (SDM) plays a crucial role in Software teams and large-scale projects. 
+<br>
+You can find them leading major projects in various industries - from Game Development to Finance.
 <br>
 SDMs are usually permanent employees (so the role is rarely outsourced) and act as "generalists" in their specific fields - this is contradictory to the Hierarchical Bias that most people have towards managers.
 
-## Hierarchical Bias:
-Organizational hierarchies often place managers at the top, leading to the assumption that they possess superior knowledge or skills to those below them. 
+## What is the Hierarchical Bias?
+Organizational hierarchies often place managers at the top, with "their" workers under them, leading to the assumption that they possess superior knowledge or skills to those "below" them. 
 <br>
-However, expertise isn’t solely determined by position or number of years in a position.
-<br>
-<br>
-Thinking about it differently, if you had to ask Elon Musk what time backups {for a specific twitter server} runs, 
-<br>
-He wouldn't be able to tell you, because he's the CEO, not the guy doing the actual backup work. 
+However, expertise isn’t solely determined by a position or experience in a position.
 <br>
 <br>
-Basically, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. 
+The workers that are "below" managers, are experts in their fields and have far superior skills and knowledge, which is why they are hired as workers in the first place.
+<br>
+Managers also don't work directly by writing code or doing the actual work, so it would be a waste for any company to have their best workers as managers. Since managerial jobs have a different area of focus and emphasis.
+<br>
+<br>
+Thinking about it this cognitive bias towards managers in a different light: 
+<br>
+If you had to ask Elon Musk what time Database backups for a specific X server run, 
+<br>
+He wouldn't be able to tell you because he's the CEO (Highest level manager), not the employee doing the actual backup work, nor the person that built the functionality to do backups. 
+<br>
+<br>
+In reality, <b>workers</b> (the lowest of the organizational hierarchy) <b>are the most skilled</b>. 
 <br>
 Workers are experts at their jobs and in their fields. They usually only ever work in a single position or industry for their entire careers, because they are "specialists".
 <br>
-<br>
-Managers are "generalists", because they aren't experts and don't have the best technical skills/knowledge, but they have a general understanding of what happens. 
-<br>
-They usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field or industry (unlike "Web Devs" or "Mobile App Devs", who specialize in a single field).
+Their area of focus is on technology and being the best-of-the-best, to stay competitive with other experts.
 <br>
 <br>
-As you go up the organizational hierarchy, the more "generalist" people become -> basically, the less they know about "how exactly" the company works or produces value.
+Managers are "generalists", because they aren't experts and don't have the best technical skills/knowledge. They have a general understanding of things. 
+<br>
+Managers usually switch between positions and industries throughout their careers, because their skills aren't specialized to a specific field (unlike "Web Devs" or "Mobile App Devs", who specialize in a single field).
+<br>
+<br>
+As you go up the organizational hierarchy, the more "generalist" people become and the less they know about "how exactly" the company works or produces value.
 
 
 ## Why does the SDM role exist?:
@@ -35,9 +46,13 @@ As you go up the organizational hierarchy, the more "generalist" people become -
 <li> <b>Project Risk Mitigation</b>: SDMs address technical challenges, anticipate roadblocks, and create contingency plans in a proactive approach to minimize Project disruptions</li>
 </ol>
 <br>
-Basically, SDMs work very closely with the Project Manager to ensure that projects are completed on time, and are accountable, firstly for when projects aren't completed (or budgets evaporate), and secondly, when there are world-ending events like Cyber attacks, or systems have gone down, etc.
+SDMs work very closely with the Project Manager (PM) to ensure that projects are completed on time.
+<br>
+SDMs are also accountable for when projects aren't completed (or budgets evaporate), and when there are crises like Cyber attacks or outages, etc.
+<br>
 <br>
 Where the PM focuses specifically on the project and what work needs to be done, the SDM manages who actually does that work and how they work with others to complete the project.
+<br>
 
 ## What does an SDM actually do?
 <ol>
@@ -48,6 +63,9 @@ Where the PM focuses specifically on the project and what work needs to be done,
 <li> <b>Performance Reviews</b>: SDMs conduct regular performance evaluations for their team. They provide feedback, set goals, and identify areas for growth</li>
 <li> <b>Assist with Long-Term Planning</b>: SDMs assist the Product Manager/Owner with planning team growth, identifying technology trends, and business goals, etc.</li>
 </ol>
+<br>
+As noted in our Hierarchical bias section, SDMs don't do the actual work since their role is concerned with managing the projects and workloads of the team, and their level of expertise is far lower than that of the workers that report to them.
+
 
 ## Misconceptions about SDMs:
 <ol>
@@ -59,30 +77,29 @@ Note: The first point covers technical skill.
 <br>
 Ultimately, you can still find work as an SDM, even if you've never been a programmer before, because the job doesn't require intense technical-skill. 
 <br>
-Generally, those studying in the fields of HR, Project Management or for an MBA will become PMs or SDMs at some point, even though they don't know anything about Software Dev - because the job is non-technical.
+Generally, those studying in the fields of Business Analysis, Human Resource Management, Project Management or Business Administration will become PMs or SDMs at some point, even though they don't know anything about writing code or developing systems - because the job is non-technical.
 <br>
-<br>
-Also Note: If you (the SDM) are the most skilled in your team, you are in the wrong position and the organization is wasting it's best worker. 
-<br>
-The "most skilled" workers should be workers.
+
 
 ## SDMs aren't Tech-Leads:
-Yes, the final-decision is always up to them because they're ultimately the-most-responsible for the team and project, 
+Yes, the final-decision is always up to them because they're ultimately "the most responsible" for the team and project, 
 <br>
 But SDMs are also the <b>least technically-skilled people on the team</b> so there are usually experts that make all the Tech/Language recommendations for them.
 <br>
-These experts are the Senior Engineer (SE), AKA Tech-Lead or Team-Lead.
+These experts are called the "Senior Engineer" (SE), "Tech Lead" or "Team Lead".
 <br>
 <br>
-Every project consists of 3 key-people, these are:
+Every well-planned project consists of 3 key-people, these are:
 <ol>
 <li><b>PM</b>: Responsible for the project's success. They manage <i>what</i> work is done, and <i>when</i> it's done by.</li>
 <li><b>SDM</b>: Responsible for the project's success. They manage <i>who</i> does the work, and <i>how</i> they work with others to get the Project done. Basically, they manage the People, Relationships and Culture</li>
-<li><b>Tech-Lead</b>: Responsible for the project's success. They make all the <i>recommendations</i> of what Tech or Languages are used and often <i>work</i> as a sounding-board to managers and workers alike.</li>
+<li><b>Senior Engineer</b>: Responsible for the project's success. They make all the <i>recommendations</i> of what Tech or Languages are used and often <i>work</i> as a sounding-board to managers and workers alike.</li>
 </ol>
-This sounds like <i>"An SDM could be a Tech-Lead though"</I>, but they are completely different roles, with different areas of focus and importance.
+This sounds like <i>"An SDM could be a Tech-Lead though"</i>, but they are completely different roles, with different areas of focus and importance.
+<br>
 <br>
 It's also important to note that all 3 are <i>"Responsible for the project's success"</i>, this means that all 3 could be fired simultaneously if an important project is botched.
+<br>
 <br>
 Usually, because of this threat, SDMs will <i>"stay in their lane"</i> and allow Tech-Leads and PMs to excel in theirs, to ensure that projects are successful.
 <br>
@@ -91,6 +108,7 @@ In the scope of larger and more important projects, it's difficult and dangerous
 ## Traits of a good SDM:
 Every person is different - and there's no way of knowing how someone will act in a specific scenario until you see them in that scenario, but "<b>the good SDM</b>" usually has the following characteristics:
 <ol>
+<li> <b>Formal Education in Management</b>: An SDM is only as good as the education they have when it comes to managing people. These roles are incredibly important and will often require that the individual has formal education in the specialized realm of Management. They would usually need to have studied either Project Management, Software Development Management, Human Resource Management or Business Administration to hold these positions.</li>
 <li> <b>Leadership Skills</b>: SDMs inspire and guide their teams. They set a positive example, foster collaboration, and motivate team members towards business goals</li>
 <li> <b>Clear Communication</b>: Effective communication is crucial. SDMs articulate expectations, provide feedback, and ensure everyone understands project objectives</li>
 <li> <b>Empathy</b>: SDMs understand their teams’ needs, challenges, and aspirations. They create a supportive environment and actively listen to concerns.</li>
@@ -117,28 +135,28 @@ Every person is different - and there's no way of knowing how someone will act i
     <li>
         People Management Challenges:
         <ul>
-            <li>Managing people involves handling conflicts, addressing employee performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining, and may (in some rare cases) result in you becoming a target for threats, etc.</li>
+            <li>Managing people involves handling conflicts, addressing employee performance issues, and ensuring team morale. It’s rewarding but can also be emotionally draining for softer people, and may (in some cases) result in you becoming a target of aggression or resentment, etc.</li>
         </ul>
     </li>
     <li>
         Stressful Deadlines:
         <ul>
-            <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality.</li>
+            <li>Meeting project deadlines, especially during crunch times, can be stressful. SDMs must manage expectations while maintaining quality, under the risk of being fired. This often puts stress on their personal lives and work-life balance as a result.</li>
         </ul>
     </li>
     <li>
         Decision-Making Pressure:
         <ul>
-            <li>SDMs make critical decisions that impact projects and entire careers. The weight of these decisions can be stressful, or even dangerous (in the case of disgruntled and violent ex-employees)</li>
+            <li>SDMs make critical decisions that impact projects and entire careers. The weight of these decisions can be stressful, or even dangerous (in the case of disgruntled and resentful ex-employees) to their own career or personal wellbeing.</li>
         </ul>
     </li>
     <li>
-        Poor leadership is hilariously hard to spot!:
+        Poor leadership is incredibly hard to spot:
         <ul>
-            <li>Poor Leadership is often accompanied by so many other (seemingly random) issues, that it's often only realized AFTER an entire team (including the SDM) has been fired and replaced.</li>
+            <li>Poor Leadership is often accompanied by so many other (seemingly random) issues, that it's often only realized AFTER an SDM has been fired and replaced. Which usually only happens after multiple successive project failures or complaints.</li>
             <li>As a Leader, it's actually very hard for you to know if you're doing a good job, because Poor Leadership is so incredibly difficult to detect.</li>
             <li>It's easy to know when a Dev/BA/Tester are underperforming, but how do you know if you (as the SDM) are doing poorly?</li>
-            <li>To those only logging in to make money, this isn't a concern at all, because it means that keeping your job is ultra-easy, even if you do poorly or have no clue what you're doing -> but to the SDMs that want to improve themselves, this is a pretty crucial existential crisis.</li>
+            <li>To those only signing in to make money every day, this isn't a concern at all, because it means that keeping your SDM job is ultra-easy, even if you do poorly or have no idea what you're doing. But to the SDMs that want to improve themselves, this is a pretty crucial existential crisis.</li>
         </ul>
     </li>
 </ol>
@@ -146,14 +164,18 @@ Every person is different - and there's no way of knowing how someone will act i
 
 
 ## Conclusion:
-Being an SDM can be super rewarding, but it balances out by being super challenging as well.
+Being an SDM can be very rewarding, but it balances out by being incredibly challenging as well.
 <br>
-By being one of those things that are hard to measure accurately - and differs for every team - you have your work cut out for you, when trying to lead teams to success.
+By being one of those things that are hard to measure accurately - and differs for every business - you have your work cut out for you, when trying to lead teams to success.
 <br>
 <br>
 Remember, that as the SDM, you are the least skilled, least knowledgeable person in your team. 
 <br>
-"Your" workers are the experts and should be taken seriously and treated with due respect. Without your team, it will be impossible to achieve anything.
+"Your" workers are the experts and should be taken seriously and treated with respect. Without your team, it will be impossible to achieve anything.
 <br>
 <br>
 Ultimately, Leaders - more than anyone - need to be "team players", and shouldn't rest on their titles/laurels, or allow their egos to go unchecked.
+<br>
+They should also actively work to ensure harmony and peace within the workplace.
+<br>
+This involves remaining unbiased, and actively striking down office politicians where they appear, thereby not allowing them to garner favour or support.
