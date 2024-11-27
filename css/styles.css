@@ -1,7 +1,7 @@
 /* The sidebar/navbar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 15%; /* Set the width of the sidebar */
+  height: 100vh; /* Full-height relative to the viewport height */
+  width: 15vw; /* Width relative to the viewport width */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -9,6 +9,7 @@
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
 }
 
 /* The navigation menu links */
@@ -27,25 +28,20 @@
 
 /* Style page content */
 .main {
-  margin-left: 15%; /* Same as the width of the sidebar */
+  margin-left: 15vw; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
 /*Still Navbar, this is for the dropdown that happens on some elements*/
-.dropdown {
+.dropdown, .dropdown-temp {
   position: relative;
   display: inline-block;
   width: 100%;
 }
 
 body > .sidenav > a, 
-body > .sidenav > .dropdown {
+body > .sidenav > .dropdown,
+body > .sidenav > .dropdown-temp {
   padding: 10px; /* Adjust the padding as needed */
   border: 1px dashed white; /* Combined border properties for a dashed white border */
   margin: 10px 0; /* Add margin to ensure spacing between elements */
@@ -59,9 +55,9 @@ body > .sidenav > .dropdown {
   display: none;
   position: absolute; /* Change from fixed to absolute */
   background-color: #68a9f4;
-  min-width: 10%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  min-width: 10vw; /* Minimum width relative to the viewport width */
+  box-shadow: 0px 0.83vw 1.66vw 0px rgba(0,0,0,0.2);
+  padding: 1.5vw 2vw; /* Relative padding for consistent spacing */
   z-index: 1;
   top: 100%; /* Position below the hovered element */
   left: 0; /* Align to the left of the hovered element */
@@ -80,12 +76,17 @@ body > .sidenav > .dropdown {
   color: black;
 }
 
-/* on Dropdown's hover, display the dropdown-content items */
+/* on Dropdown's hover or focus within, display the dropdown-content items */
 .dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content,
 .dropdown:hover .dropdown-content:hover .dropdown-nested-first,
+.dropdown:focus-within .dropdown-content:focus-within .dropdown-nested-first,
 .dropdown:hover .dropdown-content:hover .dropdown-nested-second,
+.dropdown:focus-within .dropdown-content:focus-within .dropdown-nested-second,
 .dropdown:hover .dropdown-content:hover .dropdown-nested-first:hover .dropdown-nested-second-server,
-.dropdown:hover .dropdown-content:hover .dropdown-nested-first:hover .dropdown-nested-second-client {
+.dropdown:focus-within .dropdown-content:focus-within .dropdown-nested-first:focus-within .dropdown-nested-second-server,
+.dropdown:hover .dropdown-content:hover .dropdown-nested-first:hover .dropdown-nested-second-client,
+.dropdown:focus-within .dropdown-content:focus-within .dropdown-nested-first:focus-within .dropdown-nested-second-client {
   display: block;
 }
 
@@ -97,13 +98,14 @@ body {
 img.aboutImage {
   max-width: 80%; /* Adjust as needed */
   border-radius: 3px; /* Optional styling */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); /* Optional styling */
+  box-shadow: 0 0.36vw 0.72vw rgba(0, 0, 0, 0.9); /* Optional styling */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 /* These style our code snippets */
 pre {
   background: #1f5b0c;
-  padding: 1em;
+  padding: 1vw;
   border-radius: 5px;
   overflow: auto;
 }
