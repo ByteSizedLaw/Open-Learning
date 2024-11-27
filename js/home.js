@@ -1,4 +1,14 @@
 function updateBodyText(input) {
+    DisplayLoadingMessage();
+    AjaxRequest(input);
+}
+
+function DisplayLoadingMessage(){
+    var fileDisplayArea = document.getElementById('pageText');
+    fileDisplayArea.innerText = "Loading. This may take a while and depends on your internet connection..";
+}
+
+function AjaxRequest(input){
     var fileDisplayArea = document.getElementById('pageText');
     var xhr = new XMLHttpRequest();
     xhr.open('GET', input);
@@ -8,9 +18,9 @@ function updateBodyText(input) {
     xhr.onload = function(e){
         fileDisplayArea.innerHTML = parseMarkdown(xhr.response)
     }
- };
+}
 
- function parseMarkdown(markdownText) {
+function parseMarkdown(markdownText) {
     // Replace Markdown headings (e.g., # Heading) with HTML <h1> tags
     markdownText = markdownText.replace(/^# (.+)/gm, '<h1>$1</h1>');
 
