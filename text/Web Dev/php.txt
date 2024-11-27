@@ -10,72 +10,77 @@ This is good, because it allows you (as the Dev) to write complex systems, witho
 <br><br>
 PHP has been around for ages as one of the first Server-side hosting frameworks, and as such, is very closely tied to CSS and HTML. 
 <br>
-It's so closely linked to HTML that it's actually able to return HTML pages or elements!
+It's so closely linked to HTML that it's actually able to return HTML pages or elements to the code that calls it (JavaScript, for example).
 
 
 ## How does PHP work?
-When the web server gets a request for "hey gimme this file", it reads that file from disk and sees that it's got PHP code within the file
+When the web server gets a request of "Give me file x", it reads that file from the server's disk and sees that it's got PHP code within the file.
 <br>
-It grabs the PHP part and passes it to the PHP interpreter (Which is on the server) to execute.
-<br>
-<br>
-The PHP Script is responsible for passing back clean files/data to the interpreter when it executes, for the client browser to display,
-<br>
-So, when a script is detected and processed by the Interpreter, the PHP spits out HTML back to the Interpreter, and the Interpreter patches the new HTML (that replaces the PHP script part) and old HTML together to create a full document
-<br>
-<i>Note: Some Web Devs force their servers to pass any html files to the interpreter to hide that they use php from users as an obfuscation technique.</i>
+It then grabs the PHP part of the file and passes it to the PHP interpreter (Which is on the server), to execute the PHP code.
 <br>
 <br>
-PHP is a scripting language, and PHP Scripts are still scripts, they're not <i>"one ring to rule them all"</i>, 
+The PHP Script will pass back clean data to the interpreter when it finishes, to display on the client browser.
 <br>
-So if you go to the same page 2x on the same pc, you might see the same thing, but you're actually interacting with 2x totally different scripts.
+So, when a PHP script is detected and processed by the Interpreter, the PHP script returns HTML-code, and the Interpreter patches the new HTML (that replaces the PHP script part) and old HTML (if there was any) together to create a full document, which it then returns to the calling function/client (Likely JavaScript or other client-side scripting language).
+<br>
+<i>Note: Some Web Developers force their servers to pass any html files to the interpreter to hide that they use php from users as an obfuscation technique.</i>
 <br>
 <br>
-PHP scripts are lightweight, small and usually handle only a single purpose per script, so you'd use multiple to build a system - not just one big PHP file that exists forever.
+PHP is a scripting language, and scripts only exist when you call them, for as long as their internal code takes to execute,
 <br>
-Each of these scripts only exist for the time you're calling them. 
+So if you go to the same page 2x, you might get the impression that you're interacting with a static application, but you're actually interacting with 2x totally different scripts or applications.
 <br>
-They aren't static on the web server, and the web server cleans up the memory usage by destroying those objects once you've finished the call.
 <br>
-This is part of what make scripting languages like PHP and Python so fantastic and fast. 
+PHP scripts are lightweight, small and usually handle only a single purpose per script, so you'd use multiple files to build a system - not just one big PHP file.
 <br>
-They only exist for the duration of the call, and then clean up all resource usage afterwards
+Each of these scripts only exist when you call them and only run for as long as their internal code takes to complete, then they get cleared and their memory freed to improve resource efficiency.
+<br>
+They aren't static applications on the web server, and the web server cleans up the memory usage by destroying those objects once you've finished the call, to improve system performance.
+<br>
+This is part of what make scripting languages like PHP and Python so fantastic and fast, while remaining incredibly lightweight. 
+<br>
+While PHP is considered older and more difficult to use than modern technologies - like NodeJS - it outperforms them in resource management and efficiency, since it's had 30 years to mature into the technology that it is today.
 
 # Returning data from PHP
 PHP can only pass back an html file by default. 
 <br>
-To test this, create a test html file, and rename it as a .php file extension
+To test this theory, create a test html file, and change the file extension to ".php" (Change the end part of the filename from .html to .php).
 <br>
-You'll just see the regular html again when you open it in your browser!
+You'll just see the regular html again when you open it in your browser - if you're hosting the site via a Web Server.
 <br>
 <br>
-Every Echo statement from PHP returns either HTML, XML, text or JSON, but the server will treat it as regular Text if not explicitly stated. 
-Any HTML that listens directly to the result will treat the data as HTML tags, which can cause some issues if you're passing back JSON and your HTML can't interpret it
+Every Echo statement from PHP returns either HTML, XML, plaintext or JSON structures, but the server will treat it as regular Text enclosed in a paragraph tag if not explicitly stated what the type is.
+<br>
+Any client-side language (like JavaScript) that listens directly to the result will treat the data as HTML tags, which can cause some issues if you're passing back JSON and your JavaScript can't interpret it properly.
 
 
-## Do I need the PHP tags in my files?
-If you have ONLY php code in a file, you can leave out the closing tag ?>.
+## Do I need the PHP tags in my PHP files?
+If you have ONLY PHP code in a file, you can leave out the closing tag ?>.
 <br>
-This is actually good practice because it prevents excess whitespace leaks from your code (Especially important when we use Objects!)
+This is actually considered a good practice because it prevents excess-whitespace leaks from your code.
 <br>
 <br>
-That being said though, the opening php tag is required for the interpreter to know what language it is
+That being said though, the opening php tag is required for the interpreter to know what language it is, so you need to include that in your file, but you can leave the closing tag out.
 
 ## Variable Syntax
 Always place the $ (dollar sign) in front of all variable names (In both declaration and usage). 
 <br>
-This also lets the Interpreter work faster, since it will immediately know it's working with a variable.
+In theory, this lets the Interpreter work faster, since it immediately knows it's working with a variable.
 <br>
-You don't need to use $ with constants, but you can only globally define those with the define() method (PHP's special syntax for defining global constants) or like in the Method-scoped Constants section
+Practically, this is required for variables, or you'll get errors and won't be able to execute your code.
+<br>
+You don't need to use $ with constants, but you can only globally define those with the define() method, which is PHP's special syntax for defining global constants, or like in the "Method-scoped Constants" section below.
 
 ## And/Or vs &&/||
 The "and" and "or" keywords are interchangeable with "&&" and "||" respectively, 
 <br>
-but the latter should always be used because they are of higher order/precedence to the interpreter and execute faster.
+But the latter (&&/||) should always be used because they are of higher order/precedence to the PHP interpreter and execute faster.
 <br>
 There may be some cases where you'd need to use "or" over "||",
 <br>
-but this is only where you'd need a second statement to execute if the first failed, which "||" can't do.
+But this is only where you'd need a second statement to execute if the first failed, which "||" can't inherently do. 
+<br>
+You should generally avoid using "and" and "or" over the higher precedent keywords.
 
 ## Incrementation
 doing this
@@ -88,75 +93,92 @@ is different to this:
 if (++$x == 10) echo $x;
 ```
 <br>
-The first one will first check x against 10, and if it passes, increment it (so echo will be 11)
+The first block of code will first check x against 10, and if it passes, increment it (so echo will be 11)
 <br>
-The second will first increment 10 to 11, then check it, and wont echo
+The second block of code will first increment 10 to 11, then check it, and won't echo anything, since the line will be skipped.
 
 ## Global Variables
-We can "declare" global variables within our functions using the <i>"global"</i> keyword before using them.
+A key note on the scope of variables: Anything that's declared outside of a method, can't be directly accessed by code within methods.
 <br>
-I say "declare" here, because we aren't redeclaring them, we're just telling PHP "hey this variable was actually declared outside of this function" and it then works on the global variable when we call it.
+This means that, by design, every function should do its work in isolation, without storing lots of data in system memory.
+<br>
+There are, however, cases in the real world, where we need to do this.
+<br>
+To access member variables inside of functions, we can "declare" global variables within our functions using the <i>"global"</i> keyword before using them in our code.
+<br>
+I say "declare" here, because we aren't actually redeclaring them, we're just telling PHP that "this variable was actually declared outside of this function, but it does still exist and we can still use it", and PHP will then search for that variable and find it when the script is compiled and executed.
+<br>
+This concept is similar to C/C++ preprocessor directives, since it works similar to the Define directives.
 <br>
 <br>
-Remember, anything that's outside of a method, can't be accessed by code within methods.
+To "redeclare" a variable, we declare it as "global $ourVarName;" at the start of the method, to access the variable from within a method from any subsequent point thereafter. 
 <br>
-To get around this, we redeclare a variable as "global $ourVarName;" at the start of the method, to access the variable from within a method. 
-<br>
-Outside of the method (where you first created the variable), don't use global to declare the var, you can declare it same as usual and just use "global" within the methods to reference that variable
-
 
 ## Static Variables
-These are a bit weird.
+These are a bit weird and different to Java or C#.
 <br>
-They will remain in memory throughout the lifetime of the app. Even if different instances of the method are run/created by other parts of the app, the same var's object will be used to access/update data. 
+They will remain in memory throughout the lifetime of the script's execution - even if different instances of the method are spawned by other parts of the script, the same variable's object will be used to access/update data.
 <br>
-This is good and bad.
+So basically, the variable still exists, even after the method data has been cleared off the stack.
 <br>
-Also, the lines where static vars are declared will be skipped the next time the function runs, because the app ignores their re-declarations, which is a big speed boost!
+This is good and bad, and naturally carries performance considerations.
 <br>
 <br>
-Remember: Static variables ONLY exist for this current run, they do not exist when the user refreshes/reloads the page, or when the script terminates/ends.
+<i>A question: won't the compiler encounter the line where the static variable is defined, and just redefine it - thereby clearing it's data?</i>
 <br>
-PHP scripts are scripts. Small functions that run to do something. Even though the webserver uses PHP to do stuff, it doesn't keep objects in memory when the script ends.
-
+The lines where static variables are declared will be skipped the next time the function runs because the compiler will tell the interpreter to ignore their re-declarations, which prevents the script from destroying their data - until the script terminates.
+<br>
+<br>
+Remember: Static variables ONLY exist for this current script. They do not exist when the user refreshes/reloads the page, or when the script terminates/ends. All of the memory will be cleared and recycled by the server to safeguard it's own performance.
+<br>
 
 ## SUPERGLOBALS:
-These are inputs/vars passed into the app by the server itself. 
+These are inputs/variables passed into the script by the Web Server itself. 
 <br>
-In most cases, it'll be stuff like the $_POST or $_GET methods from users entering info in HTML and posting it to the server.
-<br>
-<br>
-This is SUPER dangerous if unsanitized, because hackers can inject all kinds of malicious payloads, etc.
-<br>
-Basically, these are pretty much global vars which we can access from anywhere, but the name "Super" means that it's given to us by PHP itself; 
+In most cases, it'll be stuff like the $_POST or $_GET methods from users entering info in HTML and posting it to the server via JavaScript.
 <br>
 <br>
-Super = given by PHP itself
+This is SUPER dangerous if the inputs are unsanitized, because hackers can compromise front-end systems built in client-side scripting languages like JavaScript, to insert malicious payloads into your PHP scripts. If you don't handle these cases properly, hackers can gain direct access to your server.
 <br>
-Global = accessible anywhere
+Luckily, PHP has a few really good built-in methods that we can use to protect our systems - which we'll discuss later.
+<br>
+<br>
+Basically, these SuperGlobal variables are global variables that we can access from anywhere in our script - without defining them as "global" first. 
+<br>
+The first part of the name, "Super", tells us that it's given to us by PHP itself.
+<br>
+<br>
+Super = given by PHP itself.
+<br>
+Global = accessible from any method.
 
 ## True/False vs TRUE/FALSE
 For TRUE and FALSE statements, use "true" and "false" instead, because the lowercase version can't be redefined - whereas uppercase can be. 
 <br>
-This is also important to check when using 3rd party libraries
+This is also important when using 3rd party libraries, since many PHP Web Developers often have their own definitions in their libraries.
 
 ## Booleans
-When printing out Booleans, TRUE is 1, and FALSE is null (Wont even show!).
+A Boolean is a type of value that can only be one of two things: on (true) or off (false).
 <br>
-This is because PHP treats TRUE as 1 (on), and FALSE as nothing (off). 
+They are heavily inspired by logic gates and the actual flow of electricity inside computers, and are super important in computer science and programming, because we use them for decisions.
+<br>
+<br>
+PHP treats TRUE as 1 (on), and FALSE as nothing (off) - NOT 0. 
+<br>
+This means that trying to print TRUE will print out 1, and printing out FALSE will print out nothing at all.
 <br> 
-You can still use it same as other languages, it's just a bit strange for newcomers to PHP and programming
+You can still use it same as other languages, it's just a bit strange for newcomers to PHP and programming, and it requires some nullchecking when using false for decisions in certain cases.
 
 ## Loosely-typed
-PHP is a loosely typed language, so it will autoconvert variables, etc. into the right type where it sees fit.
+PHP is a loosely typed language, so it will auto-convert variables into the right data type where it sees fit.
 <br>
 For example, it'll convert "1" into an int if I say: If("1" == 1)
 <br>
 This is great, but can cause some unexpected results as well.
 <br>
-To force it to do the comparison WITHOUT conversion - using the vars as-is - use the 3x equals "===" signs. 
+To force it to do the comparison WITHOUT conversion - using the variables as-is - use the 3x equals "===" signs. 
 <br>
-This makes it do comparisons with data as-is, causing our example to be FALSE, because "1" does not equal 1.
+This makes it do comparisons with data as-is, causing our example to be FALSE, because "1" does not equal 1, since they're different data types (String of character literals vs Integer).
 
 Another example is:
 ```PHP
@@ -168,68 +190,80 @@ Another example is:
 ```
 
 ## Echo vs Print
-They're both the same, implemented as constructs and don't need parentheses (), but print and echo commands are different.
+In theory, they're both the same, implemented as constructs and don't need parentheses -> (), but print and echo commands are practically different.
 <br>
 Because print is implemented as a function, it can be used as part of logic, like ternary: <i>if($a==1) ? print "works : print "failed";</i>
 <br>
-Whereas the echo command cant, because it just echoes everything to the end of the line or string.
+Whereas the echo command can't be used in logic, because it just echoes everything to the end of the line or string, causing logical operations to not execute, and get printed out as-is, instead.
 
-## Case Statements
-Case statements are super useful for reducing code files!
+## Switch and Case Statements
+Switches allow you to perform an IF on a specific variable, to see if the value matches a given condition (Just like an IF statement).
 <br>
-We might find that we have lots of repeating lines like <i>"elseif(something==somethingElse)"</i>
+Switches contain multiple Cases, which act as the actual "if-else" logic.
 <br>
-So a case statement lets us get around these duplicate lines of code by simplifying the syntax. 
+Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like "if("Jim"=="gym"). 
 <br>
-You can use them interchangeably with IF-Else statements, and should use them when there's lots of cases, to reduce codefile size!
+Using a Switch/Case, we can remove repeating words, and help speed up the execution of our scripts, while mitigating the probability that we'll have a typo somewhere.
+<br>
+<br>
+You can use them interchangeably with IF-Else statements, and should use them when there's lots of IF statements, to reduce improve efficiency, readability and reduce the chance of human-error!
 <br>
 <br>
 The actual code starts inside of the first colon, and ends at the "break;"
 <br>
-example: <i>case "test": doSomething(); break;</i>
-
+Example: 
+<br>
+```PHP
+Switch($myVar){
+  case "test": 
+   doSomething(); 
+   break;
+}
+```
+<br>
 
 ## Grouping Loops
-This is a MASSIVE design choice - and could introduce bugs, but you can actually group FOR LOOPS together into one!
+This is a MASSIVE design choice - and could introduce bugs, but you can actually group multiple FOR LOOPS together into one!
 <br>
 Example: <i>for($a=0, $b=0; $a<10, $b>9; $a++, $b++)</i>
 <br>
 <br>
-Each for loop has 3x parts (assignment, logical condition, incrementation) so we usually separate each with a Semi-Colon,
+Naturally, each for loop has 3x parts (assignment, logical condition, incrementation) so we separate each with a Semi-Colon,
 <br>
-We then add and separate each grouped expression, into each of those 3x parts, with a comma 
+For grouping FOR LOOPS, we add and separate each group's expressions into each of those 3x parts, with a comma separating each group.
 <br>
-Basically, we do a regular for-loop and combine the inner loops with the main one, separating each section with a comma
+Basically, we do a regular for-loop and combine the inner loops with the main one, separating each section with a comma.
 
 ## The break command
-"break" is super powerful!
+In most languages, the break command can be used to stop execution of a LOOP.
+<br>
+"break" is super powerful in PHP though, and can do slightly more.
 <br>
 "break" followed by a number tells the app how many layers to break out of,
 <br>
-So - in other words - if you've got 3x inner loops, and use "break 2;", it will shoot out to the highest loop and continue execution - instead of stopping entirely!
+So - in other words - if you've got 3x inner loops, and use "break 2;", it will break out to the highest loop and continue execution - instead of stopping entirely!
 
-
-## functions vs objects [1 vs many]
-In PHP, Functions are blocks of repeating code that we extract and define for reuse. 
+## Functions vs Objects [1 vs many]
+In PHP, Functions are blocks of code that we define for reusability.
 <br>
-This makes app loading faster because it's compiled only once, no matter how often it's called, and decreases programming errors.
+This makes app loading faster because each function is compiled only once, no matter how often it's called, and decreases programming errors, and improves our ability to make changes.
 <br>
 PHP Objects are groups of functions and the data they use, they are called <i>Classes</i>.
 <br>
 <br>
 Methods are defined as "function myFuncName" and classes are defined as "class myClassName". 
 <br>
-Classes/Objects will have a constructor, destructor and some functions within them.
+Classes/Objects will have a constructor, destructor and some functions within them - but functions can be standalone as well, being able to exist outside of classes.
 
-## Passing by reference
+## Passing by Reference
 Pass-by-reference is deprecated in newer versions of PHP
 <br>
-BUT, Receive-by-reference is allowed!
+But, Receive-by-reference is allowed!
 <br>
 <br>
-with passbyref, we use "&" before a variable name when calling a method, like so: <i>test(&$variableA)</i>
+With passbyref, we use "&" before a variable name when calling a method, like so: <i>test(&$variableA)</i>
 <br>
-with receiveByRef, we call it normally (without the &), and we define the function as having the &, "function test(&$variableA)"
+With receiveByRef, we call it normally (without the &), and we define the function as having the &, "function test(&$variableA)"
 <br>
 This allows us to still do exactly what we wanted to, and the syntax is a bit weird now, but any changes we make to VariableA will change the original, not a copy of it.
 
@@ -252,7 +286,7 @@ Both of these above only TRY to include the file, and wont fail if there's an er
 <br>
 Our "_once" methods ensure that there's no cyclic references. 
 <br>
-These are basically where you've referenced "file 1" from "file 2", and you're now referencing "file 2" from "file 1", so they both reference each other, and neither can load until the other does.
+Cyclic references/dependencies are basically where you've referenced "file 1" from "file 2", and you're now referencing "file 2" from "file 1", so they both reference each other, and neither can load until the other does.
 
 ## Checking that a function exists
 "function_exists" allows us to search the name of a specific function in standard PHP and UDF functions. 
@@ -938,7 +972,7 @@ It's probably good to use:
 ```PHP
 ini_set("session.save_path", "myDesiredDirectory"); 
 ```
-To keep it clean and web-inaccessible (can't be directly accessed by hackers)
+To keep it clean and web-inaccessible (can't be directly accessed by hackers).
 
 ## REGEX in PHP:
 We use these 3x methods for Regular Expressions: preg_match(), preg_match_all(), preg_replace()

@@ -1,13 +1,13 @@
 function updateBodyText(input) {
     var fileDisplayArea = document.getElementById('pageText');
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', input);
-        xhr.setRequestHeader("Accept", "application/vnd.github.3.raw");
-        xhr.send();
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', input);
+    xhr.setRequestHeader("Accept", "application/vnd.github.3.raw");
+    xhr.send();
 
-        xhr.onload = function(e){
-            fileDisplayArea.innerHTML = parseMarkdown(xhr.response)
-        }
+    xhr.onload = function(e){
+        fileDisplayArea.innerHTML = parseMarkdown(xhr.response)
+    }
  };
 
  function parseMarkdown(markdownText) {

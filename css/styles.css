@@ -10,7 +10,7 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
-  
+
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -39,33 +39,46 @@
 
 /*Still Navbar, this is for the dropdown that happens on some elements*/
 .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+body > .sidenav > a, 
+body > .sidenav > .dropdown {
+  padding: 10px; /* Adjust the padding as needed */
+  border: 1px dashed white; /* Combined border properties for a dashed white border */
+  margin: 10px 0; /* Add margin to ensure spacing between elements */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
 .dropdown-content,
 .dropdown-nested-second,
 .dropdown-nested-second-server,
 .dropdown-nested-second-client {
   display: none;
-  position: fixed;
+  position: absolute; /* Change from fixed to absolute */
   background-color: #68a9f4;
   min-width: 10%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  top: 100%; /* Position below the hovered element */
+  left: 0; /* Align to the left of the hovered element */
 }
 
 .dropdown-nested-first {
   display: none;
   background-color: #3b84d7;
-  position: relative;
+  position: relative; /* Ensure this is absolute too */
+  top: 100%; /* Position below the hovered element */
+  left: 0; /* Align to the left of the hovered element */
 }
+
 /* use only the direct children of the target. Set text to black */
 .dropdown-nested-first > a {
   color: black;
 }
-
 
 /* on Dropdown's hover, display the dropdown-content items */
 .dropdown:hover .dropdown-content,
@@ -77,15 +90,11 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Center the "about" image */
 img.aboutImage {
-  /* position: absolute;
-  top: 1%;
-  left: 25%;
-  transform: translate(-1%, -25%);*/
   max-width: 80%; /* Adjust as needed */
   border-radius: 3px; /* Optional styling */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); /* Optional styling */
