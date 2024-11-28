@@ -216,7 +216,7 @@ if("Jim"=="gym") {
 Using a Switch/Case, we can remove repeating words, and help speed up the execution of our scripts, while mitigating the probability that we'll have a typo somewhere.
 <br>
 <br>
-You can use them interchangeably with IF-Else statements, and should use them when there's lots of IF statements, to reduce improve efficiency, readability and reduce the chance of human-error!
+You can use them interchangeably with IF-Else statements, and should use them when there's lots of IF statements, to improve efficiency, readability and reduce the chance of human-error!
 <br>
 <br>
 The actual code starts inside of the first colon, and ends at the "break;"
