@@ -206,7 +206,12 @@ Switches allow you to perform an IF on a specific variable, to see if the value 
 <br>
 Switches contain multiple Cases, which act as the actual "if-else" logic.
 <br>
-Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like "if("Jim"=="gym"). 
+Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like :
+```php
+if("Jim"=="gym") {
+ // do something
+}
+```
 <br>
 Using a Switch/Case, we can remove repeating words, and help speed up the execution of our scripts, while mitigating the probability that we'll have a typo somewhere.
 <br>
@@ -259,7 +264,16 @@ This makes app loading faster because each function is compiled only once, no ma
 PHP Objects are groups of functions and the data they use, they are called <i>Classes</i>.
 <br>
 <br>
-Methods are defined as "function myFuncName" and classes are defined as "class myClassName". 
+Methods are defined as "function myFuncName" and classes are defined as "class myClassName". Like so:
+```php
+function myFunc(){
+  //local variables and calls to other functions in here
+}
+
+class myClass {
+  //constructor, destructor and other methods inside here
+}
+```
 <br>
 Classes/Objects will have a constructor, destructor and some functions within them - but functions can be standalone as well, being able to exist outside of classes.
 
@@ -271,7 +285,12 @@ But, Receive-by-reference is allowed!
 <br>
 With passbyref, we use "&" before a variable name when calling a method, like so: <i>test(&$variableA)</i>
 <br>
-With receiveByRef, we call it normally (without the &), and we define the function as having the &, "function test(&$variableA)"
+With receiveByRef, we call it normally (without the &), and we define the function as having the &, like so:
+```php
+function test(&$variableA) {
+  //do something
+}
+```
 <br>
 This allows us to still do exactly what we wanted to, and the syntax is a bit weird now, but any changes we make to VariableA will change the original, not a copy of it.
 
