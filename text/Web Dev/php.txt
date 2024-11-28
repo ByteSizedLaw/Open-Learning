@@ -196,7 +196,7 @@ In theory, they're both the same, implemented as constructs and don't need paren
 <br>
 Because print is implemented as a function, it can be used as part of logic, like ternary: 
 ```php
-if($a==1) ? print "works : print "failed";
+if($a==1) ? print "works" : print "failed";
 ```
 <br>
 Whereas the echo command can't be used in logic, because it just echoes everything to the end of the line or string, causing logical operations to not execute, and get printed out as-is, instead.
