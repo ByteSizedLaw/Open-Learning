@@ -213,7 +213,7 @@ NULL is literally "nothing". It's an undefined portion of the computer's memory 
 <br>
 For logical checks, these identical functions do 2x different things:
 <br>
-```Language: C#
+```csharp
 x = 0;
 if (x > 0) //Business Requirements: x MUST BE greater than 0 to continue
 {
@@ -221,7 +221,7 @@ if (x > 0) //Business Requirements: x MUST BE greater than 0 to continue
 }
 ```
 <br>
-```Language: C#
+```csharp
 x = 0;
 if (x != null) //Business Requirements: x MUST BE greater than 0 to continue
 {

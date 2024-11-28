@@ -48,8 +48,8 @@ function parseMarkdown(markdownText) {
     // Handle underscores for italic text
     //markdownText = markdownText.replace(/_([^_]+)_/g, '<em>$1</em>');
 
-    // Handle code blocks/snippets
-    markdownText = markdownText.replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>');
+    // Handle code blocks with language specified
+    markdownText = markdownText.replace(/```([a-zA-Z0-9-]+)\s*([\s\S]*?)\s*```/g, '<pre><code class="language-$1">$2</code></pre>');
 
     // Handle inline code
     markdownText = markdownText.replace(/`([^`]+)`/g, '<code>$1</code>');

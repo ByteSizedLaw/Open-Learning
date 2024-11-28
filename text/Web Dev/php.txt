@@ -84,12 +84,12 @@ You should generally avoid using "and" and "or" over the higher precedent keywor
 
 ## Incrementation
 doing this
-```PHP
+```php
 if ($x++ == 10) echo $x;
 ```
 is different to this:
 
-```PHP
+```php
 if (++$x == 10) echo $x;
 ```
 <br>
@@ -181,7 +181,7 @@ To force it to do the comparison WITHOUT conversion - using the variables as-is 
 This makes it do comparisons with data as-is, causing our example to be FALSE, because "1" does not equal 1, since they're different data types (String of character literals vs Integer).
 
 Another example is:
-```PHP
+```php
 	$a = "100";
 	$b = "+100";
 	
@@ -213,7 +213,7 @@ The actual code starts inside of the first colon, and ends at the "break;"
 <br>
 Example: 
 <br>
-```PHP
+```php
 Switch($myVar){
   case "test": 
    doSomething(); 
@@ -297,7 +297,7 @@ This is awesome for compatibility with older and new versions of PHP
 All objects (class objects) are passed by reference - even when we clone them
 <br>
 Example:
-```PHP
+```php
 $person1->name = "amy";
 $person2 = $person1;
 $person2->name = "sally";
@@ -307,7 +307,7 @@ Both Person objects now have the name "sally" because we created a reference to 
 <br>
 <br>
 To get around this, use the "clone" keyword, this will copy the object!
-```PHP
+```php
 $person2 = clone $person1
 ```
 
@@ -367,7 +367,7 @@ If you access static members from within the same class, we need to use Self :: 
 <br>
 <br>
 Like so:
-```PHP
+```php
 <?php
     $temp = new Test();
     echo "Valid: " . Test::get10() . "\r\n";
@@ -470,20 +470,20 @@ There are Numeric and Associative arrays.
 
 ## Array Functions
 ## inserting into Numeric Arrays:
-```PHP
+```php
 	$arr[] = "hello";
 	$arr[] = "world!";
 ```
 This basically tells PHP to create a numeric array and place the data at the next available location in that array - PHP then increments the element count (which starts at 0) and waits for future insertions
 <br>
 We could also have specified the exact locations to insert into like this:
-```PHP
+```php
 	$arr[0] = "hello";
 	$arr[1] = "world!";
 ```
 <br>
 ## Getting items from a numeric array:
-```PHP
+```php
 	$arr[] = "hello";
 	$arr[] = "world!";
 
@@ -493,7 +493,7 @@ We could also have specified the exact locations to insert into like this:
 These are basically maps, or Key-value-pairs.
 <br>
 We can store and access data using "tags", like so:
-```PHP
+```php
 	//store data in specific tags
 	$arr["first"] = "hello";
 	$arr["second"] = "world!";
@@ -504,13 +504,13 @@ We can store and access data using "tags", like so:
 These types of Arrays are super useful when we're extracting info from HTML or XML, because those datatypes may be presented to our code in Key-value-pairs.
 
 ## Creating Numeric Arrays with the Array keyword:
-```PHP
+```php
 $arr = array("hello", "world!"); //this tells PHP to create a new numeric array and add these items
 ```
 retrieving items will still be the same as with regular Numeric Arrays
 
 ## Creating Associative Arrays with the Array keyword:
-```PHP
+```php
 	$arr = array("first" => "hello", 
 		     "second" =>"world!");
 ```
@@ -520,14 +520,14 @@ retrieving items will still be the same as with regular Associative Arrays
 This allows us to iterate over every element in an array/list
 <br>
 The syntax is as follows
-```PHP
+```php
 	foreach($listName as $item)
 	{
 	    //do something with the $item
 	}
 ```
 for associative arrays, the syntax can be as follows:
-```PHP
+```php
 	foreach($listName as $item => $value) //allows us to access both the Key and Value of the item
 	{
 	    //do something with the $item and $value, can use both individually now
@@ -559,14 +559,14 @@ How would we implement this?
 The easiest way is to treat each category like its own array/list, then have those different arrays/lists in another bigger list called "books",
 <br>
 like so:
-```PHP
+```php
 	$books = array(
 		"Horror" => array("Call of Cthulhu", "Data Structures and algorithms", "Twilight"),
 		"Mystery" => array("At the mountains of Madness")
 	);
 ```
 The following code will now print out the names of each of the books and the category they belonged to
-```PHP
+```php
     foreach($books as $category => $name)
     {
         $leng = count($name);
@@ -578,7 +578,7 @@ The following code will now print out the names of each of the books and the cat
     }
 ```
 Note: You can also create numeric multidimensional arrays, by simply excluding the tags, like this:
-```PHP
+```php
 	$books = array(
 		array("Call of Cthulhu", "Data Structures and algorithms", "Twilight"),
 		array("At the mountains of Madness")
@@ -666,7 +666,7 @@ This is where file handling comes in
 			<li>note: some systems are case sensitive, so always create files with lower-case names</li>
 			<li>
 example: 
-```PHP
+```php
 	$fileHandle = fopen("tes.txt", "w") or die("couldn't create the file"); //w = write mode
 
 	$data = "hello world";
@@ -683,7 +683,7 @@ example:
 			<li>note: easiest way is to read it into a single string, we do this with fgets (file-get-string)</li>
 			<li>note: when calculating the number of chars to read, remember to count newline chars too!</li>
 			<li>using the same function as above, but replacing the fwrite with the following line - and opening the file in "r" mode:</li>
-```PHP
+```php
 $fileData = fgets($fileHandle, $numberOfCharactersToRead);
 ```
 		</ul>
@@ -692,7 +692,7 @@ $fileData = fgets($fileHandle, $numberOfCharactersToRead);
 		<ul>
 			<li>we can use the simple get_file_contents method</li>
 			<li>note: this is super useful, because it works over the internet! which fopen doesn't. So we can use it to get HTML, etc from anywhere else, or locally</li>
-```PHP
+```php
 $fileContents = get_file_contents($filenameAndPath);
 ```
 		</ul>
@@ -700,7 +700,7 @@ $fileContents = get_file_contents($filenameAndPath);
 	<li>copying files: 
 		<ul>
 			<li>note: copy returns a Boolean true if successful, false if failed</li>
-```PHP
+```php
 	copy($sourceFilePathAndName, $destinationFilePathAndName);
 ```
 		</ul>
@@ -709,7 +709,7 @@ $fileContents = get_file_contents($filenameAndPath);
 		<ul>
 			<li>note: to move a file, we need to use the "rename" function</li>
 			<li>note: you can use "rename" on directories too</li>
-```PHP
+```php
 	rename($sourceFilePathAndName, $destinationFilePathAndName);
 ```
 		</ul>
@@ -717,7 +717,7 @@ $fileContents = get_file_contents($filenameAndPath);
 	<li>deleting files:
 		<ul>
 			<li>note: to delete files, we use "unlink" which removes it from the filesystem</li>
-```PHP
+```php
 unlink($filename);
 ```
 		</ul>
@@ -728,15 +728,15 @@ unlink($filename);
 			<li>File pointers are not the same as the file handle</li>
 			<li>we use the "fseek" method to do move the file pointer</li>
 			<li>note: fseek has support for specific locations, or for SEEK_END or SEEK_START, which find the end and start of file, respectively</li>
-```PHP
+```php
 fseek($fileHandle, 0, 100); //0 tells it how many positions backwards/forwards it needs to start from 100 chars in [so only start at 100], this is called the offset and should never exceed seek_end
 ```
 			<li>note: it also has support for SEEK_SET, which sets the file pointer to the given/offset location in the file</li>
-```PHP
+```php
 fseek($fileHandle, 10, SEEK_SET); //set file pointer to position 10
 ```
 			<li>note: it also has support for SEEK_CURR, which does the same as SEEK_SET, but sets it to the position you're currently at, plus the offset</li>
-```PHP
+```php
 fseek($fileHandle, 10, SEEK_CURR); //set filepointer to current location + 10 char
 ```
 		</ul>
@@ -748,7 +748,7 @@ fseek($fileHandle, 10, SEEK_CURR); //set filepointer to current location + 10 ch
 			<li>we need to use the following params: LOCK_EX (to lock the file) and LOCK_UN (to unlock the file again)</li>
 			<li>note: it's advised to only lock and unlock the file directly before/after you've used the file, then release it asafp -> this is for efficiency and UX</li>
 			<li>always wrap the lock in an IF statement, because not all systems will support/allow you to access the file, and it could be locked out too! Always check for a secured/successful lock</li>
-```PHP
+```php
 flock($fileHandle, LOCK_EX); //lock the file
 flock($fileHandle, LOCK_UN); //unlock the file
 ```
@@ -766,7 +766,7 @@ flock($fileHandle, LOCK_UN); //unlock the file
 		&lt;input type="submit" value="Upload"&gt;
 	&lt;/form&gt;
 ```
-```PHP-side
+```php-side
 if($_FILES) //all uploaded files are always stored into this PHP-default associative array
 	{
 		$name = $_FILES["filename"]["name"];
@@ -860,7 +860,7 @@ note: cookies can be edited in the browser, so they're not ideal for storing con
 <br>
 creating cookies is easy:
 
-```PHP
+```php
 	setcookie(name, value, expiry, path, domain, secure, httponly);
 		//value = up to 4kb ONLY
 		//expiry = if left empty, expires when browser closes
@@ -870,7 +870,7 @@ creating cookies is easy:
 ```
 <br>
 Accessing cookies is also easy:
-```PHP
+```php
 	if(isset($_COOKIE["mycookie"]))
 ```
 Note: You can only access them once the page reloads on the client browser and the client sends the cookie back to the server!
@@ -927,15 +927,15 @@ Starting a session MUST be done before any html is echoed (like with Cookies)
 You first start a session with "session_start()", then assign its' variables, etc.
 <br>
 You can start creating a session's vars by assigning value to it like an associative array:
-```PHP
+```php
 	$_SESSION["Test"] = "hello world";
 ```
 It's also good practice to store and check the user's IP for the session:
-```PHP
+```php
 	$_SESSION["ip"] = $_SERVER["REMOTE_ADDR"];
 ```
 Or to store the user agent (if they share the same IP -> for family, etc.):
-```PHP
+```php
 	$_SESSION["agent"] = $_SERVER["HTTP_USER_AGENT"];
 ```
 Remember that sessions need to be closed as well,
@@ -948,7 +948,7 @@ It's best to create a custom method to do this
 Sometimes, we might want to leave it up to the server to decide when to log them out of the session.
 <br>
 We set an expiry in this case, by calling:
-```PHP
+```php
 ini_set('session.gc_maxlifetime', $duration);
 ```
 
@@ -960,7 +960,7 @@ The best way to defend against it is to use a counter on the site - something li
 <br>
 We can also force cookies-only sessions, which prevents this too
 We do this with:
-```PHP
+```php
 ini_set("session.use_only_cookies", 1); 
 ```
 This requires that users have cookies enabled though
@@ -969,7 +969,7 @@ This requires that users have cookies enabled though
 Sessions need to be placed into nice folders, because the root directory can become messy
 <br>
 It's probably good to use:
-```PHP
+```php
 ini_set("session.save_path", "myDesiredDirectory"); 
 ```
 To keep it clean and web-inaccessible (can't be directly accessed by hackers).

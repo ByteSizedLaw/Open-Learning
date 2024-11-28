@@ -103,7 +103,7 @@ img.aboutImage {
 }
 
 /* These style our code snippets */
-pre {
+/* pre {
   background: #1f5b0c;
   padding: 1vw;
   border-radius: 5px;
@@ -113,4 +113,4 @@ pre {
 code {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
-}
+} */

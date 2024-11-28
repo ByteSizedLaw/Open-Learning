@@ -3,8 +3,24 @@
     <head>
         <title>Open Learning</title>
         <link rel="stylesheet" href="css/styles.css">
-        <script type="text/javascript" src="js/home.js"></script>
+        <!--Get my github user image. Just makes it easier for me to change one place, rather than changing lots when I update it-->
         <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/146375585">
+        <!--Prism core-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+        <!-- Prism.js stylesheet --> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+        <!-- Markup templating component --> 
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-markup-templating.min.js"></script>
+        <!--Code highlighting for C#-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-csharp.min.js"></script>
+        <!--Code highlighting for JAVA-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-java.min.js"></script>
+        <!--Code highlighting for JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+        <!--Code highlighting for PHP-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-php.min.js"></script>
+
+        <script type="text/javascript" src="js/home.js"></script>
     </head>
     <body>
         <!-- Side navigation -->
@@ -108,10 +124,25 @@
                 <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/About%20CyberFinn/about_cyberfinn.txt');">About CyberFinn</a>
             </div>
         </div>
+        
 
         <!-- Actual contents start here -->
         <div class="main">
             <p id="pageText">This site is still under construction. Please check the sidebar for other pages. I am frequently adding and updating content</p>
+            <pre><code class="language-csharp">
+                public class Main {
+                    public void test(test string)
+                    {
+                        //todo
+                    }
+                }
+            </code></pre>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                Prism.highlightAll();
+            });
+        </script>
     </body>
 </html>
