@@ -85,12 +85,14 @@ You should generally avoid using "and" and "or" over the higher precedent keywor
 ## Incrementation
 doing this
 ```php
-if ($x++ == 10) echo $x;
+$x = 10;
+if ($x++ == 10) echo $x; //echoes 11
 ```
 is different to this:
 
 ```php
-if (++$x == 10) echo $x;
+$x = 10;
+if (++$x == 10) echo $x; //never executes
 ```
 <br>
 The first block of code will first check x against 10, and if it passes, increment it (so echo will be 11)
@@ -192,7 +194,10 @@ Another example is:
 ## Echo vs Print
 In theory, they're both the same, implemented as constructs and don't need parentheses -> (), but print and echo commands are practically different.
 <br>
-Because print is implemented as a function, it can be used as part of logic, like ternary: <i>if($a==1) ? print "works : print "failed";</i>
+Because print is implemented as a function, it can be used as part of logic, like ternary: 
+```php
+if($a==1) ? print "works : print "failed";
+```
 <br>
 Whereas the echo command can't be used in logic, because it just echoes everything to the end of the line or string, causing logical operations to not execute, and get printed out as-is, instead.
 
@@ -214,7 +219,7 @@ The actual code starts inside of the first colon, and ends at the "break;"
 Example: 
 <br>
 ```php
-Switch($myVar){
+switch($myVar){
   case "test": 
    doSomething(); 
    break;
@@ -225,7 +230,10 @@ Switch($myVar){
 ## Grouping Loops
 This is a MASSIVE design choice - and could introduce bugs, but you can actually group multiple FOR LOOPS together into one!
 <br>
-Example: <i>for($a=0, $b=0; $a<10, $b>9; $a++, $b++)</i>
+Example: 
+```php
+for($a=0, $b=0; $a<10, $b>9; $a++, $b++)
+```
 <br>
 <br>
 Naturally, each for loop has 3x parts (assignment, logical condition, incrementation) so we separate each with a Semi-Colon,
