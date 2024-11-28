@@ -368,7 +368,6 @@ If you access static members from within the same class, we need to use Self :: 
 <br>
 Like so:
 ```php
-<?php
     $temp = new Test();
     echo "Valid: " . Test::get10() . "\r\n";
     echo "Valid: " . Test::$myTest. "\r\n";
@@ -392,7 +391,6 @@ class Test{
         return Self::test1();
     }
 }
-?>
 ```
 ## Classes and Inheritance:
 I think the easiest way to describe this is in the scope of "Publishers" and "Subscribers" (or consumers).
