@@ -1,22 +1,27 @@
 function updateBodyText(input) {
     DisplayLoadingMessage();
-    AjaxRequest(input);
+    AjaxRequest(input, () => {
+        Prism.highlightAll(); // Ensure syntax highlighting is triggered after content update
+    });
 }
 
-function DisplayLoadingMessage(){
+function DisplayLoadingMessage() {
     var fileDisplayArea = document.getElementById('pageText');
     fileDisplayArea.innerText = "Loading. This may take a while and depends on your internet connection..";
 }
 
-function AjaxRequest(input){
+function AjaxRequest(input, callback) {
     var fileDisplayArea = document.getElementById('pageText');
     var xhr = new XMLHttpRequest();
     xhr.open('GET', input);
     xhr.setRequestHeader("Accept", "application/vnd.github.3.raw");
     xhr.send();
 
-    xhr.onload = function(e){
-        fileDisplayArea.innerHTML = parseMarkdown(xhr.response)
+    xhr.onload = function(e) {
+        fileDisplayArea.innerHTML = parseMarkdown(xhr.response);
+        if (typeof callback === 'function') {
+            callback();
+        }
     }
 }
 

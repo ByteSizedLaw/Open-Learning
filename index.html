@@ -19,8 +19,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
         <!--Code highlighting for PHP-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-php.min.js"></script>
+        <!-- Code highlighting for HTML --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
 
-        <script type="text/javascript" src="js/home.js"></script>
     </head>
     <body>
         <!-- Side navigation -->
@@ -130,11 +131,7 @@
         <div class="main">
             <p id="pageText">This site is still under construction. Please check the sidebar for other pages. I am frequently adding and updating content</p>
         </div>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', (event) => {
-                Prism.highlightAll();
-            });
-        </script>
+        <!--Placement here enforces that our syntax highlighting is loaded before our JS-->        
+        <script type="text/javascript" src="js/home.js"></script>
     </body>
 </html>

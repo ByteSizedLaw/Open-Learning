@@ -760,13 +760,13 @@ flock($fileHandle, LOCK_UN); //unlock the file
 			<li>requires some HTML, and specifically the form tag's encoding type of "multipart/form-data"</li>
 			<li>note: we don't have to worry about deleting the temp files that get stored on the server, PHP does this for us when we eventually exit</li>
 			<li>Client and Server code sample:</li>
-```HTML-side
+```html
 	&lt;form method="post" action="upload.php" enctype="multipart/form-data"&gt;
 		Select File: &lt;input type="file" name="filename" size="10"&gt;
 		&lt;input type="submit" value="Upload"&gt;
 	&lt;/form&gt;
 ```
-```php-side
+```php
 if($_FILES) //all uploaded files are always stored into this PHP-default associative array
 	{
 		$name = $_FILES["filename"]["name"];
