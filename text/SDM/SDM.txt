@@ -13,7 +13,8 @@ However, expertise isn’t solely determined by a position or experience in a po
 <br>
 The workers that are "below" managers, are experts in their fields and have far superior skills and knowledge, which is why they are hired as workers in the first place.
 <br>
-Managers also don't work directly by writing code or doing the actual work, so it would be a waste for any company to have their best workers as managers. Since managerial jobs have a different area of focus and emphasis.
+<br>
+Managers don't work directly by writing code or doing the actual project work, so it would be a total waste for any company to have their "best workers" as managers. Since managerial jobs have a different area of focus, and managers spend a majority of their day in meetings.
 <br>
 <br>
 Thinking about this cognitive bias towards managers in a different light: 
