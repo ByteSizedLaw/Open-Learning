@@ -97,7 +97,7 @@ if (++$x == 10) echo $x; //never executes
 <br>
 The first block of code will first check x against 10, and if it passes, increment it (so echo will be 11)
 <br>
-The second block of code will first increment 10 to 11, then check it, and won't echo anything, since the line will be skipped.
+The second block of code will first increment x to 11, then check it against 10, and won't echo anything, since the condition will evaluate to false, as 11 does not equal 10.
 
 ## Global Variables
 A key note on the scope of variables: Anything that's declared outside of a method, can't be directly accessed by code within methods.
@@ -184,11 +184,11 @@ This makes it do comparisons with data as-is, causing our example to be FALSE, b
 
 Another example is:
 ```php
-	$a = "100";
-	$b = "+100";
+$a = "100";
+$b = "+100";
 	
-	if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
-	if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
+if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
+if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
 ```
 
 ## Echo vs Print
@@ -208,8 +208,14 @@ Switches contain multiple Cases, which act as the actual "if-else" logic.
 <br>
 Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like :
 ```php
-if("Jim"=="gym") {
- // do something
+if($name=="Jim") {
+  handleJim();
+}
+if($name=="James") {
+  handleJames();
+}
+if($name=="Frank") {
+  handleFrank();
 }
 ```
 <br>
@@ -224,20 +230,37 @@ The actual code starts inside of the first colon, and ends at the "break;"
 Example: 
 <br>
 ```php
-switch($myVar){
-  case "test": 
-   doSomething(); 
+switch($name){
+  case "Jim": 
+   handleJim(); 
+   break;
+  case "James": 
+   handleJames(); 
+   break;
+  case "Frank": 
+   handleFrank(); 
    break;
 }
 ```
+<br>
+From our example, you can see that we've removed repeating code like <i>"if($name =="</i>, which helps to make the code more readable and maintainable, while reducing the possibility of human error
 <br>
 
 ## Grouping Loops
 This is a MASSIVE design choice - and could introduce bugs, but you can actually group multiple FOR LOOPS together into one!
 <br>
-Example: 
+Normal nested FOR LOOP Example:
 ```php
-for($a=0, $b=0; $a<10, $b>9; $a++, $b++)
+for($a=0; $a<10; $a++){
+  for($b=0; $b<9; $b++){
+    //do domething
+  }
+}
+Grouped FOR LOOP Example:
+```php
+for($a=0, $b=0; $a<10, $b<9; $a++, $b++) {
+  //do domething
+}
 ```
 <br>
 <br>

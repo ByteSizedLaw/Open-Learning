@@ -16,7 +16,7 @@ The workers that are "below" managers, are experts in their fields and have far 
 Managers also don't work directly by writing code or doing the actual work, so it would be a waste for any company to have their best workers as managers. Since managerial jobs have a different area of focus and emphasis.
 <br>
 <br>
-Thinking about it this cognitive bias towards managers in a different light: 
+Thinking about this cognitive bias towards managers in a different light: 
 <br>
 If you had to ask Elon Musk what time Database backups for a specific X server run, 
 <br>
