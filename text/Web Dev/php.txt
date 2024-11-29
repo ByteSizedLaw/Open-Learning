@@ -1001,26 +1001,42 @@ ini_set('session.gc_maxlifetime', $duration);
 ```
 
 ## Preventing session fixation
-Session Fixation is basically when a hacker creates a bunch of sites, then sends those links to the sessions out and gets users to auth themselves on the session, then they come back and take control of the session
+On some sites, if the developers didn't pay heed to cyber security standards, you might find that each user has a session ID related to their view of the site in the URL - or in an easily-accessible cookie. 
 <br>
-The best way to defend against it is to use a counter on the site - something like "sessionExists" or "initiated", and if you find that it's true for this session, regenerate the session ID, using "session_regenerate_id"
+Hackers exploit this by starting sessions on sites, then distributing the links <i>(like "https://example.com?sessionid=abc123")</i> to their specific sessions, in hopes that someone (lets call them UserX) will navigate to the session and log in. 
+<br>
+As soon as UserX has successfully logged into their session, the hacker reclaims the session (Using the Session ID) and can now see/access all of the information about UserX, and has the same level of access as they do.
 <br>
 <br>
-We can also force cookies-only sessions, which prevents this too
+The best way to defend against Session Fixation is to use a counter on the site - like "sessionExists" or "initiated", and if you find that it's true for this session, regenerate the session ID, using 
+```php
+if (!isset($_SESSION['initiated'])) { // We can assume that the session has not started or been validated (it's a new user)
+    $_SESSION['initiated'] = true;
+    session_regenerate_id(true); // Regenerate session ID, this will invalidate the old one, so hackers can't assume control once the user logs in
+}
+
+```
+<br>
+We can also force cookies-only sessions, and use secure and HTTP-only flags for cookies, which prevents session fixation through URL-based session IDs (like "https://example.com?sessionid=abc123").
 We do this with:
 ```php
 ini_set("session.use_only_cookies", 1); 
+session_start();
 ```
-This requires that users have cookies enabled though
+This requires that users have cookies enabled though.
+<br>
+In either case, we should make it difficult for users to access or share their session info, and reduce the session expiry times to the absolutely bare minimum that we can. 
+<br>
+This helps to protect our systems and users from unauthorized accesses.
 
 ## Managing sessions on the server
 Sessions need to be placed into nice folders, because the root directory can become messy
 <br>
-It's probably good to use:
+It's good to use:
 ```php
 ini_set("session.save_path", "myDesiredDirectory"); 
 ```
-To keep it clean and web-inaccessible (can't be directly accessed by hackers).
+To keep it clean and web-inaccessible (can't be directly accessed by hackers) by storing these sessions outside of the web-exposed directory.
 
 ## REGEX in PHP:
 We use these 3x methods for Regular Expressions: preg_match(), preg_match_all(), preg_replace()
