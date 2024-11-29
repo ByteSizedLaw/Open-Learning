@@ -256,6 +256,7 @@ for($a=0; $a<10; $a++){
     //do domething
   }
 }
+```
 Grouped FOR LOOP Example:
 ```php
 for($a=0, $b=0; $a<10, $b<9; $a++, $b++) {
@@ -641,8 +642,11 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 	<li>Explode: 
 		<ul>
 			<li>Basically C#s equivalent of "string.Split". It allows you to split a string into array elements and insert them into an array</li>
-			<li>Syntax: </li>
-			<li>$arr = explode(" ", "hello world from CyberFinn!") //this would create 4x array elements. It does so by splitting the string into separate strings based on the instruction (I said " " - which is blank space)</li>
+			<li>Syntax
+```php
+$arr = explode(" ", "hello world from CyberFinn!") //this would create 4x array elements. 
+```
+It does so by splitting the string into separate strings based on the instruction (I said " " - which is blank space)</li>
 		</ul>
 	</li>
 	<li>Count: 
@@ -654,7 +658,11 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 		<ul>
 			<li>sorts the elements in the array for you</li>
 			<li>sorts either SORT_NUMERIC (numbers ascending) or SORT_STRING (Alphabetically)</li>
-			<li>syntax: sort($arr, SORT_NUMERIC);</li>
+			<li>syntax: 
+```php
+sort($arr, SORT_NUMERIC);
+```
+</li>
 			<li>returns: true if success, false if failure</li>
 
 		</ul>
@@ -662,7 +670,10 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 	<li>is_array:
 		<ul>
 			<li>checks if the object is an array</li>
-			<li>syntax: is_array($arr);</li>
+			<li>syntax: 
+```php
+is_array($arr);
+```</li>
 			<li>returns: True if it is an array, false if not an array</li>
 		</ul>
 	</li>
@@ -670,19 +681,34 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 		<ul>
 			<li>turns key-value-pairs in an array into variables</li>
 			<li>Note: if variables conflict with existing ones, the existing ones will be overwritten, so it's advised to use this syntax:</li>
-			<li>syntax: extract($GET, EXTR_PREFIX_ALL, "fromGet_"); //this will prefix the new variables with "fromGet_", and will extract all info from the associative GET array into new vars. This is useful for reading data from GET/POSTs</li>
+			<li>syntax: 
+```php
+extract($GET, EXTR_PREFIX_ALL, "fromGet_"); //this will prefix the new variables with "fromGet_", and will extract all info from the associative GET array into new vars. 
+```
+This is useful for reading data from GET/POSTs</li>
 		</ul>
 	</li>
 	<li>compact:
 		<ul>
 			<li>turns variables into key-value-pairs (opposite of extract)</li>
-			<li>syntax: $arr = compact("variableNameWithout$sign"); //creates associative array where the value of variableNameWithout$sign can be accessed on the array by using the key "variableNameWithout$sign"</li>
+			<li>syntax: 
+```php
+$firstName = "John";
+$lastName = "Doe";
+$arr = compact("firstName", "lastName");
+// $arr will be ["firstName" => "John", "lastName" => "Doe"]
+```
+The variable name becomes the key, and the value remains the same. We can use firstName to access the value of "John" in this example.
+</li>
 		</ul>
 	</li>
 	<li>reset:
 		<ul>
 			<li>"foreach.. as.." loops have an internal counter that tells it where it is in the array. Sometimes you may need to reset it to 0 and restart the loop</li>
-			<li>syntax: reset($arr)</li>		</ul>
+			<li>syntax: 
+```php
+reset($arr)
+```</li>	</ul>
 	</li>
 	<li>end:
 		<ul>
