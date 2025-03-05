@@ -3,7 +3,7 @@ A Software Development Manager (SDM) plays a crucial role in Software teams and 
 <br>
 You can find them leading major projects in various industries - from Game Development to Finance.
 <br>
-SDMs are usually permanent employees (so the role is rarely outsourced) and act as "generalists" in their specific fields - this is contradictory to the Hierarchical Bias that most people have towards managers.
+SDMs are usually permanent employees (so the role is rarely outsourced) and act as "generalists" in their specific fields - this is contrary to the Hierarchical Bias that most people have towards managers.
 
 ## What is the Hierarchical Bias?
 Organizational hierarchies often place managers at the top, with "their" workers under them, leading to the assumption that they possess superior knowledge or skills to those "below" them. 
@@ -13,10 +13,11 @@ However, expertise isn’t solely determined by a position or experience in a po
 <br>
 The workers that are "below" managers, are experts in their fields and have far superior skills and knowledge, which is why they are hired as workers in the first place.
 <br>
-Managers also don't work directly by writing code or doing the actual work, so it would be a waste for any company to have their best workers as managers. Since managerial jobs have a different area of focus and emphasis.
+<br>
+Managers don't work directly by writing code or doing the actual project work, so it would be a total waste for any company to have their "best workers" as managers. Since managerial jobs have a different area of focus, and managers spend a majority of their day in meetings.
 <br>
 <br>
-Thinking about it this cognitive bias towards managers in a different light: 
+Thinking about this cognitive bias towards managers in a different light: 
 <br>
 If you had to ask Elon Musk what time Database backups for a specific X server run, 
 <br>
@@ -43,7 +44,7 @@ As you go up the organizational hierarchy, the more "generalist" people become a
 <li> <b>Communication Bridge</b>: SDMs facilitate communication between Technical and non-Technical business stakeholders. They translate complex tech jargon into business terms for execs. This ensures everyone is on the same page.</li>
 <li> <b>Business Alignment</b>: SDMs align software development efforts with the overall business strategy. They ensure that projects contribute to the company’s objectives.</li>
 <li> <b>Resource Management</b>: SDMs allocate resources. They balance workloads, assign tasks, and manage budgets. By optimizing resource utilization, they enhance productivity and reduce bottlenecks.</li>
-<li> <b>Project Risk Mitigation</b>: SDMs address technical challenges, anticipate roadblocks, and create contingency plans in a proactive approach to minimize Project disruptions</li>
+<li> <b>Project Risk Mitigation</b>: SDMs address project challenges, anticipate roadblocks, and create contingency plans in a proactive approach to minimize Project disruptions</li>
 </ol>
 <br>
 SDMs work very closely with the Project Manager (PM) to ensure that projects are completed on time.
@@ -51,20 +52,22 @@ SDMs work very closely with the Project Manager (PM) to ensure that projects are
 SDMs are also accountable for when projects aren't completed (or budgets evaporate), and when there are crises like Cyber attacks or outages, etc.
 <br>
 <br>
-Where the PM focuses specifically on the project and what work needs to be done, the SDM manages who actually does that work and how they work with others to complete the project.
+Where the PM manages the project and what work needs to be done, the SDM manages who actually does that work.
 <br>
 
 ## What does an SDM actually do?
 <ol>
 <li> <b>Team Coordination</b>: SDMs organize daily stand-up meetings, ensuring everyone is aligned on project status, goals, and blockers. They address team concerns and facilitate collaboration.</li>
-<li> <b>Assist with Project Planning</b>: SDMs help to maintain project plans. They help the PM define milestones, allocate resources, and track progress</li>
-<li> <b>Stakeholder Communication</b>: SDMs interact with product managers, business owners, and other business stakeholders. They communicate project updates, manage expectations, and address any issues that arise.</li>
-<li> <b>Resource Allocation</b>: SDMs allocate work based on team members’ strengths and availability</li>
-<li> <b>Performance Reviews</b>: SDMs conduct regular performance evaluations for their team. They provide feedback, set goals, and identify areas for growth</li>
-<li> <b>Assist with Long-Term Planning</b>: SDMs assist the Product Manager/Owner with planning team growth, identifying technology trends, and business goals, etc.</li>
+<li> <b>Assist with Project Planning</b>: SDMs work with Project Managers to maintain project plans. They do this by allocating resources and assisting the PM with progress tracking</li>
+<li> <b>Stakeholder Communication</b>: SDMs interact with Project Managers, Product Managers, Business Owners, customers, Executives, and other business stakeholders. They communicate project updates and manage expectations.</li>
+<li> <b>Resource Allocation</b>: SDMs allocate work based on staff strengths and availability</li>
+<li> <b>Performance Reviews</b>: SDMs conduct regular performance evaluations for staff. They provide feedback, set goals, and identify areas for growth</li>
+<li> <b>Assist with Long-Term Planning</b>: SDMs assist the Product Manager with planning team growth, identifying technology trends, and business goals, in an effort to strengthen future projects.</li>
 </ol>
 <br>
-As noted in our Hierarchical bias section, SDMs don't do the actual work since their role is concerned with managing the projects and workloads of the team, and their level of expertise is far lower than that of the workers that report to them.
+As noted in our "Hierarchical bias" section, SDMs don't do the actual project work, since they lack expert technical skill and their role is concerned with resource efficiency. 
+<br>
+This means that most of their days are spent in meetings with various stakeholders.
 
 
 ## Misconceptions about SDMs:
@@ -108,7 +111,8 @@ In the scope of larger and more important projects, it's difficult and dangerous
 ## Traits of a good SDM:
 Every person is different - and there's no way of knowing how someone will act in a specific scenario until you see them in that scenario, but "<b>the good SDM</b>" usually has the following characteristics:
 <ol>
-<li> <b>Formal Education in Management</b>: An SDM is only as good as the education they have when it comes to managing people. These roles are incredibly important and will often require that the individual has formal education in the specialized realm of Management. They would usually need to have studied either Project Management, Software Development Management, Human Resource Management or Business Administration to hold these positions.</li>
+<li> <b>Formal Education in Management</b>: An SDM is only as good as the education they have when it comes to managing people. These roles are incredibly important and will often require that the individual has formal education in the specialized realm of Management. They would usually need to have studied either Project Management, Software Development Management, Human Resource Management or Business Management to hold these positions.</li>
+<li> <b>Formal Education in Cyber Law</b>: Since this position is all about managing people and projects that deal with the internet and cyberspace - as well as sensitive information and data - and there are often regulatory requirements that outlaw certain actions or policies when it comes to either of these, SDMs need to have a formal education in Cyber Law and be knowledgeable in the intricate and difficult cyber-legal landscape. If SDMs don't have a formal education in Cyber Law, they are the biggest threat and liability to your business.</li>
 <li> <b>Leadership Skills</b>: SDMs inspire and guide their teams. They set a positive example, foster collaboration, and motivate team members towards business goals</li>
 <li> <b>Clear Communication</b>: Effective communication is crucial. SDMs articulate expectations, provide feedback, and ensure everyone understands project objectives</li>
 <li> <b>Empathy</b>: SDMs understand their teams’ needs, challenges, and aspirations. They create a supportive environment and actively listen to concerns.</li>

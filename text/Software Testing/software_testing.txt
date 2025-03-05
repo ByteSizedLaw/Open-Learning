@@ -115,7 +115,7 @@ Absolutely!
 <br>
 Devs should 100% test their own code while they write it. 
 <br>
-This helps them to write testable code and keep the software closer to the Business Requirements.
+This helps them to write clean code and keep the software closer to the Business Requirements.
 <br>
 <br>
 It's still VERY important to have a designated Software Tester, and to deeply involve them in the project, 
@@ -123,20 +123,24 @@ It's still VERY important to have a designated Software Tester, and to deeply in
 Because (as the Dev) it protects you when things go incredibly wrong and Management are (literally) head-hunting.
 <br>
 <br>
-Testers (thankfully) are also the ones that have to write testcases for all your code
+Testers (thankfully) are also the ones that have to write test plans for your project,
 <br>
-So you (as the dev) don't need to spend countless hours dreaming up every scenario and writing <i>code to test code</i>!
+So you (as the dev) don't need to spend countless hours dreaming up every scenario and writing lengthy test plans or equivalence classes!
 <br>
-You can simply test your code as best as possible in that moment, cater for as many different scenarios as you can think of, 
+You can simply test your code as best as possible with Unit Testing and Test Driven Development (TDD),
 <br>
-And leave code-coverage and exhaustive-testing to the designated Tester.
+And leave all the longer processes (Like test plan documentation and stakeholder engagement) to the designated Tester.
+<br>
+Testers also save you lots of time when we need to perform manual testing, or design automated test engines, since they're responsible for managing those functions.
 <br>
 <br>
 For the dev, it's also INCREDIBLY GOOD to have someone independent, qualified and trusted that double-checks your work and gives the thumbs-up.
 <br>
 It helps establish (to the larger crowd/group/team) that you're not only dependable, but that you also write <b>Good Quality Software</b>.
 <br>
-Working closely with the tester, and making them happy, is a sure-fire way to get your skills recognized. The Tester is your best friend!
+Working closely with the tester, and making them happy, is a sure-fire way to get your skills recognized. 
+<br>
+The Tester is your best friend!
 <br>
 
 ## Can Devs "Mark their own homework": From the Business perspective

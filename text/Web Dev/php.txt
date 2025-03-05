@@ -85,17 +85,19 @@ You should generally avoid using "and" and "or" over the higher precedent keywor
 ## Incrementation
 doing this
 ```php
-if ($x++ == 10) echo $x;
+$x = 10;
+if ($x++ == 10) echo $x; //echoes 11
 ```
 is different to this:
 
 ```php
-if (++$x == 10) echo $x;
+$x = 10;
+if (++$x == 10) echo $x; //never executes
 ```
 <br>
 The first block of code will first check x against 10, and if it passes, increment it (so echo will be 11)
 <br>
-The second block of code will first increment 10 to 11, then check it, and won't echo anything, since the line will be skipped.
+The second block of code will first increment x to 11, then check it against 10, and won't echo anything, since the condition will evaluate to false, as 11 does not equal 10.
 
 ## Global Variables
 A key note on the scope of variables: Anything that's declared outside of a method, can't be directly accessed by code within methods.
@@ -182,17 +184,20 @@ This makes it do comparisons with data as-is, causing our example to be FALSE, b
 
 Another example is:
 ```php
-	$a = "100";
-	$b = "+100";
+$a = "100";
+$b = "+100";
 	
-	if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
-	if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
+if($a == $b) echo "this is TRUE, because PHP turned both to numbers and 100 is the same as +100";
+if($a === $b) echo "this is FALSE and the echo will never output, because we're comparing the strings as-is, and they do not match";
 ```
 
 ## Echo vs Print
 In theory, they're both the same, implemented as constructs and don't need parentheses -> (), but print and echo commands are practically different.
 <br>
-Because print is implemented as a function, it can be used as part of logic, like ternary: <i>if($a==1) ? print "works : print "failed";</i>
+Because print is implemented as a function, it can be used as part of logic, like ternary: 
+```php
+if($a==1) ? print "works" : print "failed";
+```
 <br>
 Whereas the echo command can't be used in logic, because it just echoes everything to the end of the line or string, causing logical operations to not execute, and get printed out as-is, instead.
 
@@ -201,12 +206,23 @@ Switches allow you to perform an IF on a specific variable, to see if the value 
 <br>
 Switches contain multiple Cases, which act as the actual "if-else" logic.
 <br>
-Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like "if("Jim"=="gym"). 
+Case statements are super useful for reducing the size of code files and repeating words, since IF-ELSE blocks often have repeating cases -> like :
+```php
+if($name=="Jim") {
+  handleJim();
+}
+if($name=="James") {
+  handleJames();
+}
+if($name=="Frank") {
+  handleFrank();
+}
+```
 <br>
 Using a Switch/Case, we can remove repeating words, and help speed up the execution of our scripts, while mitigating the probability that we'll have a typo somewhere.
 <br>
 <br>
-You can use them interchangeably with IF-Else statements, and should use them when there's lots of IF statements, to reduce improve efficiency, readability and reduce the chance of human-error!
+You can use them interchangeably with IF-Else statements, and should use them when there's lots of IF statements, to improve efficiency, readability and reduce the chance of human-error!
 <br>
 <br>
 The actual code starts inside of the first colon, and ends at the "break;"
@@ -214,18 +230,39 @@ The actual code starts inside of the first colon, and ends at the "break;"
 Example: 
 <br>
 ```php
-Switch($myVar){
-  case "test": 
-   doSomething(); 
+switch($name){
+  case "Jim": 
+   handleJim(); 
+   break;
+  case "James": 
+   handleJames(); 
+   break;
+  case "Frank": 
+   handleFrank(); 
    break;
 }
 ```
+<br>
+From our example, you can see that we've removed repeating code like <i>"if($name =="</i>, which helps to make the code more readable and maintainable, while reducing the possibility of human error
 <br>
 
 ## Grouping Loops
 This is a MASSIVE design choice - and could introduce bugs, but you can actually group multiple FOR LOOPS together into one!
 <br>
-Example: <i>for($a=0, $b=0; $a<10, $b>9; $a++, $b++)</i>
+Normal nested FOR LOOP Example:
+```php
+for($a=0; $a<10; $a++){
+  for($b=0; $b<9; $b++){
+    //do domething
+  }
+}
+```
+Grouped FOR LOOP Example:
+```php
+for($a=0, $b=0; $a<10, $b<9; $a++, $b++) {
+  //do domething
+}
+```
 <br>
 <br>
 Naturally, each for loop has 3x parts (assignment, logical condition, incrementation) so we separate each with a Semi-Colon,
@@ -251,7 +288,16 @@ This makes app loading faster because each function is compiled only once, no ma
 PHP Objects are groups of functions and the data they use, they are called <i>Classes</i>.
 <br>
 <br>
-Methods are defined as "function myFuncName" and classes are defined as "class myClassName". 
+Methods are defined as "function myFuncName" and classes are defined as "class myClassName". Like so:
+```php
+function myFunc(){
+  //local variables and calls to other functions in here
+}
+
+class myClass {
+  //constructor, destructor and other methods inside here
+}
+```
 <br>
 Classes/Objects will have a constructor, destructor and some functions within them - but functions can be standalone as well, being able to exist outside of classes.
 
@@ -263,7 +309,12 @@ But, Receive-by-reference is allowed!
 <br>
 With passbyref, we use "&" before a variable name when calling a method, like so: <i>test(&$variableA)</i>
 <br>
-With receiveByRef, we call it normally (without the &), and we define the function as having the &, "function test(&$variableA)"
+With receiveByRef, we call it normally (without the &), and we define the function as having the &, like so:
+```php
+function test(&$variableA) {
+  //do something
+}
+```
 <br>
 This allows us to still do exactly what we wanted to, and the syntax is a bit weird now, but any changes we make to VariableA will change the original, not a copy of it.
 
@@ -368,7 +419,6 @@ If you access static members from within the same class, we need to use Self :: 
 <br>
 Like so:
 ```php
-<?php
     $temp = new Test();
     echo "Valid: " . Test::get10() . "\r\n";
     echo "Valid: " . Test::$myTest. "\r\n";
@@ -392,7 +442,6 @@ class Test{
         return Self::test1();
     }
 }
-?>
 ```
 ## Classes and Inheritance:
 I think the easiest way to describe this is in the scope of "Publishers" and "Subscribers" (or consumers).
@@ -593,8 +642,11 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 	<li>Explode: 
 		<ul>
 			<li>Basically C#s equivalent of "string.Split". It allows you to split a string into array elements and insert them into an array</li>
-			<li>Syntax: </li>
-			<li>$arr = explode(" ", "hello world from CyberFinn!") //this would create 4x array elements. It does so by splitting the string into separate strings based on the instruction (I said " " - which is blank space)</li>
+			<li>Syntax
+```php
+$arr = explode(" ", "hello world from CyberFinn!") //this would create 4x array elements. 
+```
+It does so by splitting the string into separate strings based on the instruction (I said " " - which is blank space)</li>
 		</ul>
 	</li>
 	<li>Count: 
@@ -606,7 +658,11 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 		<ul>
 			<li>sorts the elements in the array for you</li>
 			<li>sorts either SORT_NUMERIC (numbers ascending) or SORT_STRING (Alphabetically)</li>
-			<li>syntax: sort($arr, SORT_NUMERIC);</li>
+			<li>syntax: 
+```php
+sort($arr, SORT_NUMERIC);
+```
+</li>
 			<li>returns: true if success, false if failure</li>
 
 		</ul>
@@ -614,7 +670,10 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 	<li>is_array:
 		<ul>
 			<li>checks if the object is an array</li>
-			<li>syntax: is_array($arr);</li>
+			<li>syntax: 
+```php
+is_array($arr);
+```</li>
 			<li>returns: True if it is an array, false if not an array</li>
 		</ul>
 	</li>
@@ -622,19 +681,34 @@ Accessing this data is the same as a regular numeric array, but requires 2x for 
 		<ul>
 			<li>turns key-value-pairs in an array into variables</li>
 			<li>Note: if variables conflict with existing ones, the existing ones will be overwritten, so it's advised to use this syntax:</li>
-			<li>syntax: extract($GET, EXTR_PREFIX_ALL, "fromGet_"); //this will prefix the new variables with "fromGet_", and will extract all info from the associative GET array into new vars. This is useful for reading data from GET/POSTs</li>
+			<li>syntax: 
+```php
+extract($GET, EXTR_PREFIX_ALL, "fromGet_"); //this will prefix the new variables with "fromGet_", and will extract all info from the associative GET array into new vars. 
+```
+This is useful for reading data from GET/POSTs</li>
 		</ul>
 	</li>
 	<li>compact:
 		<ul>
 			<li>turns variables into key-value-pairs (opposite of extract)</li>
-			<li>syntax: $arr = compact("variableNameWithout$sign"); //creates associative array where the value of variableNameWithout$sign can be accessed on the array by using the key "variableNameWithout$sign"</li>
+			<li>syntax: 
+```php
+$firstName = "John";
+$lastName = "Doe";
+$arr = compact("firstName", "lastName");
+// $arr will be ["firstName" => "John", "lastName" => "Doe"]
+```
+The variable name becomes the key, and the value remains the same. We can use firstName to access the value of "John" in this example.
+</li>
 		</ul>
 	</li>
 	<li>reset:
 		<ul>
 			<li>"foreach.. as.." loops have an internal counter that tells it where it is in the array. Sometimes you may need to reset it to 0 and restart the loop</li>
-			<li>syntax: reset($arr)</li>		</ul>
+			<li>syntax: 
+```php
+reset($arr)
+```</li>	</ul>
 	</li>
 	<li>end:
 		<ul>
@@ -953,26 +1027,42 @@ ini_set('session.gc_maxlifetime', $duration);
 ```
 
 ## Preventing session fixation
-Session Fixation is basically when a hacker creates a bunch of sites, then sends those links to the sessions out and gets users to auth themselves on the session, then they come back and take control of the session
+On some sites, if the developers didn't pay heed to cyber security standards, you might find that each user has a session ID related to their view of the site in the URL - or in an easily-accessible cookie. 
 <br>
-The best way to defend against it is to use a counter on the site - something like "sessionExists" or "initiated", and if you find that it's true for this session, regenerate the session ID, using "session_regenerate_id"
+Hackers exploit this by starting sessions on sites, then distributing the links <i>(like "https://example.com?sessionid=abc123")</i> to their specific sessions, in hopes that someone (lets call them UserX) will navigate to the session and log in. 
+<br>
+As soon as UserX has successfully logged into their session, the hacker reclaims the session (Using the Session ID) and can now see/access all of the information about UserX, and has the same level of access as they do.
 <br>
 <br>
-We can also force cookies-only sessions, which prevents this too
+The best way to defend against Session Fixation is to use a counter on the site - like "sessionExists" or "initiated", and if you find that it's true for this session, regenerate the session ID, using 
+```php
+if (!isset($_SESSION['initiated'])) { // We can assume that the session has not started or been validated (it's a new user)
+    $_SESSION['initiated'] = true;
+    session_regenerate_id(true); // Regenerate session ID, this will invalidate the old one, so hackers can't assume control once the user logs in
+}
+
+```
+<br>
+We can also force cookies-only sessions, and use secure and HTTP-only flags for cookies, which prevents session fixation through URL-based session IDs (like "https://example.com?sessionid=abc123").
 We do this with:
 ```php
 ini_set("session.use_only_cookies", 1); 
+session_start();
 ```
-This requires that users have cookies enabled though
+This requires that users have cookies enabled though.
+<br>
+In either case, we should make it difficult for users to access or share their session info, and reduce the session expiry times to the absolutely bare minimum that we can. 
+<br>
+This helps to protect our systems and users from unauthorized accesses.
 
 ## Managing sessions on the server
 Sessions need to be placed into nice folders, because the root directory can become messy
 <br>
-It's probably good to use:
+It's good to use:
 ```php
 ini_set("session.save_path", "myDesiredDirectory"); 
 ```
-To keep it clean and web-inaccessible (can't be directly accessed by hackers).
+To keep it clean and web-inaccessible (can't be directly accessed by hackers) by storing these sessions outside of the web-exposed directory.
 
 ## REGEX in PHP:
 We use these 3x methods for Regular Expressions: preg_match(), preg_match_all(), preg_replace()
