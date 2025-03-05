@@ -2,12 +2,12 @@
 
 
 # About Me
-I am Internationally qualified through the United States of America's (USA) Accreditation Council for Business Schools and Programs (ACBSP) and the British Accreditation Council (BAC), in the fields of Computer Science and Systems Engineering. 
+I hold international accreditation as a Systems Engineer from the Accreditation Council for Business Schools and Programs (ACBSP) in the United States of America (USA), as well as the United Kingdom's (UK) British Accreditation Council (BAC).
 <br>
 <br>
-I am also pursuing further education through Harvard University's John A. Paulsen School of Engineering and Applied Sciences, in the fields of Artificial Intelligence and Machine Learning (AI/ML), Computer Science and Data Science.
+I am furthering my education in Law, with the goal of becoming a registered Attorney and officer of the court, by pursuing a Bachelor of Laws (LLB) degree.
 
-## My qualifications and fields of study:
+## My Computer Science and Tech-industry qualifications and fields of study:
 <ul>
 	<li>Project Manager (PM)</li>
 	<li>Software Development Manager (SDM)</li>
