@@ -48,6 +48,6 @@ I am furthering my education in Law, with the goal of becoming a registered Atto
 </ul>
 
 ## Notes
-Check out [my personal GitHub](https://github.com/Cyber-Finn) for some of my open-source projects. 
+Check out [my personal GitHub](https://github.com/ByteSizedLaw) for some of my open-source projects. 
 <br> 
 This is not a comprehensive list of all the projects I've ever worked on, because many of the projects I've worked on are proprietary and closed-source software, and my duty (as a Software Engineering professional) is to uphold the confidentiality and integrity of the organizations I work with.
