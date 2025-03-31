@@ -14,12 +14,12 @@ A similar bias extends to employees of renowned corporations. Consider companies
 <br>
 Within these organizations, an individual's competence may vary widely, yet hidden incompetence allows them to bask in the prestige of their employer's name. In interactions with vendors or peers, this perceived superiority may grant unwarranted credibility, even if the individual lacks the technical acumen to substantiate it.
 
-## Hidden Incompetence in Education
-Formal education, certifications, and degrees also serve as breeding grounds for hidden incompetence. When someone holds impressive qualifications, we tend to assign them expertise by default, assuming their knowledge is both comprehensive and accurate. Yet, this assumption disregards the diversity in educational standards across institutions and countries.
+## Hidden Incompetence in Education and Experience
+Formal education, years of experience, certifications, and degrees also serve as breeding grounds for hidden incompetence. When someone holds impressive qualifications or years of experience, we tend to assign them expertise by default, assuming their knowledge is both comprehensive and accurate. Yet, this assumption disregards the diversity in work and educational standards across institutions and countries.
 <br>
-A master's degree in computer science from a prestigious university may differ significantly in content, rigor, and quality from one obtained elsewhere. Furthermore, possessing a degree does not guarantee mastery—it is possible for someone to graduate with minimal proficiency, passing courses without fully grasping the material. The rise of modern AI tools and online learning platforms has further muddied the waters, enabling shortcuts that challenge traditional measures of expertise.
+A master's degree in computer science from a prestigious university may differ significantly in content, rigor, and quality from one obtained elsewhere. Furthermore, possessing a degree or years of experience does not guarantee mastery — it is possible for someone to graduate or get-by with minimal proficiency, passing courses without fully grasping the material or relying on colleagues or AI. The rise of modern AI tools and online learning platforms has further muddied the waters, enabling shortcuts that challenge traditional measures of expertise.
 <br>
-As humans, we are quick to be impressed by outward symbols of achievement, but these do not necessarily reflect true competency. Hidden incompetence thrives on this tendency, allowing us to equate qualifications with expertise, even in the absence of tangible proof.
+As humans, we are quick to be impressed by implicit and outward symbols of achievement, but these do not necessarily reflect true competency. Hidden incompetence thrives on this tendency, allowing us to equate qualifications with expertise, even in the absence of tangible proof.
 <br>
 ## Moving Beyond Hidden Incompetence
 Awareness is the first step toward overcoming this bias. Hidden incompetence reminds us that reputation, status, and superficial traits can cloud our judgment, leading us to overlook deeper truths. By approaching individuals and organizations with curiosity rather than assumption, we can foster a more discerning perspective—one that values substance over surface.
