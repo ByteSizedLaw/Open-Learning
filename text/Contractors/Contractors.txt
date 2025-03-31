@@ -1,158 +1,56 @@
-# Contractors:
-A Contractor is an IT professional who works on a contractual (non-permanent) basis, rather than as a permanent employee, and is typically hired only for specific projects with specific start/end dates to their contracts.
+## Understanding Contractors: A Balanced Perspective
 
-# Contracts:
-These are "terms of engagement" deals with the contractor that outline details like salary, the project, duration of the contract, and any other terms the company deems necessary for the business relationship.
-<br>
-Contracts can have one of two end conditions. 
-<br>
-One is where the contract expires naturally - where the end-date passes and the contract becomes completed.
-<br>
-The other is where the contract expires when the project finishes - with no specific end-date stipulated.
+Contractors play a unique role within IT, contributing their expertise on a temporary basis to fulfill specific project requirements. Unlike permanent employees, their engagements are governed by contracts—defining terms such as scope, duration, and compensation. While contractors can bring valuable skills to a team, their dynamic is inherently different, often shaped by competing interests.
 
-## Expectations for Contractors
-The expectation on contractors is that they will join the team, immediately make huge amounts of progress, and then finish the project in record-time. 
-<br>
-They will then move on to either another project, or to another company - thereby ending their contract with us.
-<br>
-
-## Conflicts of Interest:
-Most contractors will stretch projects out over a longer term or timeline because of 1 simple factor: 
-<ol><li>Personal interest</li></ol>
-<br>
-<i>How do they do this?</i>
-<br>
-For contracts ending on specific dates, the contractor will try to coerce the company into further extending their contract by slowing down development as the end-date approaches. 
-<br>
-Since nobody else would be able to take over from them, companies are often forced to do extend these contracts, to not jeopardize the project.
-<br>
-<br>
-For contracts that only end when projects are completed, the contractor will delay the project as far as humanly possible to maximize financial gain.
-<br>
-<br>
-This creates a "<b>Conflict of Interest</b>":
-        <ul>
-            <li>Because as <b>workers</b>, their interest is to "<b>Finish work as fast as possible</b>", because they are being paid to.</li>
-	    <li>But as <b>humans</b> that work for profit, their interest is to "<b>Finish work as slow as possible</b>", because they make more money that way.</li>
-        </ul>
-<br>
-This causes a conflict, because they now have to choose between doing <i>"what's best for the company they don't actually work for"</i> and doing <i>"what's best for themselves"</i>.
-<br>
-
-## How to spot when Contractors are "Conflicted":
-Most contractors will start out strong - completing work at an impressive and diligent rate - but then, the <b>"It's out of my hands"-phase</b> sets in.
+## The Nature of Contracts 
+Contracts serve as the foundation for collaboration, outlining expectations and boundaries. They typically conclude in one of two ways:
 <ul>
-    <li>
-        Early into the contract, conversations will start out positively, as:
-        <ul>
-            <li><i>"I completed {that} yesterday, I'm working on {this} today, all looking good and on-track!"</i> for the first few weeks or months.</li>
-        </ul>
-    </li>
-    <li>
-        But they will then slowly turn into:
-        <ul>
-	    <li><i>"I spoke to {so and so} and they said I need to speak to {so and so} to fix {some abstract issue they don't explain very well, or overexplain using complex jargon}"</i></li>
-            <li><i>"I spoke to {so and so} but they couldn't help, so now I need to speak to {so and so} and possibly chat to {so and so} and that conversation's gonna take another 3 days -> despite no work being done for the last week"</i></li>
-	</ul>
-    </li>
+<li>Natural Expiry: The contract ends when its stipulated duration passes.</li>
+<li>Project Completion: The contract ends once the assigned project is successfully delivered, with no predefined end date.</li>
 </ul>
 <br>
-Essentially, you'll notice that contractors have <i>"slowed down"</i> a lot, possibly even that they're "stalling" - if you're perceptive enough, or that they're just encountering error-after-error that blocks any major progress for weeks or months on-end.
+The expectations placed on contractors are often high—they’re anticipated to join the team, drive immediate progress, complete projects efficiently, and then move on to the next challenge.
 <br>
-This phase is characterized by bouts of "no progress", lots of conversations and running-around <i>"to find answers"</i>, with no actual work being done during the day.
-
-## How to resolve Conflicts of Interest:
-This "It's out of my hands"-phase will continue indefinitely (And may go completely unnoticed for months!), 
+##The Conflict of Interest 
+At the heart of the contractor-company relationship lies a nuanced conflict: the tension between delivering work quickly and stretching timelines for financial gain.
 <br>
-Until management eventually intervenes by enforcing these conversations with <i>"so and so"</i>, forcing the contractor to collaborate with other trusted experts, demanding evidence of work being done, or threatening to end contracts on the spot if no progress is made.
+Take the example of Sally, the "Greedy Contractor." Sally earns 10cr per hour and is tasked with a 100-hour project, expected to yield 1000cr. Yet, if Sally prolongs the work to 120–140 hours, she secures an additional 20–40% income. In extreme cases, without accountability, she might extend the project to 300–400 hours, earning 3–4 times the expected amount—all while leaving the company dependent on her expertise.
 <br>
-After intervention, the contractor will miraculously make leaps and bounds again! Until the next cycle begins and management needs to intervene again.
+Contrast this with Jamie, the "Smart Contractor." Jamie completes the same 100-hour project in 80 hours, earning 800cr. Though initially earning less, Jamie’s efficiency establishes her as a reliable resource, trusted to deliver on time. Her reputation ensures long-term opportunities and consistent work—proving that prioritizing the company’s success ultimately aligns with her own.
 <br>
-<i>Note: Relationships with the contractor will sour over time if management intervenes regularly, at which point, projects and quality of work will suffer drastically.</i>
-
-## If all contractors do that, why hire them in the first place??:
-Not all contractors are bad,
+Sally and Jamie’s approaches highlight the importance of discipline, foresight, and collaboration. While greed may offer immediate benefits, it often undermines trust and future prospects, whereas integrity and efficiency foster lasting success.
 <br>
-I've worked with a few contractors, and one of them was outstanding in every project - he got to the point where the company would just assign entire projects to him to complete on his own, because of the trust and reputation he'd built from his hard work over the years.
+##Identifying and Addressing Conflict 
+Signs of potential conflict often emerge subtly. Initially, contractors may show enthusiasm, providing positive updates such as: "I completed X yesterday and am working on Y today—everything is on track!"
+But over time, delays may arise, accompanied by vague explanations: "I need approval from Z to resolve X, but that might take a few days." Or: "After discussions with Y, I realized additional steps are required for A, delaying progress."
 <br>
-As someone that's been a contractor before, I can safely say that there are many phenomenal contractors out there - with incredible skills, but it's important to know which characteristics to look for, and to be aware of which misconceptions there are, before hiring contractors.
-
-## Misconceptions about Contractors:
-"<i>Contractors are <b>always</b> faster, smarter, and cheaper than in-house developers, and are more competitive/skilful because they come from super-competitive environments</I>".
+This phase—marked by diminishing momentum, frequent roadblocks, and stalled progress—requires proactive intervention. Management can address these challenges by facilitating collaboration, requesting evidence of work, and enforcing deadlines. However, repeated intervention risks straining relationships and diminishing morale, making it vital to foster balance and trust.
+## Celebrating Excellence 
+Not all contractors fall prey to these conflicts. Many demonstrate exceptional skill, reliability, and emotional intelligence (EQ)—qualities that enable harmonious collaboration. These contractors prioritize collective success over personal gain, earning respect and trust through their actions.
+## Choosing the Right Contractor 
+The ideal candidate embodies the qualities of a "Smart Contractor," coupled with high EQ. Emotional intelligence is a cornerstone of effective collaboration, allowing individuals to navigate stress, foster teamwork, and maintain balance.
 <br>
-This is wholly untrue, and many contractors (or employees, in even the most "competitive" environments | like NASA, for example) are shielded by <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/Hidden%20Incompetence/hidden_incompetence.txt');">Hidden Incompetence</a> by the contracting-company's reputation or the Formal Educations/Degrees they hold.
+It’s equally important to avoid extremes, such as "Hero Developers" or "Shamans" who resist collaboration and create toxic environments. Success lies in striking a balance—combining technical expertise with empathy and adaptability.
 <br>
-In reality, these misconceptions stem from a lack of understanding of technologists and their human-nature (specifically Greed), lack of knowledge of the "guaranteed issues that come from outsourced development" and other biases (like trust, or overexaggerated importance of Formal Education/Degrees, etc.).
-
-## Issues that come from outsourcing:
-<ol>
-<li> <b>Limited customization</b> -> vendors (and off-the-shelf tech) usually only allow for minor (or no) customization before you're taken off the upgrade-path. </li>
-<li> <b>Costs</b> -> Project planning and analysis costs will skyrocket if not done before outsourcing, so some type of dev staff needs to be kept inhouse.</li>
-<li> <b>Quality</b> -> How do you hold contractors accountable for "bad" code, if you don't have anyone that will know if it's good or bad?</li>
-<li> <b>Upgrade-paths</b> -> being taken off the upgrade-path results in contractors becoming permanent, higher costs, less system efficiency, no support, off-the-shelf tech becoming stale, etc.</li>
-<li> <b>Vendor/Industry niche</b> -> Some niche industries may not be supported by vendors, or you may get subpar service - which would be hard to detect without inhouse developers or inhouse domain experts.</li>
-<li> <b>Security concerns</b> -> When the system should be secure and keep data confidential, but development is outsourced, workers could easily build backdoors - or steal/share confidential source code - without anyone knowing. Thereby making attacks like [this one](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) or [this one](https://www.bbc.co.uk/news/articles/c6ppv06e3n8o) possible.</li>
-<li> <b>Tech "religious wars"</b> -> The contractors (and even inhouse-devs) will do either whatever is best for them, or what they are comfortable with, not what's best for your company. This results in Conflicts of Interest in Language and Tech selection.</li>
-</ol>
-
-## In-house Devs vs Contractors:
-For Long-term development or large-scale projects:
-<ol>
-<li> <b>Cost</b>: in-house wins.</li>
-<li> <b>Skill and niche skill</b>: in-house wins, but you may find contractors that specialize in a specific areas.</li>
-<li> <b>Performance</b>: in-house wins.</li>
-<li> <b>Innovation and customization</b>: in-house wins. Contractors will become in-house devs if they're allowed to, or if you get 'taken off the upgrade path' from too many customizations.</li>
-<li> <b>Security</b>: in-house wins.</li>
-</ol>
-
-## How do we know if we should hire a contractor then?
-Of course, it comes down to business-needs/requirements, but when looking for "<b>The One</b>", look for contractors that have the following characteristics:
-<ol>
-<li> Is highly collaborative with Project Managers (PMs) and Business Analysts (BAs), and communicates regularly, clearly and openly (Communication is always King for Project Management).</li>
-<li> Explains any issue (complex and simple) in simple, accurate and concise English. This is <b>super important</b> for conversations with middle/upper Business management and C-level execs, because they don't care about technical jargon, they want to understand the issue to make the important business decisions - they also don't like feeling "dumb" or having someone act condescending towards them by spewing technical jargon.</li>
-<li> Stays in their lane. You don't want a developer-contractor that's spending all their time reviewing another business-unit's code, or drawing up project plans for another team, etc. - because they're wasting your time and money by doing a job they weren't hired for.</li>
-<li> Finishes projects as fast as possible (This is <b>super important</b>, and contrasts the conflict-of-interest we discussed previously).</li>
-</ol>
-
-## The Smart Contractor:
-To explain fully, I'll revise the <i>Conflict of Interest</i> that contractors have with the "Greedy Contractor" example.
+## In-House vs. Outsourcing 
+For long-term or large-scale projects, in-house development often proves advantageous, offering:
 <br>
-<br>
-<i>The Greedy Contractor</i>:
 <ul>
-   <li>
-	A contractor stretches their work out over a longer period of time to get paid more. 
-	<ul>
-	   <li>For example, Sally gets paid 10cr an hour. Her new project will take her 100 hrs to complete, so she'll get paid 1000cr (10cr x 100hrs) total</li>
-	   <li>BUT if she stretches this project out to 120~140hrs, she'll make between 20~40% more money (1200~1400cr), and she may get pulled into another project at the company over this extended time, so she won't have to find other employment when her contract ends!</li>
-	   <li>If she's the only dev on the team/project, and there are no others to hold her accountable, she can stretch the project to 300~400 hrs and make 3~4x the amount of money, because there's nobody around to say "there's no way it takes that long to do, even with that error".</li>
-	</ul>
-   </li>
+<li>Cost Efficiency</li>
+<li>Niche Expertise</li>
+<li>Consistent Performance</li>
+<li>Tailored Customization</li>
+<li>Enhanced Security</li>
 </ul>
-<i>The Smart Contractor</i>:
+<br>
+However, when outsourcing is necessary, seek contractors who demonstrate:
 <ul>
-   <li>
-	Finishes their work as fast as possible to build up a reputation of being "the fastest" so that more companies want to hire them. 
-	<ul>
-	   <li>For example, Jamie makes 10cr an hour. Her new project will take 100 hours to complete, she finishes it in 80, thereby only making 800cr -> surely this is to her detriment because she made less money? Not at all!</li>
-	   <li>The company she was contracting to now knows that she works faster than anticipated to complete work on time, so she'll be their first candidate for any other projects, or when they seek candidates for permanent-employment.</li>
-	</ul>
-   </li>
+<li>Collaborative Communication: Clear and regular dialogue with project managers and analysts.</li>
+<li>Simplified Explanations: The ability to convey complex issues in accessible terms.</li>
+<li>Focused Expertise: Dedication to their assigned roles, without unnecessary diversions.</li>
+<li>Efficiency: A genuine commitment to timely project completion.</li>
 </ul>
-Over time, Sally <i>(the greedy contractor)</i> who will develop a bad reputation for being slow or inefficient, will lose work or opportunities because of her pace, thereby making her less money in the long-run.
+## Conclusion: Harmony in Collaboration 
+Ultimately, the success of a project hinges on balance—a harmony of skills, trust, and shared goals. By prioritizing emotional intelligence alongside technical aptitude, companies can foster relationships that thrive on mutual respect and shared purpose.
 <br>
-Whereas Jamie <i>(the smart contractor)</i> who will develop a good reputation for being the fastest, will be sought after by many companies because she won't miss/extend deadlines. She'll never run out of work or opportunities!
-<br>
-In this scenario, Jamie is smarter than Sally because she's disciplined and working towards gaining more money in the <i>long-run</I>. Whereas Sally is shooting herself in the foot for immediate financial-gain.
-
-
-## Conclusion:
-Ultimately, seek a candidate that is both a "Smart Contractor" who displays all the aforementioned attributes of <b>The One</b>, and someone with a high EQ (even if they aren't the most skilled), 
-<br>
-Because EQ plays a very important role within Software Dev Management (As it does in Music - where it also relates to Harmony or Balance). 
-<br>
-EQ is arguably just as important as raw Technical Skill - in some cases (where sirens are blaring and tempers are fuming) it's even more valuable.
-<br>
-Naturally, you'd want everyone to pull their own weight, but you also don't want know-it-all "Hero Devs" or <a href="#" onclick="updateBodyText('https://raw.githubusercontent.com/Cyber-Finn/Blog/main/text/The%20Shamans/the_shamans.txt');">"Shamans"</a> that refuse to collaborate - or create toxic working environments - to run amok. 
-<br>
-There needs to be some level of balance, which only staff with high EQs can bring to the table.
+In the end, it's about finding the candidate who can build bridges rather than barriers—someone who values the company’s success as deeply as their own.

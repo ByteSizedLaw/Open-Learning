@@ -1,67 +1,27 @@
-# Hidden Incompetence:
-This occurs when we attribute positive qualities or expertise to an individual or organization based on a single positive trait (Like their reputation).
+## Hidden Incompetence: The Halo Effect in Disguise
+In our interactions with individuals, organizations, and systems, we often fall prey to a subtle yet powerful cognitive bias: hidden incompetence. This phenomenon occurs when we attribute expertise or positive qualities to someone or something based on a single favorable trait—a trait that overshadows any flaws or shortcomings, rendering them invisible to our judgment.
 <br>
-It's essentially a [halo effect](https://en.wikipedia.org/wiki/Halo_effect), where their 1 good trait eclipses or hides all their bad traits, thereby making us completely blind to them.
+This bias mirrors the halo effect, where a lone positive attribute shapes our perception, leading us to assume other qualities that lack evidence or may even contradict the reality. Consider this: when we encounter someone physically attractive, we might unconsciously associate traits like kindness and compassion with them, despite no factual basis for these assumptions. Similarly, someone perceived as blunt or direct may be miscast as a natural leader or intellectual, simply because their demeanor aligns with stereotypical markers of those roles.
 <br>
-For example; If someone is physically attractive, we subconsciously attribute Kindness and Compassion to them, despite an upfront lack of evidence to support those attributes, or direct evidence to support the contrary.
+In essence, hidden incompetence shields people and organizations from scrutiny, allowing reputations, status, or perceived expertise to veil their inadequacies. Let’s delve deeper into how this bias manifests across different domains.
 <br>
-If someone is mean, rude or direct (without regard for social cues) we naturally assume that they're Leaders, or very intelligent.
+## Hidden Incompetence in Organizations
+Think about a commercial bank. The mental image of cutting-edge, military-grade security systems and a workforce of the brightest minds is almost automatic. Yet this perception often diverges from reality. In truth, many banks operate on outdated systems, like COBOL—a programming language from the 1960s, infamous for its legacy status and the dwindling number of developers proficient in it.
 <br>
-This [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) makes us believe that they are better than they actually are, just because of a single positive trait. It makes us assume things that aren't necessarily true.
+These institutions frequently outsource development to contractors whose credentials may not be thoroughly vetted, potentially compromising sensitive data. The reality behind the scenes is far less glamorous than the polished image they project. Yet, their vast wealth and influential status create an illusion of infallibility, shielding them from skepticism.
+## Hidden Incompetence in Employees
+A similar bias extends to employees of renowned corporations. Consider companies like Apple or Microsoft—names synonymous with innovation and excellence. We instinctively assume that their staff represents the pinnacle of expertise and brilliance. However, this assumption often relies on the company's reputation rather than the demonstrated skills of its employees.
 <br>
-Hidden incompetence is exactly the same as a halo-effect. People are shielded from being "outed as incompetent" by the reputation, status or <b>assumed</b> experience/skill they hold.
-<br>
-You'll find that most management or Senior staff will be 50+ years old, this is because of the <b> assumed </b> expertise that they've developed over the years, which has properly equipped them for the job. This is just an assumption though, and doesn't guarantee that they are as skilled as others believe them to be.
-<br>
-We assumed this solely from their advanced age, alone.
-<br>
+Within these organizations, an individual's competence may vary widely, yet hidden incompetence allows them to bask in the prestige of their employer's name. In interactions with vendors or peers, this perceived superiority may grant unwarranted credibility, even if the individual lacks the technical acumen to substantiate it.
 
-## Hidden Incompetence: Organizations
-Think about a Commercial Bank, and you can't help but think about all the cutting-edge, military grade, super-technologies it implements and the workforce of ONLY the world's greatest minds it employs.
+## Hidden Incompetence in Education
+Formal education, certifications, and degrees also serve as breeding grounds for hidden incompetence. When someone holds impressive qualifications, we tend to assign them expertise by default, assuming their knowledge is both comprehensive and accurate. Yet, this assumption disregards the diversity in educational standards across institutions and countries.
 <br>
-Yet, in reality, banks are some of the least-secure organizations who frequently outsource development to contractors whose credentials aren't verified, who have access to source code and your data (making it easy for them to share with hackers -> making attacks like [this one](https://www.bankvault.com/the-swift-hack-why-one-of-the-worlds-biggest-bank-heists-makes-a-good-case-for-bankvault/) or [this one](https://www.bbc.co.uk/news/articles/c6ppv06e3n8o) possible).
+A master's degree in computer science from a prestigious university may differ significantly in content, rigor, and quality from one obtained elsewhere. Furthermore, possessing a degree does not guarantee mastery—it is possible for someone to graduate with minimal proficiency, passing courses without fully grasping the material. The rise of modern AI tools and online learning platforms has further muddied the waters, enabling shortcuts that challenge traditional measures of expertise.
 <br>
-Most banks also run off COBOL, which was written in the 1960s and no longer has support (Unlike Java, Python, C#, etc.). 
+As humans, we are quick to be impressed by outward symbols of achievement, but these do not necessarily reflect true competency. Hidden incompetence thrives on this tendency, allowing us to equate qualifications with expertise, even in the absence of tangible proof.
 <br>
-COBOL is infamous for its "legacy"/Ancient/Prehistoric status. Because this is a legacy language, there aren't many COBOL developers around, so many core banking systems will be locked-in (without future improvements) in a few years.
+## Moving Beyond Hidden Incompetence
+Awareness is the first step toward overcoming this bias. Hidden incompetence reminds us that reputation, status, and superficial traits can cloud our judgment, leading us to overlook deeper truths. By approaching individuals and organizations with curiosity rather than assumption, we can foster a more discerning perspective—one that values substance over surface.
 <br>
-To summarize, most banks are not as cutting-edge as we'd like to imagine. We just attribute that to them, because they have lots of money.
-
-## Hidden Incompetence: Employees
-Similarly, as with our Bank and Age examples from earlier, the same applies to employees of massive corporations - like Microsoft or Apple. 
-<br>
-Employees from Apple are surely the best-of-the-best and the brighest minds around, right? 
-<br>
-Not necessarily.. we just assumed that, because Apple's <b>reputation</b> as being a Tech-Giant with only the best cutting-edge, world-class Tech, hides employee shortcomings and what happens behind closed-doors.
-<br>
-We attribute to all Apple employees that <i>"they are the best, because they work for Apple, and a world-class organization like Apple will only hire the best"</i>. This assumption is completely untrue, because there's no evidence to support it.
-<br>
-In this vein, an incompetent employee within Apple is now being shielded by "Hidden Incompetence", simply because they work for Apple, so they must be the best, and won't be questioned or tested.
-<br>
-In their interactions with vendors or other IT professionals, they will feel superior and better, because they come from an organization with more renown - despite the fact that they may actually be the least technically-skilled in the interaction.
-
-## Hidden Incompetence: Education
-Naturally, when someone holds impressive Certifications/Qualifications/Degrees, we assume that they are experts in their fields, and that anything they say is, by default, 100% true and accurate.
-<br>
-This is a [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - specifically Hidden Incompetence - in effect, because we're assigning those attributes to them based on an assumption - made from the <b>reputation</b> that their Certifications/Qualifications/Degrees have.
-<br>
-As with our Apple example, we're assuming that <i>"someone with a Masters Degree is a Master in their field and always 100% right, because they have to be a Master to hold that Degree"</i>.
-<br>
-This isn't always the case, because people can cheat on exams, or barely Pass the modules they need and still get the Degree (They become Masters of CompSci with barely 50% [or less, depending on the pass-mark] of the knowledge). 
-<ul>
-    <li>
-        Note: Differences in Educational Quality
-        <ul>
-            <li>A Masters Degree in CompSci from Harvard is going to differ (In content, length, difficulty and quality) from other universities in another country, like Venezuela, for example.</li>
-            <li>So there's no <i>"1 size fits all"</i> when it comes to Certifications/Qualifications/Degrees, because content, difficulty and duration differs between universities and countries. </li>
-	    <li>You may also find that one person's Diploma/Certificate in Computer Science is better than another's Masters Degree in Computer Science, because of the difference in their experience and skill.</li>
-        </ul>
-    </li>
-</ul>
-I've met "Software Engineers" with their <b>Honours Degree in Computer Science</b>, that don't know what <b>scripting</b> or <b>Data Structures</b> are.
-<br>
-The equivalent of this is an <b>Electrical Engineer</b> that doesn't know what a <b>volt</b> is, 
-<br>
-So Formal Education doesn't guarantee expertise or knowledge, especially with the rise in cheating from modern AI advancements and online-learning platforms.
-<br>
-As humans, we attribute expertise to those who hold impressive certifications, because we're easy to impress and manipulate, but these assumptions dont guarantee that the "experts" are actual experts or 100% right 100% of the time.
+Whether we’re engaging with colleagues, evaluating systems, or navigating the complexities of modern education, the key lies in questioning our assumptions and seeking evidence. True competence is revealed not through reputation alone but through consistent action, transparency, and genuine expertise.
