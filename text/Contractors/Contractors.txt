@@ -1,5 +1,4 @@
 ## Understanding Contractors: A Balanced Perspective
-
 Contractors play a unique role within IT, contributing their expertise on a temporary basis to fulfill specific project requirements. Unlike permanent employees, their engagements are governed by contracts—defining terms such as scope, duration, and compensation. While contractors can bring valuable skills to a team, their dynamic is inherently different, often shaped by competing interests.
 
 ## The Nature of Contracts 
@@ -8,7 +7,6 @@ Contracts serve as the foundation for collaboration, outlining expectations and 
 <li>Natural Expiry: The contract ends when its stipulated duration passes.</li>
 <li>Project Completion: The contract ends once the assigned project is successfully delivered, with no predefined end date.</li>
 </ul>
-<br>
 The expectations placed on contractors are often high—they’re anticipated to join the team, drive immediate progress, complete projects efficiently, and then move on to the next challenge.
 <br>
 ##The Conflict of Interest 
@@ -42,7 +40,6 @@ For long-term or large-scale projects, in-house development often proves advanta
 <li>Tailored Customization</li>
 <li>Enhanced Security</li>
 </ul>
-<br>
 However, when outsourcing is necessary, seek contractors who demonstrate:
 <ul>
 <li>Collaborative Communication: Clear and regular dialogue with project managers and analysts.</li>

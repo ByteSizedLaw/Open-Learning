@@ -1,5 +1,4 @@
 ## The "Shamans": Guardians of Esoteric Knowledge or Barriers to Growth?
-<br>
 In the vast, ever-changing universe of IT, technology is often perceived as a mystical force—complex, awe-inspiring, and enigmatic. With fields as diverse as web development and cybersecurity, each governed by its own unique languages, frameworks, and rules, it is no wonder that business leaders often feel overwhelmed by its intricacy. As the pace of technological innovation accelerates, many have chosen to step back, entrusting the reins to intermediaries who can bridge the chasm between their ambitions and the elusive world of IT.
 <br>
 These intermediaries—the technologists—often emerge as modern-day "mediums," translating lofty visions into tangible realities. Their skillset can seem magical: the ability to conjure solutions for frustrating problems, navigate oceans of syntax, and transform startup dreams into engines of wealth. To those outside the realm of IT, technologists appear to wield a unique form of power, one worthy of admiration and even reverence.
@@ -25,7 +24,7 @@ The Shaman persona is often born from over-romanticization. For some technologis
 <br>
 For non-technical staff overwhelmed by technology’s complexity, it is essential to remember that IT—like any field—is a human creation, crafted for human benefit. No topic is too complex to be understood, and no knowledge should remain locked behind walls of exclusivity. Learning and curiosity are vital components of growth, and no one should feel intimidated or unworthy of exploring the world of technology.
 
-A Call to Action
+## A Call to Action
 As SDMs, PMs, and leaders, it is your responsibility to dismantle the barriers Shamans construct. Encourage transparency and knowledge-sharing within your teams, empowering every member to learn and grow without fear. Recognize the danger of key-person dependencies and take steps to ensure no single individual holds undue power over your projects or your people.
 <br>
 Shamans may resist efforts to demystify their knowledge, clinging to the illusion of their exclusivity. But as a leader, your focus must remain on the collective good—fostering a culture of collaboration, inclusivity, and openness. When everyone is empowered to contribute, the results transcend individual egos and elevate the entire team.
